@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'ISO-8859-1'?>
+
+<ParameterGroup name="root">
+  <Parameter name="deck_filename" type="file" value="SPE1DECK.DATA"/>
+  <Parameter name="output_dir" type="string" value="opm-simulation"/>
+</ParameterGroup>
+
