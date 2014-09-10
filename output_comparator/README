@@ -2,7 +2,7 @@ Small python script to compare two sets of Eclipse output.
 
 You need python installed, and ERT (github.com/Ensembles/ert.git), built with the cmake python option turned on.
 
-To get it running, you need to set the PYTONPATH variable to the location of your ert python folder. Depending on if you have run make install or not, the location will vary, but you need to point the PYTHONPATH to the folder where the ert and ert_gui folders are located (which contains the python goodness).
+To get it running, you need to set the PYTONPATH variable to the location of your ert python folder. If you have run 'make install' that will be ${CMAKE_INSTALL_PREFIX}/python, otherwise you should point to ${BUILD_DIR}/python. 
 
 The ERT python code wraps some C libraries, this may complicate things a bit for you, as this wrapping sometimes gets a bit confused. LD_LIBRARY_PATH, pointing to your libert*.so libs is a good start. Ask an ERT developer for help if in trouble. 
 
