@@ -25,20 +25,23 @@ def main( eclipse_file_location , opm_file_location ,  base_name , rel_tolerance
 
 
 def compareRestartFiles(eclipse_restart_file, opm_restart_file, rel_tolerance, abs_tolerance):
-    all_ok = True
-    all_ok &= compareRestartKeyword(eclipse_restart_file, opm_restart_file, "SGAS", abs_tolerance, False)
-    all_ok &= compareRestartKeyword(eclipse_restart_file, opm_restart_file, "SWAT", abs_tolerance, False)
-    all_ok &= compareRestartKeyword(eclipse_restart_file, opm_restart_file, "PRESSURE", rel_tolerance, True)
-    return all_ok
+    number_of_failed_comparisons = 0
+    number_of_failed_comparisons = compareRestartKeyword(eclipse_restart_file, opm_restart_file, "SGAS", abs_tolerance, False)
+    number_of_failed_comparisons += compareRestartKeyword(eclipse_restart_file, opm_restart_file, "SWAT", abs_tolerance, False)
+    number_of_failed_comparisons += compareRestartKeyword(eclipse_restart_file, opm_restart_file, "PRESSURE", rel_tolerance, True)
+
+    print("Done - in total {0} failed comparisons.".format(number_of_failed_comparisons))
+    return number_of_failed_comparisons == 0
 
 
 def compareRestartKeyword(eclipse_restart_file, opm_restart_file, keyword, tolerance, use_relative_tolerance):
+    number_of_mismatches = 0;
     print("Processing keyword {0}".format(keyword))
     if len(eclipse_restart_file[keyword]) != len(opm_restart_file[keyword]):
         print("Error: files {0} and {1} does not have the same number of report steps for {4}, {2} and {3}".
               format(eclipse_restart_file, opm_restart_file, len(eclipse_restart_file[keyword]),
                      len(opm_restart_file[keyword]), keyword))
-        return False
+        exit(1)
 
     print ("Number of report steps for keyword {0} in {1}: {2}".format(keyword, eclipse_restart_file.name,
                                                                len(eclipse_restart_file[keyword])))
@@ -52,36 +55,38 @@ def compareRestartKeyword(eclipse_restart_file, opm_restart_file, keyword, toler
             print(
                 "Error: files {0} and {1} does not have the same number of active cells in report step {2}, {3} and {4}".
                 format(eclipse_restart_file, opm_restart_file, report_step, eclipse_sgas_step_i, eclipse_sgas_step_i))
-            return False
+            exit(1)
 
-        num_mismatch = 0
+        num_mismatch_in_report_step = 0
         for active_cell in range(0, len(eclipse_sgas_step_i)):
             saturation_value_eclipse = eclipse_sgas_step_i[active_cell]
             saturation_value_opm = opm_sgas_step_i[active_cell]
 
             if not close(saturation_value_eclipse, saturation_value_opm, tolerance, use_relative_tolerance):
                 all_ok = False
-                if num_mismatch < 5:
+                if num_mismatch_in_report_step < 5:
                     print("Error: {0} value in files {1} and {2} in report step {3}, active cell number {4} does not match: {5} != {6}".
                     format(keyword, eclipse_restart_file, opm_restart_file, report_step, active_cell, saturation_value_eclipse,
                            saturation_value_opm))
-                num_mismatch += 1
+                num_mismatch_in_report_step += 1
 
-        if num_mismatch >= 5:
+        if num_mismatch_in_report_step >= 5:
             # To truncate output a bit
-            print("... in total " + str(num_mismatch) + " mismatches")
+            print("... in total " + str(num_mismatch_in_report_step) + " mismatches in report step")
 
-    return all_ok
+        number_of_mismatches+=num_mismatch_in_report_step
+
+    return number_of_mismatches
 
 
 def close(input_A, input_B, tolerance, use_relative_tolerance):
-    if input_A == 0.0 and input_B == 0.0:
+    if input_A == input_B:
         return True
     elif use_relative_tolerance:
-        deviation_as_part_of_biggest_number = abs(input_A - input_B) / max(input_A, input_B)
+        deviation_as_part_of_biggest_number = abs(input_A - input_B) / float(max(input_A, input_B))
         return deviation_as_part_of_biggest_number <= tolerance
     else:
-        return abs(input_A - input_B) < tolerance
+        return abs(input_A - input_B) <= tolerance
 
 
 if __name__ == '__main__':
