@@ -1,6 +1,7 @@
 from unittest import TestCase
 import unittest
 import compare_eclipse
+from ert.ecl import EclFile
 
 
 class UNRSTTest(TestCase):
@@ -18,6 +19,26 @@ class UNRSTTest(TestCase):
         self.assertTrue(compare_eclipse.close(0, 0, 0.001, True))
         self.assertFalse(compare_eclipse.close(0.001, 0, 0.001, True))
         self.assertTrue(compare_eclipse.close(0.001, 0, 0.001, False))
+
+    def test_compareRestartKeyword_comparefiles_withSGAS(self):
+        eclipse_restart = EclFile("../testdata/SPE1ECLIPSE.UNRST")
+        opm_restart = EclFile("../testdata/SPE1AUTODIFF.UNRST")
+        num_mismatches = compare_eclipse.compareRestartKeyword(eclipse_restart, opm_restart, "SGAS", 0.02, False )
+        self.assertEqual(164, num_mismatches)
+
+    def test_compareRestartKeyword_comparefiles_withSWAT(self):
+        eclipse_restart = EclFile("../testdata/SPE1ECLIPSE.UNRST")
+        opm_restart = EclFile("../testdata/SPE1AUTODIFF.UNRST")
+
+        num_mismatches = compare_eclipse.compareRestartKeyword(eclipse_restart, opm_restart, "SWAT", 0.00002, False )
+        self.assertEqual(117, num_mismatches)
+
+    def test_compareRestartKeyword_comparefiles_withPRESSURE(self):
+        eclipse_restart = EclFile("../testdata/SPE1ECLIPSE.UNRST")
+        opm_restart = EclFile("../testdata/SPE1AUTODIFF.UNRST")
+
+        num_mismatches = compare_eclipse.compareRestartKeyword(eclipse_restart, opm_restart, "PRESSURE", 0.005, True )
+        self.assertEqual(141, num_mismatches)
 
 if __name__ == '__main__':
     unittest.main()
