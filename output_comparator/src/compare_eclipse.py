@@ -1,6 +1,7 @@
 import sys
 
 from ert.ecl import EclFile, EclGrid
+from comparison_data import ComparisonData
 
 
 def main( eclipse_file_location , opm_file_location ,  base_name , rel_tolerance, abs_tolerance):
@@ -35,7 +36,7 @@ def compareRestartFiles(eclipse_restart_file, opm_restart_file, rel_tolerance, a
 
 
 def compareRestartKeyword(eclipse_restart_file, opm_restart_file, keyword, tolerance, use_relative_tolerance):
-    number_of_mismatches = 0;
+    number_of_mismatches = 0
     print("Processing keyword {0}".format(keyword))
     if len(eclipse_restart_file[keyword]) != len(opm_restart_file[keyword]):
         print("Error: files {0} and {1} does not have the same number of report steps for {4}, {2} and {3}".
@@ -107,3 +108,9 @@ if __name__ == '__main__':
     abs_tolerance = float(sys.argv[5])
 
     main( eclipse_file_location , opm_file_location ,  base_name , rel_tolerance, abs_tolerance)
+
+
+def compareRestarts(restart_file_A, restart_file_B, keyword):
+    result_data = ComparisonData(keyword)
+    result_data.setAverageAbsoluteDeviation(0.0)
+    return result_data
