@@ -9,6 +9,6 @@ NORNE_C5_3P_EQUIL_RSRV.DATA
     The faults should be easily added and kind of tested before. 
 
 
-NORNE_C5_3P_EQUIL_RSRV.DATA
+NORNE_C5_3P_EQUIL.DATA
      
     Similar to NORNE_C5_3P_EQUIL_RSRV.DATA except using dead gas and dead oil with some hand-made PVDO and PVDG. 
