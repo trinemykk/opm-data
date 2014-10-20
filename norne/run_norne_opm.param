@@ -1,0 +1,14 @@
+deck_filename=NORNE_ATW2013.DATA
+output_dir=output
+pvt_tab_size=-1
+sat_tab_size=-1
+threephase_model=gwseg
+drs_max_rel=0.3
+dp_max_rel=0.2
+ds_max=0.05
+max_iter=20
+use_cpr=true
+timestep.adaptive=true
+timestep.control=pid+iteration
+timestep.control.targetiteration=25
+solver.verbose=true
