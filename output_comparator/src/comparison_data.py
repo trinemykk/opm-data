@@ -56,3 +56,10 @@ class ComparisonData():
     def setMedianAbsoluteDeviation(self, absolute_deviation):
         self.__median_absolute_deviation = absolute_deviation
         self.__median_absolute_set = True
+
+    def printInformation(self):
+        print "Data object with title: " + self.__compared_keyword
+        print "Average absolute deviation: " + str(self.getAverageAbsoluteDeviation())
+        print "Median absolute deviation: " + str(self.getMedianAbsoluteDeviation())
+        print "Average relative deviation: " + str(self.getAverageRelativeDeviation())
+        print "Median relative deviation: " + str(self.getMedianRelativeDeviation())
