@@ -1,5 +1,6 @@
 deck_filename=NORNE_ATW2013.DATA
 output_dir=output
+output=false
 pvt_tab_size=-1
 sat_tab_size=-1
 threephase_model=gwseg
@@ -10,5 +11,6 @@ max_iter=20
 use_cpr=true
 timestep.adaptive=true
 timestep.control=pid+iteration
-timestep.control.targetiteration=25
+timestep.control.targetiteration=30
 solver.verbose=true
+solver.restart=10
