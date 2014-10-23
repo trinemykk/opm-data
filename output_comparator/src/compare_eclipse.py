@@ -110,7 +110,64 @@ if __name__ == '__main__':
     main( eclipse_file_location , opm_file_location ,  base_name , rel_tolerance, abs_tolerance)
 
 
+def findDeviationsThroughAllReportSteps(absolute_deviations, relative_deviations, ecl_kw_list_A, ecl_kw_list_B):
+    for report_step in range(0, len(ecl_kw_list_A)):
+        A_values_in_step_i = ecl_kw_list_A[report_step]
+        B_values_in_step_i = ecl_kw_list_B[report_step]
+
+        if len(A_values_in_step_i) != len(B_values_in_step_i):
+            print(
+                "Error: files {0} and {1} does not have the same number of active cells in report step {2}, {3} and {4}".
+                format(ecl_kw_list_A, ecl_kw_list_B, report_step, A_values_in_step_i, B_values_in_step_i))
+            exit(1)
+
+        for active_cell in range(0, len(A_values_in_step_i)):
+            cell_value_A = A_values_in_step_i[active_cell]
+            cell_value_B = B_values_in_step_i[active_cell]
+
+            if cell_value_B != cell_value_A or (cell_value_A != 0.0 or cell_value_B != 0.0):
+                absolute_deviation = abs(cell_value_A - cell_value_B)
+                absolute_deviations.append(absolute_deviation)
+
+                deviation_as_part_of_biggest_number = abs(cell_value_A - cell_value_B) / float(max(cell_value_A, cell_value_B))
+                relative_deviations.append(deviation_as_part_of_biggest_number)
+
+
+def compareValuesForKeyword(ecl_kw_list_A, ecl_kw_list_B, result_data):
+    if len(ecl_kw_list_B) != len(ecl_kw_list_B):
+        print("Different number of report steps")
+        exit(1)
+
+    absolute_deviations = []
+    relative_deviations = []
+    findDeviationsThroughAllReportSteps(absolute_deviations, relative_deviations, ecl_kw_list_A, ecl_kw_list_B)
+    absolute_deviations.sort()
+    relative_deviations.sort()
+
+    print absolute_deviations
+    print relative_deviations
+
+    average_absolute_deviations = 0
+    if len(absolute_deviations) > 0:
+        average_absolute_deviations = sum(absolute_deviations) / float(len(absolute_deviations))
+    result_data.setAverageAbsoluteDeviation(average_absolute_deviations)
+
+    average_relative_deviations = 0
+    if len(relative_deviations) > 0:
+        average_relative_deviations = sum(relative_deviations) / float(len(relative_deviations))
+    result_data.setAverageRelativeDeviation(average_relative_deviations)
+
+    median_position_absolute = len(absolute_deviations) / 2
+    median_position_relative = len(relative_deviations) / 2
+
+    result_data.setMedianAbsoluteDeviation(absolute_deviations[median_position_absolute])
+    result_data.setMedianRelativeDeviation(relative_deviations[median_position_relative])
+
+    return result_data
+
+
+
 def compareRestarts(restart_file_A, restart_file_B, keyword):
-    result_data = ComparisonData(keyword)
-    result_data.setAverageAbsoluteDeviation(0.0)
+    comparison_data = ComparisonData(keyword)
+    result_data = compareValuesForKeyword(restart_file_A[keyword], restart_file_B[keyword], comparison_data)
     return result_data
