@@ -89,7 +89,7 @@ def compareRestartFiles(eclipse_restart_file, opm_restart_file, rel_tolerance, a
         exit(0)
     else:
         print "\nWarning: one or more of the restart types had too deviating results"
-        exit(0)
+        exit(1)
 
 
 def main( eclipse_file_location , opm_file_location ,  base_name , rel_tolerance, abs_tolerance):
