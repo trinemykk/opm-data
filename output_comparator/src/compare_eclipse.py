@@ -67,14 +67,20 @@ def compareRestartFiles(eclipse_restart_file, opm_restart_file, rel_tolerance, a
     all_good = True
     comparison_data_sgas = compareRestarts(eclipse_restart_file, opm_restart_file, "SGAS")
     all_good &= comparison_data_sgas.getAverageAbsoluteDeviation() <= abs_tolerance
+
+    print "\n"
     comparison_data_sgas.printInformation()
 
     comparison_data_swat = compareRestarts(eclipse_restart_file, opm_restart_file, "SWAT")
     all_good &= comparison_data_swat.getAverageAbsoluteDeviation() <= abs_tolerance
+
+    print "\n"
     comparison_data_swat.printInformation()
 
     comparison_data_pressure = compareRestarts(eclipse_restart_file, opm_restart_file, "PRESSURE")
     all_good &= comparison_data_pressure.getAverageRelativeDeviation() <= rel_tolerance
+
+    print "\n"
     comparison_data_pressure.printInformation()
 
     if not all_good:
