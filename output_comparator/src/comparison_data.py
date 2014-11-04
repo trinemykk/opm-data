@@ -57,8 +57,10 @@ class ComparisonData():
         self.__median_absolute_deviation = absolute_deviation
         self.__median_absolute_set = True
 
-    def printInformation(self):
-        print "--------------------" + self.__compared_keyword + "-----------------------"
+    def printInformation(self, results_ok):
+        status = "OK" if results_ok else "NOT OK"
+
+        print "--------------------" + self.__compared_keyword + "(" + status + ")-----------------------"
         print "Average absolute deviation:   " + str(self.getAverageAbsoluteDeviation())
         print "Median absolute deviation:    " + str(self.getMedianAbsoluteDeviation())
         print "Average relative deviation:   " + str(self.getAverageRelativeDeviation())

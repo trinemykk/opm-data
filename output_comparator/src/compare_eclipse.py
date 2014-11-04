@@ -64,32 +64,38 @@ def compareRestarts(restart_file_A, restart_file_B, keyword):
 
 
 def compareRestartFiles(eclipse_restart_file, opm_restart_file, rel_tolerance, abs_tolerance):
-    all_good = True
-    comparison_data_sgas = compareRestarts(eclipse_restart_file, opm_restart_file, "SGAS")
-    all_good &= comparison_data_sgas.getAverageAbsoluteDeviation() <= abs_tolerance
 
+    comparison_data_sgas = compareRestarts(eclipse_restart_file, opm_restart_file, "SGAS")
+    sgas_good = comparison_data_sgas.getAverageAbsoluteDeviation() <= abs_tolerance
     print "\n"
-    comparison_data_sgas.printInformation()
+    print "Average absolute deviation must be lower than ({0}) for SGAS results to be OK".format(abs_tolerance)
+    comparison_data_sgas.printInformation(sgas_good)
 
     comparison_data_swat = compareRestarts(eclipse_restart_file, opm_restart_file, "SWAT")
-    all_good &= comparison_data_swat.getAverageAbsoluteDeviation() <= abs_tolerance
+    swat_good = comparison_data_swat.getAverageAbsoluteDeviation() <= abs_tolerance
 
     print "\n"
-    comparison_data_swat.printInformation()
+    print "Average absolute deviation must be lower than ({0}) for SWAT results to be OK".format(abs_tolerance)
+    comparison_data_swat.printInformation(swat_good)
 
     comparison_data_pressure = compareRestarts(eclipse_restart_file, opm_restart_file, "PRESSURE")
-    all_good &= comparison_data_pressure.getAverageRelativeDeviation() <= rel_tolerance
+    pressure_good = comparison_data_pressure.getAverageRelativeDeviation() <= rel_tolerance
 
     print "\n"
-    comparison_data_pressure.printInformation()
+    print "Average relative deviation must be lower than ({0}) for PRESSURE results to be OK".format(rel_tolerance)
+    comparison_data_pressure.printInformation(pressure_good)
 
-    if not all_good:
-        exit(1)
+    if sgas_good and swat_good and pressure_good:
+        exit(0)
     else:
+        print "\nWarning: one or more of the restart types had too deviating results"
         exit(0)
 
 
 def main( eclipse_file_location , opm_file_location ,  base_name , rel_tolerance, abs_tolerance):
+    print "Using relative tolerance of: " + str(rel_tolerance)
+    print "Using absolute tolerance of: " + str(abs_tolerance)
+
     eclipse_restart_file = EclFile(eclipse_file_location + base_name + ".UNRST")
     eclipse_grid_file = EclGrid(eclipse_file_location + base_name + ".EGRID")
 
@@ -101,12 +107,7 @@ def main( eclipse_file_location , opm_file_location ,  base_name , rel_tolerance
         print("The grids in files {0} and {1} are not equal!".format(eclipse_grid_file.name, opm_grid_file.name))
         exit(1)
 
-    if compareRestartFiles(eclipse_restart_file, opm_restart_file, rel_tolerance, abs_tolerance):
-        print("All within the acceptable difference")
-        exit(0)
-    else:
-        print("Too large differences observered")
-        exit(1)
+    compareRestartFiles(eclipse_restart_file, opm_restart_file, rel_tolerance, abs_tolerance)
 
 
 if __name__ == '__main__':
