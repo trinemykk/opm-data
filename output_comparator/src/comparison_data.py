@@ -28,7 +28,7 @@ class ComparisonData():
         self.__avg_absolute_set = True
 
     def getAverageRelativeDeviation(self):
-        if (not self.__average_relative_deviation):
+        if (not self.__avg_relative_set):
             raise RuntimeError("Cannot get average relative deviation, comparison has not been performed")
         else:
             return self.__average_relative_deviation
@@ -38,7 +38,7 @@ class ComparisonData():
         self.__avg_relative_set = True
 
     def getMedianRelativeDeviation(self):
-        if (not self.__median_relative_deviation):
+        if (not self.__median_relative_set):
             raise RuntimeError("Cannot get median relative deviation, comparison has not been performed")
         else:
             return self.__median_relative_deviation
@@ -48,7 +48,7 @@ class ComparisonData():
         self.__median_relative_set = True
 
     def getMedianAbsoluteDeviation(self):
-        if (not self.__median_absolute_deviation):
+        if (not self.__median_absolute_set):
             raise RuntimeError("Cannot get median absolute deviation, comparison has not been performed")
         else:
             return self.__median_absolute_deviation

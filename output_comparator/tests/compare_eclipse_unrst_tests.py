@@ -11,6 +11,9 @@ class UNRSTTestWithResultData(TestCase):
         restart_file_B = EclFile("../testdata/SPE1AUTODIFF.UNRST")
         comparison_result = compareRestarts(restart_file_A, restart_file_B, "SGAS")
         self.assertEqual(0.0, comparison_result.getAverageAbsoluteDeviation())
+        self.assertEqual(0.0, comparison_result.getAverageRelativeDeviation())
+        self.assertEqual(0.0, comparison_result.getMedianAbsoluteDeviation())
+        self.assertEqual(0.0, comparison_result.getMedianRelativeDeviation())
 
     def test_compareRestartKeyword_differentData_SGAS_deviationstats_are_correct(self):
         restart_file_A = EclFile("../testdata/SPE1AUTODIFF.UNRST")
