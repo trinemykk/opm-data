@@ -1,20 +1,34 @@
+// deck file name
 deck_filename=NORNE_ATW2013.DATA
+// output directory
 output_dir=output
+// produce output
 output=true
-pvt_tab_size=-1
-sat_tab_size=-1
-threephase_model=gwseg
-drs_max_rel=0.3
-dp_max_rel=0.2
-ds_max=0.05
+// max iterations for newton solver
 max_iter=25
-use_cpr=true
+// CPR preconditioner ILU version
 cpr_ilu_n=0
+// relaxation parameter
 cpr_relax=1.0
+// if one of the residuals is above this threshold, restart solver
+max_residual_allowed=1e6
+// true if adaptive time stepping scheme is used
 timestep.adaptive=true
+// maximal time step allowed
+timestep.max_timestep_in_days=10
+// time step control scheme = iterationcount | pid | pid+iteration (default)
 timestep.control=pid+iteration
-timestep.tol=1e-3
-timestep.control.targetiteration=30
+// PID control tolerance (default = 1e-3)
+timestep.control.tol=1e-4
+// target iteration = sum of all linear iterations over all newton iterations per timestep
+timestep.control.targetiteration=25
+// factor by which time step can at most grow in each step
+timestep.control.maxgrowth=2.0
+// verbosity of adaptive time stepping
 timestep.verbose=true
+// verbosity of solvers
 solver.verbose=true
+// max restarts of solver allow before simulator is terminated
 solver.restart=10
+// factor by which the time step is reduced after the solver did not converge
+solver.restartfactor=0.3
