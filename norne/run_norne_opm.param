@@ -4,14 +4,40 @@ deck_filename=NORNE_ATW2013.DATA
 output_dir=output
 // produce output
 output=true
+/////////////////////////////
+// Newton solver parameter
+/////////////////////////////
+// tolerances
+tolerance_mb=1e-3
+tolerance_cnv=1e-1
+tolerance_wells=1e-2
 // max iterations for newton solver
-max_iter=25
+// not more than 15 Newton steps
+max_iter=15
+// at least 1 Newton step
+min_iter=1
+// if one of the residuals is above this threshold, restart solver
+max_residual_allowed=1e5
+// BiCG solver
+newton_use_gmres=false
+// linear solver inside Newton
+linear_solver_reduction=0.01
+linear_solver_maxiter=20
+linear_solver_restart=40
+/////////////////////////////////
+/// CPRPreconditioner
+// tolerance for solver inside CPR
+cpr_solver_tol=0.01
+// max iter for solver inside CPR
+cpr_max_elliptic_iter=25
 // CPR preconditioner ILU version
 cpr_ilu_n=0
 // relaxation parameter
 cpr_relax=1.0
-// if one of the residuals is above this threshold, restart solver
-max_residual_allowed=1e6
+cpr_use_amg=true
+//////////////////////////////
+// TimeStepping
+////////////////////////////////
 // true if adaptive time stepping scheme is used
 timestep.adaptive=true
 // maximal time step allowed
@@ -19,11 +45,11 @@ timestep.max_timestep_in_days=10
 // time step control scheme = iterationcount | pid | pid+iteration (default)
 timestep.control=pid+iteration
 // PID control tolerance (default = 1e-3)
-timestep.control.tol=1e-4
+timestep.control.tol=4e-5
 // target iteration = sum of all linear iterations over all newton iterations per timestep
-timestep.control.targetiteration=25
+timestep.control.targetiteration=10
 // factor by which time step can at most grow in each step
-timestep.control.maxgrowth=2.0
+timestep.control.maxgrowth=1.6
 // verbosity of adaptive time stepping
 timestep.verbose=true
 // verbosity of solvers
