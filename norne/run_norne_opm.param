@@ -1,7 +1,7 @@
 // deck file name
 deck_filename=NORNE_ATW2013.DATA
 // output directory
-output_dir=output
+output_dir=OPM
 // produce output
 output=true
 /////////////////////////////
