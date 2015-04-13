@@ -8,8 +8,8 @@ output=true
 // Newton solver parameter
 /////////////////////////////
 // tolerances
-tolerance_mb=1e-3
-tolerance_cnv=1e-1
+tolerance_mb=1e-5
+tolerance_cnv=1e-2
 tolerance_wells=1e-2
 // max iterations for newton solver
 // not more than 15 Newton steps
@@ -22,7 +22,7 @@ max_residual_allowed=1e5
 newton_use_gmres=false
 // linear solver inside Newton
 linear_solver_reduction=0.01
-linear_solver_maxiter=20
+linear_solver_maxiter=50
 linear_solver_restart=40
 /////////////////////////////////
 /// CPRPreconditioner
@@ -31,9 +31,7 @@ cpr_solver_tol=0.01
 // max iter for solver inside CPR
 cpr_max_elliptic_iter=25
 // CPR preconditioner ILU version
-cpr_ilu_n=0
 // relaxation parameter
-cpr_relax=1.0
 cpr_use_amg=true
 //////////////////////////////
 // TimeStepping
@@ -41,13 +39,14 @@ cpr_use_amg=true
 // true if adaptive time stepping scheme is used
 timestep.adaptive=true
 // maximal time step allowed
-timestep.max_timestep_in_days=10
+//timestep.max_timestep_in_days=50
 // time step control scheme = iterationcount | pid | pid+iteration (default)
-timestep.control=pid+iteration
+//timestep.control=pid+iteration
+timestep.control=iterationcount
 // PID control tolerance (default = 1e-3)
-timestep.control.tol=4e-5
+// timestep.control.tol=4e-5
 // target iteration = sum of all linear iterations over all newton iterations per timestep
-timestep.control.targetiteration=10
+timestep.control.targetiteration=15
 // factor by which time step can at most grow in each step
 timestep.control.maxgrowth=1.6
 // verbosity of adaptive time stepping
