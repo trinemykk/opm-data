@@ -1,5 +1,5 @@
 deck_filename=2D_THREEPHASE_POLY_HETER.DATA
-output_dir=opm-simulation-reference
+output_dir=opm-simulation
 pvt_tab_size=-1
 sat_tab_size=-1
 threephase_model=gwseg
