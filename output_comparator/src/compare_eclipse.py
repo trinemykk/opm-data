@@ -43,7 +43,6 @@ def findDeviationsThroughAllReportSteps(absolute_deviations, relative_deviations
 
 
 def compareValuesForKeyword(restart_file_A, restart_file_B, result_data, keyword):
-
     absolute_deviations = []
     relative_deviations = []
     findDeviationsThroughAllReportSteps(absolute_deviations, relative_deviations, restart_file_A, restart_file_B, keyword)
@@ -66,6 +65,11 @@ def compareValuesForKeyword(restart_file_A, restart_file_B, result_data, keyword
     result_data.setMedianAbsoluteDeviation(absolute_deviations[median_position_absolute])
     result_data.setMedianRelativeDeviation(relative_deviations[median_position_relative])
 
+    keyword_kw_A = restart_file_A[keyword]
+    keyword_kw_B = restart_file_B[keyword]
+
+    result_data.setMinMaxForFirstStepAB(keyword_kw_A[0].getMinMax(), keyword_kw_B[0].getMinMax())
+    
     return result_data
 
 

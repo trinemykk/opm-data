@@ -38,5 +38,11 @@ class ComparisonDataTests(unittest.TestCase):
         resultData.setMedianAbsoluteDeviation(0.034234)
         self.assertEqual(0.034234, resultData.getMedianAbsoluteDeviation())
 
+    def test_comparisonData_setMinMaxForFirstStepAB_valuesAreSet(self):
+        resultData = ComparisonData("TEST")
+        resultData.setMinMaxForFirstStepAB([0.001, 1.2], [0.0001, 2.22])
+        self.assertEqual([0.001, 1.2], resultData.getMinMaxFirstStepA())
+        self.assertEqual([0.0001, 2.22], resultData.getMinMaxFirstStepB())
+
 if __name__ == '__main__':
     unittest.main()
