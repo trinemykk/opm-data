@@ -3,7 +3,14 @@ import sys
 from ert.ecl import EclFile, EclGrid
 from comparison_data import ComparisonData
 
-def findDeviationsThroughAllReportSteps(absolute_deviations, relative_deviations, ecl_kw_list_A, ecl_kw_list_B):
+def findDeviationsThroughAllReportSteps(absolute_deviations, relative_deviations, restart_file_A, restart_file_B, keyword):
+    ecl_kw_list_A = restart_file_A[keyword]
+    ecl_kw_list_B = restart_file_B[keyword]
+
+    if len(ecl_kw_list_B) != len(ecl_kw_list_B):
+        print("Different number of report steps")
+        exit(1)
+
     for report_step in range(0, len(ecl_kw_list_A)):
         A_values_in_step_i = ecl_kw_list_A[report_step]
         B_values_in_step_i = ecl_kw_list_B[report_step]
@@ -18,22 +25,28 @@ def findDeviationsThroughAllReportSteps(absolute_deviations, relative_deviations
             cell_value_A = A_values_in_step_i[active_cell]
             cell_value_B = B_values_in_step_i[active_cell]
 
+             # Set negative values to 0
+            if (cell_value_A < 0):
+
+                print("Warning, for keyword {0} a cell has negative value ({1}) - setting it to zero for comparison. Originating file: {2}".format(keyword, cell_value_A, restart_file_A))
+                cell_value_A = 0
+                
+            if (cell_value_B < 0):
+                print("Warning, for keyword {0} a cell has negative value ({1}) - setting it to zero for comparison. Originating file: {2}".format(keyword, cell_value_B, restart_file_B))
+                cell_value_B = 0
+            
             if cell_value_B != cell_value_A or (cell_value_A != 0.0 or cell_value_B != 0.0):
                 absolute_deviation = abs(cell_value_A - cell_value_B)
                 absolute_deviations.append(absolute_deviation)
-
-                deviation_as_part_of_biggest_number = abs(cell_value_A - cell_value_B) / float(max(cell_value_A, cell_value_B))
+                deviation_as_part_of_biggest_number = absolute_deviation / float(max(cell_value_A, cell_value_B))
                 relative_deviations.append(deviation_as_part_of_biggest_number)
 
 
-def compareValuesForKeyword(ecl_kw_list_A, ecl_kw_list_B, result_data):
-    if len(ecl_kw_list_B) != len(ecl_kw_list_B):
-        print("Different number of report steps")
-        exit(1)
+def compareValuesForKeyword(restart_file_A, restart_file_B, result_data, keyword):
 
     absolute_deviations = []
     relative_deviations = []
-    findDeviationsThroughAllReportSteps(absolute_deviations, relative_deviations, ecl_kw_list_A, ecl_kw_list_B)
+    findDeviationsThroughAllReportSteps(absolute_deviations, relative_deviations, restart_file_A, restart_file_B, keyword)
     absolute_deviations.sort()
     relative_deviations.sort()
 
@@ -59,7 +72,7 @@ def compareValuesForKeyword(ecl_kw_list_A, ecl_kw_list_B, result_data):
 
 def compareRestarts(restart_file_A, restart_file_B, keyword):
     comparison_data = ComparisonData(keyword)
-    result_data = compareValuesForKeyword(restart_file_A[keyword], restart_file_B[keyword], comparison_data)
+    result_data = compareValuesForKeyword(restart_file_A, restart_file_B, comparison_data, keyword)
     return result_data
 
 
