@@ -39,9 +39,11 @@ cpr_use_amg=true
 // true if adaptive time stepping scheme is used
 timestep.adaptive=true
 // time step control scheme = iterationcount | pid | pid+iteration (default)
-timestep.control=iterationcount
+timestep.control=pid+iteration
+// PID control tolerance (default = 1e-3)
+timestep.control.tol=4e-5
 // target iteration = sum of all linear iterations over all newton iterations per timestep
-timestep.control.targetiteration=15
+timestep.control.targetiteration=8
 // factor by which time step can at most grow in each step
 timestep.control.maxgrowth=1.6
 // verbosity of adaptive time stepping
