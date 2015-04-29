@@ -3,5 +3,6 @@
 <ParameterGroup name="root">
   <Parameter name="deck_filename" type="file" value="SPE1DECK.DATA"/>
   <Parameter name="output_dir" type="string" value="opm-simulation"/>
+  <Parameter name="tolerance_mb" type="double" value="1.0e-07"/>
 </ParameterGroup>
 
