@@ -3,5 +3,7 @@
 <ParameterGroup name="root">
   <Parameter name="deck_filename" type="file" value="SPE9.DATA"/>
   <Parameter name="output_dir" type="string" value="opm-simulation"/>
+  <Parameter name="timestep.adaptive" type="bool" value="false" />
+  <Parameter name="cpr_use_amg" type="bool" value="false" />
 </ParameterGroup>
 
