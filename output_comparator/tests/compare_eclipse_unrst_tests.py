@@ -41,6 +41,7 @@ class UNRSTTestWithResultData(TestCase):
         self.assertAlmostEqual(3.76085, comparison_result.getAverageAbsoluteDeviation(), 4)
         self.assertAlmostEqual(3.334, comparison_result.getMedianAbsoluteDeviation(), 3)
         self.assertAlmostEqual(0.00052, comparison_result.getMedianRelativeDeviation(), 5)
+        comparison_result.printInformation(True)
 
 if __name__ == '__main__':
     unittest.main()
