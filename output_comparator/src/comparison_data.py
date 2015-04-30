@@ -77,8 +77,8 @@ class ComparisonData():
         status = "OK" if results_ok else "NOT OK"
 
         print "--------------------" + self.__compared_keyword + "(" + status + ")-----------------------"
-        print "Min max values for dataset A, at report step 0 {0}".format(self.getMinMaxFirstStepA())
-        print "Min max values for dataset B, at report step 0 {0}".format(self.getMinMaxFirstStepB())
+        print "Min max values for dataset A, at report step 1 {0}".format(self.getMinMaxFirstStepA())
+        print "Min max values for dataset B, at report step 1 {0}".format(self.getMinMaxFirstStepB())
         print "Average absolute deviation:   " + str(self.getAverageAbsoluteDeviation())
         print "Median absolute deviation:    " + str(self.getMedianAbsoluteDeviation())
         print "Average relative deviation:   " + str(self.getAverageRelativeDeviation())
