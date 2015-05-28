@@ -62,7 +62,7 @@ GRID
 NEWTRAN
 
 GRIDFILE
-  2  /
+  0 1  /
 
 GRIDUNIT
 METRES  /
