@@ -8,3 +8,4 @@ dp_max_rel=0.2
 ds_max=0.05
 max_iter=100
 use_cpr=false
+tolerance_wells=0.5
