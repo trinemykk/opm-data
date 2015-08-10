@@ -1046,7 +1046,6 @@ NOECHO
 
 INCLUDE
  'POLY.inc' /
- /
 
 ---------------------------------------------------------------------------------
 SOLUTION
@@ -1071,12 +1070,10 @@ FIP=3  SWAT /
 SUMMARY
 
 ALL
-/
 
 --INCLUDE
 -- 'SUMMARY.inc' /
 
---/
 SCHEDULE
 
 OPTIONS
@@ -1085,7 +1082,6 @@ OPTIONS
 
 RPTSCHED
  POLYMER PRES SGAS SOIL SWAT /
-/
 
 RPTRST
 VELOCITY
@@ -1153,5 +1149,4 @@ TSTEP
 34*25
 20*100.0
 60*100.0
-/
 /
