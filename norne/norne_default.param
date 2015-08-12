@@ -1,0 +1,56 @@
+// deck file name
+deck_filename=NORNE_ATW2013.DATA
+// output directory
+output_dir=OPM
+// produce output
+output=true
+/////////////////////////////
+// Newton solver parameter
+/////////////////////////////
+// tolerances
+tolerance_mb=1e-5
+tolerance_cnv=1e-2
+tolerance_wells=1e-2
+// max iterations for newton solver
+// not more than 15 Newton steps
+max_iter=15
+// at least 1 Newton step
+min_iter=1
+// if one of the residuals is above this threshold, restart solver
+max_residual_allowed=1e5
+// BiCG solver
+newton_use_gmres=false
+// linear solver inside Newton
+linear_solver_reduction=0.01
+linear_solver_maxiter=50
+linear_solver_restart=40
+/////////////////////////////////
+/// CPRPreconditioner
+// tolerance for solver inside CPR
+cpr_solver_tol=0.01
+// max iter for solver inside CPR
+cpr_max_elliptic_iter=25
+// CPR preconditioner ILU version
+// relaxation parameter
+cpr_use_amg=true
+//////////////////////////////
+// TimeStepping
+////////////////////////////////
+// true if adaptive time stepping scheme is used
+timestep.adaptive=true
+// time step control scheme = iterationcount | pid | pid+iteration (default)
+timestep.control=pid+iteration
+// PID control tolerance (default = 1e-3)
+timestep.control.tol=4e-5
+// target iteration = sum of all linear iterations over all newton iterations per timestep
+timestep.control.targetiteration=8
+// factor by which time step can at most grow in each step
+timestep.control.maxgrowth=1.6
+// verbosity of adaptive time stepping
+timestep.verbose=true
+// verbosity of solvers
+solver.verbose=true
+// max restarts of solver allow before simulator is terminated
+solver.restart=10
+// factor by which the time step is reduced after the solver did not converge
+solver.restartfactor=0.3

@@ -1,0 +1,24 @@
+deck_filename=SPE9.DATA
+output_dir=opm-sim-fast
+output=true
+// max newton iterations
+max_iter=50
+// min newton iterations
+min_iter=1
+// use BiCG in newton
+newton_use_gmres=false
+// tolerances for newton solver
+tolerance_mb=5e-2
+tolerance_cnv=5e-2
+tolerance_wells=1e-2
+//
+// tolerance for linear solver inside newton
+linear_solver_reduction=0.01
+// max iteration for linear solver inside newton
+linear_solver_maxiter=30
+// solver inside CPR preconditioner
+cpr_use_bicgstab=false
+// tolerance for solver inside CPR
+cpr_solver_tol=0.01
+// max iter for solver inside CPR
+cpr_max_elliptic_iter=25

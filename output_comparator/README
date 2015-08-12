@@ -1,0 +1,14 @@
+Small python script to compare two sets of Eclipse output.
+
+You need python installed, and ERT (github.com/Ensembles/ert.git), built with the cmake python option turned on.
+
+To get it running, you need to set the PYTONPATH variable to the location of your ert python folder. If you have run 'make install' that will be ${CMAKE_INSTALL_PREFIX}/python, otherwise you should point to ${BUILD_DIR}/python. 
+
+The ERT python code wraps some C libraries, this may complicate things a bit for you, as this wrapping sometimes gets a bit confused. LD_LIBRARY_PATH, pointing to your libert*.so libs is a good start. Ask an ERT developer for help if in trouble. 
+
+Usage: python compare_eclipse.py arg1 arg2 arg3 arg4, where
+arg1 = <path to folder for ECLIPSE output 1>
+arg2 = <path to folder for ECLIPSE output 2>
+arg3 = <base input (deck) name, without .DATA>
+arg4 = <relative tolerance, between 0 and 1, used for PRESSURE>
+arg5 = <absolute tolerance, used for SGAS and SWAT>
