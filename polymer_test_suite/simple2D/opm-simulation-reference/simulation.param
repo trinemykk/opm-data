@@ -3,8 +3,9 @@
 /drs_max_rel=0.3
 /ds_max=0.05
 /max_iter=100
-/output_dir=poly_output
+/output_dir=opm-simulation
 /pvt_tab_size=-1
 /sat_tab_size=-1
 /threephase_model=gwseg
+/tolerance_wells=0.5
 /use_cpr=false
