@@ -1,6 +1,4 @@
-deck_filename=F_SPE10_MODEL1.DATA
-use_interleaved=true
-full_timestep_initially=true
+deck_filename=SPE10_MODEL1.DATA
 output_dir=OPM1
 solver.growthfactor=5.
 solver.restartfactor=0.5
