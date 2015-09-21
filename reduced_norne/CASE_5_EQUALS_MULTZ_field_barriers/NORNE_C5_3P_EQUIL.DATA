@@ -91,25 +91,25 @@ NOECHO
 --  	Grid and faults
 --
 --------------------------------------------------------
---INCLUDE 
+--INCLUDE
 -- 'norne_singleblock_modified.grdecl' /
 
 -- Simulation grid, with slooping faults:
 -- file in UTM coordinate system, for importing to DecisionSpace
 INCLUDE
- './INCLUDE/GRID/IRAP_1005.GRDECL' / 
+ '../INCLUDE/GRID/IRAP_1005.GRDECL' /
 
 INCLUDE
--- './actnum_singleblock.prop' / 
-  './INCLUDE/GRID/ACTNUM_0704.prop' / 
+-- './actnum_singleblock.prop' /
+  '../INCLUDE/GRID/ACTNUM_0704.prop' /
 
 -- Faults
 --INCLUDE
--- './INCLUDE/FAULT/FAULT_JUN_05.INC' / 
+-- '../INCLUDE/FAULT/FAULT_JUN_05.INC' /
 
 -- Alteration of transmiscibility by use of the 'MULTFLT' keyword
 --INCLUDE
--- './INCLUDE/FAULT/FAULTMULT_AUG-2006.INC' / 
+-- '../INCLUDE/FAULT/FAULTMULT_AUG-2006.INC' /
 
 --------------------------------------------------------
 --
@@ -119,13 +119,13 @@ INCLUDE
 
 --
 INCLUDE
-  './INCLUDE/PETRO/PORO_0704.prop' / 
+  '../INCLUDE/PETRO/PORO_0704.prop' /
 
 INCLUDE
-  './INCLUDE/PETRO/NTG_0704.prop' / 
+  '../INCLUDE/PETRO/NTG_0704.prop' /
 
 INCLUDE
-  './INCLUDE/PETRO/PERM_0704.prop' / 
+  '../INCLUDE/PETRO/PERM_0704.prop' /
 
 
 COPY
@@ -171,7 +171,7 @@ MULTIPLY
 
 -- Region barriers
 INCLUDE
- './INCLUDE/PETRO/MULTZ_HM_1.INC' / 
+ '../INCLUDE/PETRO/MULTZ_HM_1.INC' /
 
 -- Field-wide barriers
 EQUALS
@@ -187,7 +187,7 @@ EQUALS
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-  
+
 PROPS
 --------------------------------------------------------------------------------
 --
@@ -287,11 +287,11 @@ PVDO
 NOECHO
 
 --INCLUDE
---'./INCLUDE/PVT/PVT-WET-GAS.INC' / 
+--'../INCLUDE/PVT/PVT-WET-GAS.INC' /
 
 -- relative perm.
 --INCLUDE
---'./INCLUDE/RELPERM/SCAL_NORNE.INC' /
+--'../INCLUDE/RELPERM/SCAL_NORNE.INC' /
 
 --RPTPROPS
 --1 1 1 5*0 0 /
@@ -319,22 +319,22 @@ ALL
 /
 --
 --INCLUDE
--- './INCLUDE/SUMMARY/summary.data' / 
+-- '../INCLUDE/SUMMARY/summary.data' /
 
 --
 --INCLUDE
--- './INCLUDE/SUMMARY/extra.inc' / 
+-- './INCLUDE/SUMMARY/extra.inc' /
 
 --
 --INCLUDE
--- './INCLUDE/SUMMARY/tracer.data' / 
+-- './INCLUDE/SUMMARY/tracer.data' /
 --
 --INCLUDE
--- './INCLUDE/SUMMARY/gas.inc' / 
+-- './INCLUDE/SUMMARY/gas.inc' /
 
 --
 --INCLUDE
--- './INCLUDE/SUMMARY/wpave.inc' / 
+-- './INCLUDE/SUMMARY/wpave.inc' /
 
 --------------------------------------------------------------------------------
 
