@@ -29,6 +29,7 @@
 -- The following changes are made: 
 -- (1) use family II input (SWFN, SGFN, SOF3)
 -- (2) add solvent data
+-- (3) use CO2 properties (pvt) for the solvent
 
 
 ----------------------------------------------------------------
