@@ -296,7 +296,7 @@ PVTO
 -- for saturated oil and that the FVF is 1.579 at GOR=1.27 for undersaturated oil,
 -- so it is possible to use the assumption described above. 
 -- An equivalent approximation for the viscosity has been used.
-/
+
 
 SOLUTION
 -- -------------------------------------------------------------------------
