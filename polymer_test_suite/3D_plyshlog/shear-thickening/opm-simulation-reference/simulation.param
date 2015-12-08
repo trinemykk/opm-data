@@ -1,0 +1,10 @@
+/deck_filename=3D_polymer.DATA
+/dp_max_rel=0.2
+/drs_max_rel=0.2
+/ds_max=0.05
+/max_iter=15
+/output_dir=opm-simulation
+/pvt_tab_size=-1
+/sat_tab_size=-1
+/threephase_model=gwseg
+/use_cpr=false
