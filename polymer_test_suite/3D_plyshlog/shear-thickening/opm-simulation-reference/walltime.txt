@@ -1,5 +1,5 @@
-/timing/total_time=668.644
-/timing/pressure/total_time=668.286
+/timing/total_time=530.311
+/timing/pressure/total_time=529.745
 /timing/transport/total_time=0
-/timing/newton/iterations=405
+/timing/newton/iterations=340
 /timing/linear/iterations=0

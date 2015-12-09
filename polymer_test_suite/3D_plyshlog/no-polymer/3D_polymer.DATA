@@ -77,12 +77,6 @@ METRES  /
 
 INIT
 
-MESSAGES
- 8*10000  20000 10000 1000 1* /
-
---PINCH
--- 0.001 GAP  1* TOPBOT TOP/
-
 NOECHO
 
 --------------------------------------------------------
@@ -641,7 +635,7 @@ SOLUTION
 
 EQUIL
 -- Datum    P     woc     Pc   goc    Pc  Rsvd  Rvvd
-   2050  269.46  2120     0.0 2050.0  0.0   1*   0   0/
+   2010   269.46  2120    0.0 2010.0  0.0   1*   0   0/
 
 RPTSOL
 FIP=3  SWAT SGAS PRESS SOIL /
@@ -657,24 +651,24 @@ SCHEDULE
 NOECHO
 
 WELSPECS
-   'INJE01' 'I'     5  10  1* 'WATER'     /
+   'INJE01' 'I'    13  10   1* 'WATER'     /
    'PROD01' 'P'    24  16   1* 'OIL'   7* /
-   'PROD02' 'P'    12   7   1* 'OIL'   7*  /
+   'PROD02' 'P'     5   7   1* 'OIL'   7*  /
 /
 
 COMPDAT
-   'INJE01'   5   10  4   6  'OPEN'  1* 181.866 0.5 /
+   'INJE01'  13   10  4   6  'OPEN'  1* 181.866 0.5 /
    'PROD01'  24   16  1   2  'OPEN'  1* 218.457 0.5 /
-   'PROD02'  12    7  1   3  'OPEN'  1* 218.457 0.5 /
+   'PROD02'   5    7  1   2  'OPEN'  1* 218.457 0.5 /
 /
 
 WCONINJE
-    'INJE01' 'WATER' 'OPEN' 'RATE' 2000.00  1* 320 /
+    'INJE01' 'WATER' 'OPEN' 'RATE' 2500.00  1* 290 /
 /
 
 WCONPROD
-     'PROD01' 'OPEN'  'BHP' 5* 250 /
-     'PROD02' 'OPEN'  'BHP' 5* 250 /
+     'PROD01' 'OPEN'  'BHP' 5* 230 /
+     'PROD02' 'OPEN'  'BHP' 5* 230 /
 /
 
 WPOLYMER
@@ -685,15 +679,17 @@ TSTEP
 5*10
 6*10
 16*12.5
+10*12.5
+10*12.5
 /
 
 WCONINJE
-    'INJE01' 'WATER' 'OPEN' 'RATE' 2000.00  1* 320 /
+    'INJE01' 'WATER' 'OPEN' 'RATE' 2500.00  1* 290 /
 /
 
 WCONPROD
-     'PROD01' 'OPEN'  'BHP' 5* 250 /
-     'PROD02' 'OPEN'  'BHP' 5* 250 /
+     'PROD01' 'OPEN'  'BHP' 5* 230 /
+     'PROD02' 'OPEN'  'BHP' 5* 230 /
 /
 
 WPOLYMER
@@ -701,6 +697,8 @@ WPOLYMER
 /
 
 TSTEP
+5*5
+5*5
 10*10
 10*15
 2*20
@@ -708,12 +706,12 @@ TSTEP
 /
 
 WCONINJE
-    'INJE01' 'WATER' 'OPEN' 'RATE' 2000.00  1* 320 /
+    'INJE01' 'WATER' 'OPEN' 'RATE' 2500.00  1* 290 /
 /
 
 WCONPROD
-     'PROD01' 'OPEN'  'BHP' 5* 250 /
-     'PROD02' 'OPEN'  'BHP' 5* 250 /
+     'PROD01' 'OPEN'  'BHP' 5* 230 /
+     'PROD02' 'OPEN'  'BHP' 5* 230 /
 /
 
 WPOLYMER
@@ -721,7 +719,7 @@ WPOLYMER
 /
 
 TSTEP
-10*25
-72*25
+30*15
+72*15
 /
 
