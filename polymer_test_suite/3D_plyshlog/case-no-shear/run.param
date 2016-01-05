@@ -7,4 +7,4 @@ drs_max_rel=0.2
 dp_max_rel=0.2
 ds_max=0.05
 max_iter=15
-use_cpr=false
+solver_approach=direct
