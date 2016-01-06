@@ -1,4 +1,4 @@
-deck_filename=3D_polymer.DATA
+deck_filename=3D_POLYMER.DATA
 output_dir=opm-simulation
 pvt_tab_size=-1
 sat_tab_size=-1
