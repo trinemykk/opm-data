@@ -37,6 +37,7 @@ MISCIBLE
 
 FIELD
 
+-- Start simulation from the year SPE5 was published by Killough et at. 
 START
    1 'JAN' 1987 /
 
@@ -55,6 +56,7 @@ UNIFOUT
 
 GRID
 -- -------------------------------------------------------------------------
+-- Grid is specified in Table 1, 2 and 3 in Killough et at.:
 NOECHO
 
 DX 
@@ -89,6 +91,7 @@ ECHO
 PROPS
 -- -------------------------------------------------------------------------
 
+-- From Table 1 in Killough et at. 
 PVTW
 -- Item 1: pressure reference (psia)
 -- Item 2: water FVF (rb per bbl or rb per stb)
@@ -98,12 +101,13 @@ PVTW
 -- In FIELD units:
     	14.7 1.0 3.3E-6 0.70 0.0 /
 
+-- From Table 1 in Killough et at. 
 ROCK
 -- Item 1: reference pressure (psia)
 -- Item 2: rock compressibility (psi^{-1})
 	14.7 5E-6 /
 
--- From Table 3
+-- From Table 3 in Killough et at. 
 SWFN
 -- Column 1: water saturation
 -- Column 2: water relative permeability
@@ -120,12 +124,11 @@ SWFN
 0.9111	1.00	 0.0
 1.0000	1.00	 0.0 /
 
--- From Table 3
+-- From Table 3 in Killough et at. 
 SGFN
 -- Column 1: gas saturation
 -- Column 2: gas relative permeability
 -- Column 3: oil-gas capillary pressure (psi)
--- From Table 3
 0	0.0	0
 0.05	0.0 	0
 0.0889	0.001	0
@@ -139,7 +142,7 @@ SGFN
 0.7111	0.560	8.0
 0.80	1.0	30.0/
 
--- From Table 3
+--From Table 3 in Killough et at. 
 SOF3
 -- Column 1: oil saturation
 -- Column 2: oil relative permeability when oil, gas and connate water are present
@@ -181,11 +184,18 @@ SSFN
  1.0 1.0 1.0
 /
 
+-- consider the solvent miscible
+-- when its fraction of the gas 
+-- is more than 0.01 
 MISC
  0.0 0.0
  0.01 1.0
  1.0 1.0 /
 
+-- Use a linear ramp from 1500 to 3200 psia
+-- for the miscibility pressure 
+-- The same as what the TDC group reports
+-- in Killough et at. 
 PMISC
 1000 0.0
 1500 0.0
@@ -197,22 +207,26 @@ DENSITY
 -- oil, water and gas, respectively (in that order)
 -- In FIELD units: 
       	38.53 62.4 0.06864 /
--- gas density (stb) / (gas density at stb (Table 7) / solvent density at stb (Table 8)) = 0.06864 / (0.0011 / 0.0010) 
+-- gas density (stb) / (gas density at stb (Table 7) / solvent density at stb (Table 8)) = 0.06864 / (0.0011 / 0.0010)
+-- from Killough et at.  
 SDENSITY
  0.0624 /
 
--- Values from 0.5 to 1.0 is used in the paper. 
+-- Values from 0.5 to 1.0 is used in Killough et at.
+-- 0.6 is used by the TDC group 
 TLMIXPAR
  0.6 /
 
--- Pressure dependent TL parameter. Only for OPM 
+-- Pressure dependent TL parameter. 
+-- use the same values as pmisc
+-- Only for OPM 
 --TLPMIXPA
 --1000 0.0
 --1500 0.0
 --3200 1.0 
 --6000 1.0/
 
--- Using values from Table 9:
+-- Using values from Table 9 in Killough et at.:
 PVDG
 -- Column 1: gas phase pressure (psia)
 -- Column 2: gas formation volume factor (rb per Mscf)
@@ -233,7 +247,7 @@ PVDG
 4800.0	0.80320	0.02610			
 /
 
--- Using values from Table 9:
+-- Using values from Table 9 in Killough et at.:
 PVDS
 -- Column 1: gas phase pressure (psia)
 -- Column 2: gas formation volume factor (rb per Mscf)
@@ -254,7 +268,7 @@ PVDS
 4800.0	0.58170	0.03800	
 /
  
--- Using values from Table 9:
+-- Using values from Table 9 in Killough et at.:
 PVTO
 -- Column 1: dissolved gas-oil ratio (Mscf per stb)
 -- Column 2: bubble point pressure (psia)
@@ -278,7 +292,8 @@ PVTO
 -- It is required to enter data for undersaturated oil for the highest GOR
 -- (i.e. the last row) in the PVTO table.
 -- The oil formation volume factor slope above boble point is -21.85e-6 RB/STB/PSI
--- For the viscosity we use the same relative factor as in spe1
+-- (From Table 1 in Killough et at.)
+-- For the viscosity we use the same relative factor as found in the spe1 deck
 -- (700 * 9e-5 + 1) * 0.155  
 /
 
@@ -301,7 +316,8 @@ EQUIL
 -- Item #: 1 2    3    4 5    6 7 8 9
 	8400 4000 8450 0 8300 0 1 0 0 /
 
---Solution gas at reservoar oil saturation pressure 2302.3 psia  
+-- Solution gas at reservoar oil saturation pressure 2302.3 psia
+-- Based on values in Table 1 and Table 9 in Killough et at. 
 RSVD
 	8300 0.5728
 	8450 0.5728 /
@@ -310,7 +326,7 @@ SUMMARY
 ---------------------------------------------------------------------------	 
 
 -- In order to compare Eclipse with Flow:
--- This are not the output compared in the paper. 
+-- This are not the output compared in Killough et at.
 WBHP
   'INJW'
   'INJG'
