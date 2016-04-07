@@ -7,7 +7,7 @@ def findDeviationsThroughAllReportSteps(absolute_deviations, relative_deviations
     ecl_kw_list_A = restart_file_A[keyword]
     ecl_kw_list_B = restart_file_B[keyword]
 
-    if len(ecl_kw_list_B) != len(ecl_kw_list_B):
+    if len(ecl_kw_list_A) != len(ecl_kw_list_B):
         print("Different number of report steps")
         exit(1)
 
