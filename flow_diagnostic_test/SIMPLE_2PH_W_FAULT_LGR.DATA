@@ -8,6 +8,10 @@
 -- NOTE: This deck is currently not supported by the OPM
 -- simulator flow due to lack of support for LGR.
 
+-- This case is created for testing flow diagnostic implementations
+-- in ResInsight. It is a simple shoe-box grid with an added fault
+-- giving non-neighboring connections and two added local grid refinements. 
+
 
 RUNSPEC  ===============================================================
 
