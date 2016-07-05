@@ -1,0 +1,162 @@
+<e300>
+<message source="eclrun" date="" time="0">
+Executing E300 on pc system with x86_64 architecture named LT-795139
+</message>
+<message source="eclrun" date="" time="0">
+Process ID is 21100
+</message>
+<message source="eclrun" date="" time="0">
+Starting HDF conversion ...
+</message>
+<message source="eclrun" date="" time="0">
+HDF conversion completed successfully.
+</message>
+<warning date="0/0/0" time="0.00000000000000">
+ DISGAS  - automatically selected with keywords PVTO or PVCO                
+</warning>
+<warning date="0/0/0" time="0.00000000000000">
+ VAPOIL  - automatically selected with keyword PVTG                         
+</warning>
+<warning date="0/0/0" time="0.00000000000000">
+ Keyword PIMTDIMS not recognised in e300                                    
+</warning>
+<error date="0/0/0" time="0.00000000000000">
+ Keyword PIMTDIMS not recognised as part of                                 
+ the possible collection of ECLIPSE 300 keywords                            
+</error>
+<warning date="0/0/0" time="0.00000000000000">
+ Spurious data                                                              
+ 1  51 /                                                                    
+</warning>
+<warning date="0/0/0" time="0.00000000000000">
+ OPTIONS - ECLIPSE 100 OPTIONS ignored in ECLIPSE 300                       
+</warning>
+<warning date="0/0/0" time="0.00000000000000">
+ Spurious data                                                              
+ 77* 1 /                                                                    
+</warning>
+<message date="6/11/1997" time="0.00000000000000">
+ Any of the 1st argument of REGDIMS, and the 5th                            
+ argument of TABDIMS, and the 1st argument of                               
+ DYNRDIMS can be used to specify the maximum                                
+ number of fluid-in-place regions.  If more                                 
+ than one is specified, the maximum will be used                            
+</message>
+<warning date="6/11/1997" time="0.00000000000000">
+ Argument 3 of REGDIMS keyword in not available                             
+ for use in this release of ECLIPSE 300                                     
+</warning>
+<message date="6/11/1997" time="0.00000000000000">
+ As well as the 4th argument of REGDIMS, the                                
+ 11th argument of TABDIMS can also be used to                               
+ specify the maximum number of flux regions.                                
+ If both specified, the maximum will be used                                
+</message>
+<comment date="6/11/1997" time="0.00000000000000">
+ Argument 1 of GRIDOPTS keyword has been set to                             
+ allow alternative multipliers                                              
+</comment>
+<message date="6/11/1997" time="0.00000000000000">
+ Argument 2 of GRIDOPTS keyword has been assigned                           
+ the default value of 0.  If MULTNUM is defined,                            
+ FLUXNUM information will be used for the maximum value.                    
+ If not, FLUXNUM will be used as the default region set.                    
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Checking for licenses                                                      
+</message>
+<warning date="6/11/1997" time="0.00000000000000">
+ NEWTRAN - TRAN calcs depend on the grid type in E300 - Ignored             
+</warning>
+<message date="6/11/1997" time="0.00000000000000">
+ Reading from INCLUDE file ..\common\GRDECL.INC                             
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Reading from INCLUDE file ..\common\ACTNUM.INC                             
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Reading from INCLUDE file ..\common\PORO.INC                               
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Reading from INCLUDE file ..\common\PERMX.INC                              
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Reading from INCLUDE file ..\common\PERMY.INC                              
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Reading from INCLUDE file ..\common\PERMZ.INC                              
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Processing GRID data                                                       
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ 153 fault connections generated                                            
+  in the X direction.                                                       
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ 225 fault connections generated                                            
+  in the Y direction.                                                       
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+  The WARP linear solver has   1 sub-grids                                  
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Model has 2778 active cells                                                
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Reading from INCLUDE file ..\common\PROPS.INC                              
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ ROCK specified but ROCKOPTS not yet read                                   
+ ROCK will default to PVT Region                                            
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Processing PROPS data                                                      
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ K-values used for phase equilibrium                                        
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ PVTO to be used for total oil                                              
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Rv modelling on                                                            
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ No FIELDSEP data found                                                     
+ Will use flash to standard conditions                                      
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Processing SOLUTION data                                                   
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Fully implicit option used                                                 
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Initial Rs set to ref. pressure                                            
+ for equilibration region 1                                                 
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Initial Rv value to ref. pressure                                          
+ for equilibration region 1                                                 
+</message>
+<warning date="6/11/1997" time="0.00000000000000">
+ Detected a decrease in oil density with increasing depth.                  
+</warning>
+<message date="6/11/1997" time="0.00000000000000">
+ Datum depth set to 2010.000                                                
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Processing SUMMARY data                                                    
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ 2890 summary file items requested                                          
+ TIME     and YEARS    also available in summary file                       
+</message>
+<message date="6/11/1997" time="0.00000000000000">
+ Starting processing of SCHEDULE section                                    
+</message>
+<message date="16/8/2007" time="3570.00000000000000">
+ The following inactive ECLIPSE 100 keywords were called:                   
+</message>
+</e300>
