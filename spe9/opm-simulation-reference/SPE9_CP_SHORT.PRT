@@ -85,7 +85,7 @@ Suggested next step size = 20.1 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 1.154383 seconds. Total solver time taken: 1.154383 seconds.
+Fully implicit solver took: 1.229281 seconds. Total solver time taken: 1.229281 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -141,7 +141,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.564018 seconds. Total solver time taken: 1.718401 seconds.
+Fully implicit solver took: 0.592107 seconds. Total solver time taken: 1.821388 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -196,7 +196,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.452569 seconds. Total solver time taken: 2.170970 seconds.
+Fully implicit solver took: 0.459966 seconds. Total solver time taken: 2.281354 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -255,7 +255,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.457092 seconds. Total solver time taken: 2.628062 seconds.
+Fully implicit solver took: 0.477531 seconds. Total solver time taken: 2.758885 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -310,7 +310,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.465683 seconds. Total solver time taken: 3.093745 seconds.
+Fully implicit solver took: 0.452336 seconds. Total solver time taken: 3.211221 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -365,7 +365,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.467145 seconds. Total solver time taken: 3.560890 seconds.
+Fully implicit solver took: 0.462791 seconds. Total solver time taken: 3.674012 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -421,7 +421,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.463712 seconds. Total solver time taken: 4.024602 seconds.
+Fully implicit solver took: 0.472237 seconds. Total solver time taken: 4.146249 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -479,7 +479,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.435770 seconds. Total solver time taken: 4.460372 seconds.
+Fully implicit solver took: 0.481987 seconds. Total solver time taken: 4.628236 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -539,7 +539,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.433383 seconds. Total solver time taken: 4.893755 seconds.
+Fully implicit solver took: 0.456189 seconds. Total solver time taken: 5.084425 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -595,7 +595,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.434134 seconds. Total solver time taken: 5.327889 seconds.
+Fully implicit solver took: 0.474580 seconds. Total solver time taken: 5.559005 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -661,7 +661,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.648822 seconds. Total solver time taken: 5.976711 seconds.
+Fully implicit solver took: 0.701103 seconds. Total solver time taken: 6.260108 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -717,7 +717,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.438905 seconds. Total solver time taken: 6.415616 seconds.
+Fully implicit solver took: 0.458714 seconds. Total solver time taken: 6.718822 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -775,7 +775,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.735425 seconds. Total solver time taken: 7.151041 seconds.
+Fully implicit solver took: 0.683435 seconds. Total solver time taken: 7.402257 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -831,7 +831,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.444952 seconds. Total solver time taken: 7.595993 seconds.
+Fully implicit solver took: 0.444424 seconds. Total solver time taken: 7.846681 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -887,7 +887,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.446661 seconds. Total solver time taken: 8.042654 seconds.
+Fully implicit solver took: 0.449069 seconds. Total solver time taken: 8.295750 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -942,7 +942,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.441849 seconds. Total solver time taken: 8.484503 seconds.
+Fully implicit solver took: 0.445866 seconds. Total solver time taken: 8.741616 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -1007,7 +1007,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.770399 seconds. Total solver time taken: 9.254902 seconds.
+Fully implicit solver took: 0.797719 seconds. Total solver time taken: 9.539335 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -1067,7 +1067,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.672004 seconds. Total solver time taken: 9.926906 seconds.
+Fully implicit solver took: 0.689082 seconds. Total solver time taken: 10.228417 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -1125,7 +1125,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.438341 seconds. Total solver time taken: 10.365247 seconds.
+Fully implicit solver took: 0.459223 seconds. Total solver time taken: 10.687640 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -1183,7 +1183,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.446714 seconds. Total solver time taken: 10.811961 seconds.
+Fully implicit solver took: 0.477777 seconds. Total solver time taken: 11.165417 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -1239,14 +1239,14 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.448716 seconds. Total solver time taken: 11.260677 seconds.
+Fully implicit solver took: 0.457269 seconds. Total solver time taken: 11.622686 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 ================    End of simulation     ===============
 
-Total time taken (seconds):  11.5009
-Solver time (seconds):       11.2607
+Total time taken (seconds):  11.7677
+Solver time (seconds):       11.6227
 Overall Linearizations:      100
 Overall Newton Iterations:   78
 Overall Linear Iterations:   399
