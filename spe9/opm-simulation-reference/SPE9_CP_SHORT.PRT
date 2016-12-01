@@ -18,9 +18,8 @@ Number of saturation regions: 1
 
 
 Time step    0 at day 0/210, date = 01-Jan-2015
-
-Adaptive time step (0), stepsize 3.3 days.
-Switching control mode for well INJE1 from SURFACE_RATE to BHP
+  Substep 0, stepsize 3.3 days.
+    Switching control mode for well INJE1 from SURFACE_RATE to BHP
 
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  6.994e-04  8.622e-02  1.974e-04  2.760e-03
@@ -31,28 +30,28 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    0  3.363e-05  2.404e-04  1.598e-04  9.289e-02  2.879e+00  1.556e-01  1.188e-05  4.575e-02  2.321e-03  6.861e-01
    1  5.333e-07  1.582e-05  7.332e-06  1.275e-02  4.513e-02  3.380e-02  5.376e-06  3.189e-03  4.672e-04  0.000e+00
    2  1.942e-07  3.682e-05  1.172e-04  2.382e-03  2.680e-02  5.854e-02  1.612e-06  2.076e-04  2.247e-04  0.000e+00
-Switching control mode for well PRODU21 from SURFACE_RATE to BHP
+    Switching control mode for well PRODU21 from SURFACE_RATE to BHP
 
-Switching control mode for well PRODU26 from SURFACE_RATE to BHP
+    Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 
    3  7.940e-07  5.482e-06  1.749e-05  6.192e-04  6.095e-02  4.433e-02  1.109e-05  1.079e-03  8.018e-04  0.000e+00
    4  9.161e-08  3.896e-07  4.693e-07  5.310e-04  4.028e-03  3.494e-03  1.768e-08  3.591e-05  3.204e-05  0.000e+00
 Overall linear iterations used: 27
-well iterations = 2, non-linear iterations = 4, total linear iterations = 27
-Adaptive time step (1), stepsize 6.7 days.
+    Substep summary: well iterations = 2, newton iterations = 4, linearizations = 4 (0.436231 sec), linear iterations = 27 (0.159028 sec)
+  Substep 1, stepsize 6.7 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  1.390e-06  6.441e-04  4.931e-04  0.000e+00
 well converged iter: 0
 Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  1.941e-05  6.373e-04  4.827e-04  5.571e-02  9.132e-02  6.990e-02  1.424e-06  6.562e-04  5.023e-04  0.000e+00
-Switching control mode for well PRODU23 from SURFACE_RATE to BHP
+    Switching control mode for well PRODU23 from SURFACE_RATE to BHP
 
    1  6.421e-08  1.886e-05  2.346e-05  9.769e-03  2.023e-01  2.950e-01  6.762e-06  1.461e-03  1.882e-03  0.000e+00
    2  3.147e-07  1.212e-04  3.821e-04  1.270e-02  1.364e-01  1.056e-01  3.270e-08  4.167e-05  1.750e-04  0.000e+00
    3  4.416e-06  4.723e-06  3.028e-05  1.450e-03  2.058e-02  1.589e-02  2.492e-07  1.192e-04  9.036e-05  0.000e+00
    4  1.691e-07  7.230e-08  1.939e-07  5.273e-05  5.683e-04  4.339e-04  3.099e-09  9.790e-07  7.861e-07  0.000e+00
 Overall linear iterations used: 27
-well iterations = 2, non-linear iterations = 8, total linear iterations = 54
+    Substep summary: well iterations = 2, newton iterations = 8, linearizations = 8 (0.933373 sec), linear iterations = 54 (0.366119 sec)
 Sub steps started at time = 0 (days)
  step[ 0 ] = 3.3 (days)
  step[ 1 ] = 6.7 (days)
@@ -85,7 +84,7 @@ Suggested next step size = 20.1 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 1.229281 seconds. Total solver time taken: 1.229281 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 1.328674 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -97,8 +96,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step    1 at day 10/210, date = 11-Jan-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  2.853e-06  5.134e-04  3.961e-04  0.000e+00
 well converged iter: 0
@@ -109,7 +107,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    3  1.068e-06  1.611e-06  3.050e-06  4.382e-04  6.217e-03  1.499e-02  3.328e-07  3.923e-05  1.267e-04  0.000e+00
    4  1.003e-07  2.116e-07  1.335e-07  2.007e-05  1.946e-04  2.006e-04  8.028e-10  1.658e-06  1.707e-06  0.000e+00
 Overall linear iterations used: 27
-non-linear iterations = 4, total linear iterations = 27
+    Substep summary: newton iterations = 4, linearizations = 4 (0.424293 sec), linear iterations = 27 (0.161732 sec)
 Sub steps started at time = 10 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 20 (days)
@@ -141,7 +139,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.592107 seconds. Total solver time taken: 1.821388 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 1.930014 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -153,8 +151,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step    2 at day 20/210, date = 21-Jan-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  1.042e-06  9.035e-05  6.855e-05  0.000e+00
 well converged iter: 0
@@ -164,7 +161,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  9.457e-07  1.716e-05  5.397e-05  2.752e-03  7.869e-02  6.155e-02  8.612e-08  5.443e-06  4.216e-05  0.000e+00
    3  7.751e-07  1.361e-06  1.991e-06  2.209e-04  7.500e-03  5.857e-03  3.416e-09  1.549e-06  1.163e-06  0.000e+00
 Overall linear iterations used: 19
-non-linear iterations = 3, total linear iterations = 19
+    Substep summary: newton iterations = 3, linearizations = 3 (0.333931 sec), linear iterations = 19 (0.115926 sec)
 Sub steps started at time = 20 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 30 (days)
@@ -196,7 +193,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.459966 seconds. Total solver time taken: 2.281354 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 2.393012 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -208,22 +205,21 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step    3 at day 30/210, date = 31-Jan-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  1.494e-06  7.519e-05  5.684e-05  0.000e+00
 well converged iter: 0
 Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  1.426e-05  8.776e-04  6.792e-04  2.586e-02  2.635e-02  2.071e-02  1.523e-06  7.567e-05  5.707e-05  0.000e+00
-Switching control mode for well PRODU9 from SURFACE_RATE to BHP
+    Switching control mode for well PRODU9 from SURFACE_RATE to BHP
 
    1  1.635e-06  1.517e-05  2.837e-05  6.566e-03  6.480e-02  2.291e-01  1.454e-05  6.195e-04  2.276e-03  0.000e+00
    2  1.018e-06  2.805e-05  2.577e-05  2.324e-03  1.119e-01  8.198e-02  1.018e-05  9.484e-04  7.127e-04  0.000e+00
-Switching control mode for well PRODU9 from BHP to SURFACE_RATE
+    Switching control mode for well PRODU9 from BHP to SURFACE_RATE
 
    3  3.851e-07  2.581e-06  2.400e-06  2.163e-04  3.587e-03  2.178e-03  9.169e-07  6.272e-04  5.841e-06  0.000e+00
 Overall linear iterations used: 16
-non-linear iterations = 3, total linear iterations = 16
+    Substep summary: newton iterations = 3, linearizations = 3 (0.324692 sec), linear iterations = 16 (0.10476 sec)
 Sub steps started at time = 30 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 40 (days)
@@ -255,7 +251,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.477531 seconds. Total solver time taken: 2.758885 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 2.834867 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -267,8 +263,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step    4 at day 40/210, date = 10-Feb-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  2.021e-06  7.321e-04  1.016e-04  0.000e+00
 well converged iter: 0
@@ -278,7 +273,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  9.385e-07  9.896e-06  1.593e-05  5.735e-03  8.583e-03  1.715e-01  2.472e-05  4.289e-05  7.218e-04  0.000e+00
    3  1.879e-07  1.426e-06  1.316e-06  1.325e-04  3.741e-04  5.231e-04  2.502e-08  1.457e-07  1.113e-06  0.000e+00
 Overall linear iterations used: 16
-non-linear iterations = 3, total linear iterations = 16
+    Substep summary: newton iterations = 3, linearizations = 3 (0.328739 sec), linear iterations = 16 (0.109942 sec)
 Sub steps started at time = 40 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 50 (days)
@@ -310,7 +305,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.452336 seconds. Total solver time taken: 3.211221 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 3.287575 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -322,8 +317,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step    5 at day 50/210, date = 20-Feb-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  8.260e-06  2.325e-04  1.771e-04  0.000e+00
 well converged iter: 0
@@ -333,7 +327,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  7.049e-07  7.072e-06  2.132e-05  3.258e-03  1.837e-03  1.126e-02  4.032e-08  1.129e-06  4.738e-06  0.000e+00
    3  1.960e-08  9.865e-08  1.204e-07  7.193e-05  6.958e-04  5.196e-04  2.052e-10  2.963e-09  2.343e-09  0.000e+00
 Overall linear iterations used: 21
-non-linear iterations = 3, total linear iterations = 21
+    Substep summary: newton iterations = 3, linearizations = 3 (0.319358 sec), linear iterations = 21 (0.117463 sec)
 Sub steps started at time = 50 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 60 (days)
@@ -365,7 +359,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.462791 seconds. Total solver time taken: 3.674012 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 3.736217 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -377,8 +371,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step    6 at day 60/210, date = 02-Mar-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  5.966e-06  1.507e-03  1.255e-03  0.000e+00
    1  2.175e-19  3.743e-17  3.026e-17  0.000e+00
@@ -389,7 +382,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  5.689e-07  8.288e-06  1.630e-05  4.765e-04  2.623e-02  2.056e-02  7.659e-07  1.391e-04  1.072e-04  0.000e+00
    3  3.220e-07  6.998e-07  6.809e-07  6.577e-05  4.627e-04  2.252e-04  1.822e-07  1.386e-06  6.471e-07  0.000e+00
 Overall linear iterations used: 19
-well iterations = 1, non-linear iterations = 3, total linear iterations = 19
+    Substep summary: well iterations = 1, newton iterations = 3, linearizations = 3 (0.318305 sec), linear iterations = 19 (0.11136 sec)
 Sub steps started at time = 60 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 70 (days)
@@ -421,7 +414,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.472237 seconds. Total solver time taken: 4.146249 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 4.178326 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -433,8 +426,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step    7 at day 70/210, date = 12-Mar-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  2.616e-05  2.388e-03  2.337e-03  0.000e+00
    1  5.439e-20  5.182e-17  4.967e-17  0.000e+00
@@ -442,12 +434,12 @@ well converged iter: 1
 Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  1.027e-05  8.514e-04  7.828e-04  2.271e-02  3.256e-02  2.450e-02  6.565e-07  3.214e-05  3.148e-05  0.000e+00
    1  2.177e-06  6.385e-07  7.477e-06  2.799e-03  9.681e-02  1.177e-01  4.415e-06  2.594e-05  1.231e-05  0.000e+00
-Switching control mode for well PRODU9 from SURFACE_RATE to BHP
+    Switching control mode for well PRODU9 from SURFACE_RATE to BHP
 
    2  1.281e-06  6.409e-06  1.683e-05  2.491e-04  6.095e-03  8.647e-03  1.726e-07  2.539e-05  2.018e-05  0.000e+00
    3  5.837e-08  1.763e-07  2.565e-07  9.218e-05  2.676e-03  2.382e-03  5.635e-11  8.217e-09  3.307e-09  0.000e+00
 Overall linear iterations used: 17
-well iterations = 1, non-linear iterations = 3, total linear iterations = 17
+    Substep summary: well iterations = 1, newton iterations = 3, linearizations = 3 (0.317826 sec), linear iterations = 17 (0.105361 sec)
 Sub steps started at time = 70 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 80 (days)
@@ -479,7 +471,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.481987 seconds. Total solver time taken: 4.628236 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 4.613841 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -491,23 +483,22 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step    8 at day 80/210, date = 22-Mar-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  2.506e-05  2.040e-03  2.342e-03  0.000e+00
-Switching control mode for well PRODU9 from BHP to SURFACE_RATE
+    Switching control mode for well PRODU9 from BHP to SURFACE_RATE
 
    1  3.263e-19  6.353e-06  5.240e-17  0.000e+00
 well converged iter: 1
 Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  8.872e-06  8.489e-04  8.444e-04  3.170e-02  3.167e-02  2.660e-02  6.063e-07  2.869e-05  3.297e-05  0.000e+00
-Switching control mode for well PRODU9 from SURFACE_RATE to BHP
+    Switching control mode for well PRODU9 from SURFACE_RATE to BHP
 
    1  2.565e-06  4.251e-06  1.267e-05  1.200e-02  8.988e-02  8.332e-02  5.769e-06  2.676e-04  2.316e-04  0.000e+00
    2  1.307e-06  4.171e-06  1.623e-05  1.799e-03  8.155e-02  5.630e-02  1.892e-08  5.875e-07  1.008e-06  0.000e+00
    3  5.508e-08  4.422e-07  4.638e-07  1.948e-04  3.463e-03  1.109e-03  1.444e-10  2.214e-07  3.304e-07  0.000e+00
 Overall linear iterations used: 15
-well iterations = 1, non-linear iterations = 3, total linear iterations = 15
+    Substep summary: well iterations = 1, newton iterations = 3, linearizations = 3 (0.319997 sec), linear iterations = 15 (0.101106 sec)
 Sub steps started at time = 80 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 90 (days)
@@ -539,7 +530,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.456189 seconds. Total solver time taken: 5.084425 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 5.047623 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -551,8 +542,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step    9 at day 90/210, date = 01-Apr-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  4.910e-05  1.677e-03  2.244e-03  0.000e+00
    1  1.088e-19  2.878e-17  2.433e-17  0.000e+00
@@ -563,7 +553,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  9.606e-07  3.779e-06  1.314e-05  3.336e-04  9.308e-03  7.115e-03  1.359e-08  9.338e-07  1.561e-06  0.000e+00
    3  3.298e-08  1.056e-08  5.835e-08  1.278e-04  1.044e-04  1.329e-04  2.769e-12  1.067e-09  8.054e-10  0.000e+00
 Overall linear iterations used: 18
-well iterations = 1, non-linear iterations = 3, total linear iterations = 18
+    Substep summary: well iterations = 1, newton iterations = 3, linearizations = 3 (0.319758 sec), linear iterations = 18 (0.107307 sec)
 Sub steps started at time = 90 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 100 (days)
@@ -595,7 +585,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.474580 seconds. Total solver time taken: 5.559005 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 5.486821 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -607,15 +597,14 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step   10 at day 100/210, date = 11-Apr-2015
+  Substep 0, stepsize 10 days.
+    Switching control mode for well PRODU9 from BHP to SURFACE_RATE
 
-Adaptive time step (0), stepsize 10 days.
-Switching control mode for well PRODU9 from BHP to SURFACE_RATE
+    Switching control mode for well PRODU21 from BHP to SURFACE_RATE
 
-Switching control mode for well PRODU21 from BHP to SURFACE_RATE
+    Switching control mode for well PRODU23 from BHP to SURFACE_RATE
 
-Switching control mode for well PRODU23 from BHP to SURFACE_RATE
-
-Switching control mode for well PRODU26 from BHP to SURFACE_RATE
+    Switching control mode for well PRODU26 from BHP to SURFACE_RATE
 
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  4.548e-05  4.167e-03  2.023e-03  0.000e+00
@@ -629,7 +618,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    4  1.069e-07  1.884e-07  1.336e-06  4.034e-03  5.044e-03  1.949e-02  5.835e-06  6.432e-06  4.389e-06  0.000e+00
    5  7.127e-08  4.309e-09  6.233e-10  3.577e-05  1.909e-03  1.380e-03  3.483e-08  8.593e-07  5.114e-07  0.000e+00
 Overall linear iterations used: 21
-well iterations = 1, non-linear iterations = 5, total linear iterations = 21
+    Substep summary: well iterations = 1, newton iterations = 5, linearizations = 5 (0.480716 sec), linear iterations = 21 (0.159618 sec)
 Sub steps started at time = 100 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 110 (days)
@@ -661,7 +650,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.701103 seconds. Total solver time taken: 6.260108 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 6.141773 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -673,8 +662,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step   11 at day 110/210, date = 21-Apr-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  9.190e-05  4.957e-03  3.511e-03  4.178e-02
    1  5.461e-05  2.035e-04  4.236e-05  0.000e+00
@@ -685,7 +673,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  8.249e-08  2.722e-06  8.954e-06  1.806e-04  2.808e-03  2.340e-02  7.061e-08  5.079e-06  8.110e-06  0.000e+00
    3  5.220e-08  2.519e-07  2.262e-07  2.541e-05  2.010e-04  1.791e-03  9.617e-10  1.531e-08  5.031e-08  0.000e+00
 Overall linear iterations used: 17
-well iterations = 1, non-linear iterations = 3, total linear iterations = 17
+    Substep summary: well iterations = 1, newton iterations = 3, linearizations = 3 (0.319927 sec), linear iterations = 17 (0.106702 sec)
 Sub steps started at time = 110 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 120 (days)
@@ -717,7 +705,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.458714 seconds. Total solver time taken: 6.718822 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 6.580808 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -729,8 +717,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step   12 at day 120/210, date = 01-May-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  2.191e-06  5.670e-02  2.119e-04  5.769e-02
    1  3.705e-09  2.030e-04  4.290e-07  0.000e+00
@@ -743,7 +730,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    4  1.397e-08  1.848e-07  3.669e-07  1.025e-05  3.439e-03  4.868e-02  9.514e-13  4.171e-06  4.192e-05  0.000e+00
    5  1.026e-08  4.570e-08  6.559e-08  5.978e-06  4.503e-04  3.862e-03  5.738e-15  8.261e-07  2.816e-06  0.000e+00
 Overall linear iterations used: 22
-well iterations = 1, non-linear iterations = 5, total linear iterations = 22
+    Substep summary: well iterations = 1, newton iterations = 5, linearizations = 5 (0.484143 sec), linear iterations = 22 (0.163123 sec)
 Sub steps started at time = 120 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 130 (days)
@@ -775,7 +762,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.683435 seconds. Total solver time taken: 7.402257 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 7.243847 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -787,8 +774,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step   13 at day 130/210, date = 11-May-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  3.456e-06  1.091e-03  9.082e-04  0.000e+00
    1  1.371e-11  1.728e-09  2.107e-10  0.000e+00
@@ -799,7 +785,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  2.018e-07  1.346e-06  4.016e-06  5.553e-05  4.164e-03  6.021e-02  3.925e-10  6.403e-09  1.140e-08  0.000e+00
    3  1.322e-07  5.866e-07  5.073e-07  4.643e-05  6.075e-04  7.161e-03  8.433e-15  2.085e-10  1.410e-10  0.000e+00
 Overall linear iterations used: 12
-well iterations = 1, non-linear iterations = 3, total linear iterations = 12
+    Substep summary: well iterations = 1, newton iterations = 3, linearizations = 3 (0.317842 sec), linear iterations = 12 (0.0952093 sec)
 Sub steps started at time = 130 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 140 (days)
@@ -831,7 +817,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.444424 seconds. Total solver time taken: 7.846681 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 7.669925 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -843,8 +829,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step   14 at day 140/210, date = 21-May-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  5.456e-06  1.214e-03  9.305e-04  0.000e+00
    1  4.800e-10  9.672e-07  1.300e-07  0.000e+00
@@ -855,7 +840,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  1.031e-07  1.212e-06  3.748e-06  3.524e-05  1.369e-03  3.434e-02  9.949e-12  1.334e-09  2.825e-09  0.000e+00
    3  4.298e-08  6.853e-08  7.689e-08  2.008e-05  3.598e-04  2.680e-03  2.064e-15  1.758e-12  1.982e-12  0.000e+00
 Overall linear iterations used: 14
-well iterations = 1, non-linear iterations = 3, total linear iterations = 14
+    Substep summary: well iterations = 1, newton iterations = 3, linearizations = 3 (0.314122 sec), linear iterations = 14 (0.0992151 sec)
 Sub steps started at time = 140 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 150 (days)
@@ -887,7 +872,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.449069 seconds. Total solver time taken: 8.295750 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 8.095160 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -899,8 +884,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step   15 at day 150/210, date = 31-May-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  7.369e-06  3.260e-05  2.556e-05  0.000e+00
 well converged iter: 0
@@ -910,7 +894,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  6.933e-08  8.573e-07  2.933e-06  3.963e-05  3.644e-03  6.938e-02  1.881e-09  2.764e-08  2.078e-08  0.000e+00
    3  5.368e-08  3.563e-07  2.998e-07  3.096e-05  9.261e-04  9.432e-03  1.722e-13  1.057e-08  7.928e-09  0.000e+00
 Overall linear iterations used: 12
-non-linear iterations = 3, total linear iterations = 12
+    Substep summary: newton iterations = 3, linearizations = 3 (0.316337 sec), linear iterations = 12 (0.0934906 sec)
 Sub steps started at time = 150 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 160 (days)
@@ -942,7 +926,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.445866 seconds. Total solver time taken: 8.741616 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 8.517398 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -954,19 +938,18 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step   16 at day 160/210, date = 10-Jun-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  7.130e-06  2.879e-03  2.223e-05  0.000e+00
-Switching control mode for well PRODU23 from SURFACE_RATE to BHP
+    Switching control mode for well PRODU23 from SURFACE_RATE to BHP
 
-Switching control mode for well PRODU26 from SURFACE_RATE to BHP
+    Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 
    1  5.413e-05  5.879e-04  4.632e-04  0.000e+00
 well converged iter: 1
 Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  1.806e-06  9.297e-04  7.096e-04  2.342e-01  6.363e-01  4.867e-01  3.694e-05  4.006e-04  3.156e-04  0.000e+00
-Switching control mode for well PRODU21 from SURFACE_RATE to BHP
+    Switching control mode for well PRODU21 from SURFACE_RATE to BHP
 
    1  3.231e-06  3.930e-05  6.467e-04  7.686e-02  2.917e-01  9.647e+00  5.315e-06  1.725e-03  4.136e-02  0.000e+00
    2  1.508e-06  3.015e-05  7.380e-05  3.203e-02  8.629e-02  2.086e+00  2.404e-06  4.177e-04  8.956e-03  0.000e+00
@@ -975,7 +958,7 @@ Switching control mode for well PRODU21 from SURFACE_RATE to BHP
    5  2.319e-08  2.650e-07  5.735e-06  6.811e-05  1.313e-03  1.056e-01  5.237e-08  5.253e-06  4.530e-04  0.000e+00
    6  2.748e-08  1.062e-07  5.142e-07  5.358e-05  3.203e-03  5.481e-03  8.385e-10  1.564e-05  2.202e-05  0.000e+00
 Overall linear iterations used: 16
-well iterations = 1, non-linear iterations = 6, total linear iterations = 16
+    Substep summary: well iterations = 1, newton iterations = 6, linearizations = 6 (0.553691 sec), linear iterations = 16 (0.170596 sec)
 Sub steps started at time = 160 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 170 (days)
@@ -1007,7 +990,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.797719 seconds. Total solver time taken: 9.539335 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 9.258350 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -1019,15 +1002,14 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step   17 at day 170/210, date = 20-Jun-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  3.837e-05  1.282e-03  1.043e-03  0.000e+00
    1  4.352e-19  5.085e-17  4.156e-17  0.000e+00
 well converged iter: 1
 Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  5.410e-06  8.548e-04  6.929e-04  3.169e-02  7.527e-02  5.513e-02  8.525e-07  1.535e-05  1.248e-05  0.000e+00
-Switching control mode for well PRODU9 from SURFACE_RATE to BHP
+    Switching control mode for well PRODU9 from SURFACE_RATE to BHP
 
    1  5.572e-06  3.872e-05  1.730e-04  8.083e-02  1.401e-01  8.694e-01  3.384e-04  1.300e-03  3.624e-03  0.000e+00
    2  1.653e-06  2.307e-05  2.623e-05  5.939e-03  1.088e-01  8.921e-02  2.801e-05  1.275e-03  1.016e-03  0.000e+00
@@ -1035,7 +1017,7 @@ Switching control mode for well PRODU9 from SURFACE_RATE to BHP
    4  3.083e-07  3.118e-07  2.709e-06  6.663e-05  1.196e-02  1.371e-02  5.678e-07  1.019e-04  1.160e-04  0.000e+00
    5  1.397e-07  1.457e-07  1.503e-07  2.554e-05  1.057e-04  1.318e-04  1.318e-09  1.681e-08  5.608e-07  0.000e+00
 Overall linear iterations used: 19
-well iterations = 1, non-linear iterations = 5, total linear iterations = 19
+    Substep summary: well iterations = 1, newton iterations = 5, linearizations = 5 (0.479836 sec), linear iterations = 19 (0.15357 sec)
 Sub steps started at time = 170 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 180 (days)
@@ -1067,7 +1049,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.689082 seconds. Total solver time taken: 10.228417 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 9.906930 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -1079,21 +1061,20 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step   18 at day 180/210, date = 30-Jun-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  3.349e-05  3.537e-03  3.666e-03  0.000e+00
    1  4.352e-19  5.084e-17  5.206e-17  0.000e+00
 well converged iter: 1
 Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  3.550e-06  8.454e-04  7.810e-04  1.447e-02  2.720e-02  3.120e-02  7.690e-07  5.279e-05  5.477e-05  0.000e+00
-Switching control mode for well PRODU22 from SURFACE_RATE to BHP
+    Switching control mode for well PRODU22 from SURFACE_RATE to BHP
 
    1  1.624e-06  5.478e-06  1.571e-05  3.152e-03  5.746e-02  7.233e-01  1.421e-05  2.047e-04  1.811e-03  0.000e+00
    2  1.024e-06  2.770e-06  5.136e-07  7.042e-04  1.881e-02  4.983e-02  3.091e-07  1.904e-05  1.010e-04  0.000e+00
    3  1.464e-07  1.360e-07  1.465e-07  4.431e-05  2.707e-04  1.529e-03  1.537e-09  3.073e-08  7.337e-07  0.000e+00
 Overall linear iterations used: 15
-well iterations = 1, non-linear iterations = 3, total linear iterations = 15
+    Substep summary: well iterations = 1, newton iterations = 3, linearizations = 3 (0.335594 sec), linear iterations = 15 (0.107624 sec)
 Sub steps started at time = 180 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 190 (days)
@@ -1125,7 +1106,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.459223 seconds. Total solver time taken: 10.687640 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 10.363123 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -1137,21 +1118,20 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step   19 at day 190/210, date = 10-Jul-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  2.253e-04  3.299e-03  4.658e-03  0.000e+00
    1  1.306e-18  1.678e-17  2.573e-17  0.000e+00
 well converged iter: 1
 Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  1.663e-06  8.338e-04  9.423e-04  1.511e-02  3.099e-02  2.624e-02  5.450e-06  5.135e-05  7.265e-05  0.000e+00
-Switching control mode for well PRODU16 from SURFACE_RATE to BHP
+    Switching control mode for well PRODU16 from SURFACE_RATE to BHP
 
    1  1.460e-06  4.512e-06  1.175e-05  2.265e-03  2.701e-02  3.661e-01  5.067e-06  2.690e-04  2.113e-04  0.000e+00
    2  1.370e-06  4.042e-07  5.021e-06  4.593e-04  1.312e-02  1.150e-02  4.736e-08  7.148e-07  6.475e-07  0.000e+00
    3  1.524e-07  1.001e-08  5.984e-08  4.511e-05  7.742e-04  6.134e-04  1.611e-10  2.356e-09  1.424e-08  0.000e+00
 Overall linear iterations used: 14
-well iterations = 1, non-linear iterations = 3, total linear iterations = 14
+    Substep summary: well iterations = 1, newton iterations = 3, linearizations = 3 (0.332982 sec), linear iterations = 14 (0.101371 sec)
 Sub steps started at time = 190 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 200 (days)
@@ -1183,7 +1163,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.477777 seconds. Total solver time taken: 11.165417 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 10.810743 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
@@ -1195,8 +1175,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 Time step   20 at day 200/210, date = 20-Jul-2015
-
-Adaptive time step (0), stepsize 10 days.
+  Substep 0, stepsize 10 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  2.489e-04  1.885e-03  3.320e-03  0.000e+00
    1  1.741e-18  1.917e-17  1.919e-17  0.000e+00
@@ -1207,7 +1186,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  2.176e-07  1.428e-06  5.084e-06  1.125e-03  2.381e-02  1.687e-02  3.752e-09  8.508e-06  5.492e-06  0.000e+00
    3  8.977e-08  7.523e-09  1.751e-08  2.195e-04  5.558e-04  1.391e-04  6.910e-11  1.252e-09  7.671e-09  0.000e+00
 Overall linear iterations used: 15
-well iterations = 1, non-linear iterations = 3, total linear iterations = 15
+    Substep summary: well iterations = 1, newton iterations = 3, linearizations = 3 (0.323509 sec), linear iterations = 15 (0.0988812 sec)
 Sub steps started at time = 200 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 210 (days)
@@ -1239,17 +1218,22 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.457269 seconds. Total solver time taken: 11.622686 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 11.245867 seconds.
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 ================    End of simulation     ===============
 
-Total time taken (seconds):  11.7677
-Solver time (seconds):       11.6227
-Overall Linearizations:      100
-Overall Newton Iterations:   78
-Overall Linear Iterations:   399
+Total time taken (seconds):   11.3961
+Solver time (seconds):        11.2459
+ Assembly time (seconds):     8.19897
+ Linear solve time (seconds): 2.75048
+ Update time (seconds):       0.125609
+ Output write time (seconds): 0.0262038
+Overall Well Iterations:      16
+Overall Linearizations:       100
+Overall Newton Iterations:    78
+Overall Linear Iterations:    399
 
 
 
