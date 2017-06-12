@@ -59,6 +59,8 @@ GRID
 -- Grid is specified in Table 1, 2 and 3 in Killough et al.:
 NOECHO
 
+INIT
+
 DX 
 -- There are in total 147 cells with length 1000ft in x-direction	
    	147*500 /
