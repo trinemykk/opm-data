@@ -13,7 +13,7 @@ For more information visit: http://opm-project.org
 Flow Version  =  2017.10-pre
 System        =  opm-deb (Number of cores: 8, RAM: 16085.71 MB) 
 Architecture  =  Linux x86_64 (Release: 3.2.0-4-amd64, Version: #1 SMP Debian 3.2.54-2 )
-Simulation started on 28-08-2017 at 08:48:51 hrs
+Simulation started on 01-09-2017 at 08:13:20 hrs
 
 
 ***************Saturation Functions Diagnostics***************
@@ -69,14 +69,14 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    2  5.717e-07  2.101e-05  1.182e-05  1.773e-01  4.944e-02  3.532e-02
    3  9.400e-08  2.904e-07  1.527e-08  3.568e-04  1.968e-03  1.499e-03
 Overall linear iterations used: 16
-    Substep summary: well its =  6, newton its =  3, linearizations =  4 ( 0.327 sec), linear its =  16 ( 0.132 sec)
+    Substep summary: well its =  6, newton its =  3, linearizations =  4 ( 0.440 sec), linear its =  16 ( 0.193 sec)
   Substep 1, stepsize 6.7 days.
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  4.954e-05  9.808e-05  7.453e-05  4.819e-02  4.317e-02  3.288e-02
    1  4.569e-07  3.121e-06  7.117e-06  2.717e-03  9.806e-03  1.061e-02
    2  4.966e-08  1.484e-07  3.876e-09  3.866e-04  4.505e-04  2.151e-04
 Overall linear iterations used: 13
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.173 sec), linear its =  13 ( 0.088 sec)
+    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.170 sec), linear its =  13 ( 0.087 sec)
 Sub steps started at time = 0 (days)
  step[ 0 ] = 3.3 (days)
  step[ 1 ] = 6.7 (days)
@@ -115,7 +115,7 @@ Suggested next step size = 20.1 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.811191 seconds; total solver time 0.811191 seconds.
+Time step took 1.014233 seconds; total solver time 1.014233 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -135,7 +135,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  3.207e-07  1.670e-06  8.800e-06  4.667e-03  1.856e-02  1.419e-02
    2  6.812e-09  6.130e-07  2.866e-07  9.583e-05  8.407e-04  6.428e-04
 Overall linear iterations used: 14
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.178 sec), linear its =  14 ( 0.112 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.179 sec), linear its =  14 ( 0.091 sec)
 Sub steps started at time = 10 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 20 (days)
@@ -173,7 +173,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.301411 seconds; total solver time 1.112602 seconds.
+Time step took 0.281097 seconds; total solver time 1.295330 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -196,7 +196,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    3  9.248e-07  2.597e-06  1.985e-06  3.062e-03  5.410e-03  4.145e-03
    4  4.293e-08  2.799e-07  2.028e-07  3.762e-05  9.667e-05  7.406e-05
 Overall linear iterations used: 15
-    Substep summary: well its =  2, newton its =  4, linearizations =  5 ( 0.307 sec), linear its =  15 ( 0.139 sec)
+    Substep summary: well its =  2, newton its =  4, linearizations =  5 ( 0.436 sec), linear its =  15 ( 0.181 sec)
 Sub steps started at time = 20 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 30 (days)
@@ -234,7 +234,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.466721 seconds; total solver time 1.579323 seconds.
+Time step took 0.648013 seconds; total solver time 1.943342 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -255,7 +255,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  8.399e-07  4.671e-06  5.522e-07  5.165e-02  4.403e-02  3.378e-02
    2  3.782e-07  1.410e-06  1.091e-06  4.313e-03  3.931e-03  3.016e-03
 Overall linear iterations used: 12
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.226 sec), linear its =  12 ( 0.102 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.321 sec), linear its =  12 ( 0.156 sec)
 Sub steps started at time = 30 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 40 (days)
@@ -293,7 +293,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.342041 seconds; total solver time 1.921365 seconds.
+Time step took 0.499161 seconds; total solver time 2.442503 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -314,7 +314,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  4.688e-07  1.871e-06  2.624e-06  5.717e-03  4.979e-03  3.826e-03
    2  3.007e-09  1.001e-07  8.867e-08  7.974e-05  9.711e-05  4.732e-05
 Overall linear iterations used: 16
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.179 sec), linear its =  16 ( 0.105 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.276 sec), linear its =  16 ( 0.171 sec)
 Sub steps started at time = 40 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 50 (days)
@@ -352,7 +352,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.295955 seconds; total solver time 2.217319 seconds.
+Time step took 0.467147 seconds; total solver time 2.909650 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -373,7 +373,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  5.295e-07  1.294e-06  1.114e-06  3.195e-03  3.629e-03  4.892e-02
    2  1.920e-07  5.166e-07  4.185e-07  5.417e-05  1.156e-04  3.685e-04
 Overall linear iterations used: 13
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.224 sec), linear its =  13 ( 0.107 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.245 sec), linear its =  13 ( 0.135 sec)
 Sub steps started at time = 50 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 60 (days)
@@ -411,7 +411,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.343672 seconds; total solver time 2.560991 seconds.
+Time step took 0.395144 seconds; total solver time 3.304794 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -432,7 +432,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  4.731e-07  9.154e-07  1.149e-06  9.086e-03  9.265e-03  7.136e-03
    2  6.045e-09  1.197e-07  9.222e-08  3.584e-05  2.615e-05  2.014e-05
 Overall linear iterations used: 15
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.146 sec), linear its =  15 ( 0.093 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.187 sec), linear its =  15 ( 0.115 sec)
 Sub steps started at time = 60 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 70 (days)
@@ -470,7 +470,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.251910 seconds; total solver time 2.812902 seconds.
+Time step took 0.314515 seconds; total solver time 3.619309 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -491,7 +491,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  6.031e-07  1.479e-06  2.587e-06  5.913e-04  1.468e-03  3.586e-02
    2  1.182e-07  3.759e-07  3.759e-07  7.621e-05  2.010e-04  8.284e-04
 Overall linear iterations used: 12
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.180 sec), linear its =  12 ( 0.082 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.137 sec), linear its =  12 ( 0.080 sec)
 Sub steps started at time = 70 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 80 (days)
@@ -529,7 +529,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.274106 seconds; total solver time 3.087008 seconds.
+Time step took 0.226518 seconds; total solver time 3.845827 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -550,7 +550,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  6.416e-07  1.393e-06  8.247e-07  3.108e-04  1.215e-03  9.376e-04
    2  6.506e-09  1.187e-07  9.288e-08  6.605e-05  6.017e-05  3.154e-05
 Overall linear iterations used: 14
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.163 sec), linear its =  14 ( 0.091 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.131 sec), linear its =  14 ( 0.081 sec)
 Sub steps started at time = 80 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 90 (days)
@@ -588,7 +588,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.265555 seconds; total solver time 3.352562 seconds.
+Time step took 0.221515 seconds; total solver time 4.067341 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -609,7 +609,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  5.361e-07  8.869e-07  8.384e-07  3.466e-03  3.712e-03  2.868e-03
    2  1.203e-08  1.774e-07  1.379e-07  1.444e-05  2.952e-05  2.281e-05
 Overall linear iterations used: 13
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.172 sec), linear its =  13 ( 0.083 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.155 sec), linear its =  13 ( 0.079 sec)
 Sub steps started at time = 90 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 100 (days)
@@ -647,7 +647,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.267115 seconds; total solver time 3.619677 seconds.
+Time step took 0.244596 seconds; total solver time 4.311937 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -677,7 +677,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    3  6.569e-07  8.205e-08  6.490e-08  1.118e-03  2.362e-04  1.819e-04
 group F can not meet its target!
 Overall linear iterations used: 23
-    Substep summary: well its =  5, newton its =  3, linearizations =  4 ( 0.242 sec), linear its =  23 ( 0.157 sec)
+    Substep summary: well its =  5, newton its =  3, linearizations =  4 ( 0.196 sec), linear its =  23 ( 0.141 sec)
 Sub steps started at time = 100 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 110 (days)
@@ -715,7 +715,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.419653 seconds; total solver time 4.039330 seconds.
+Time step took 0.353222 seconds; total solver time 4.665159 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -742,7 +742,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    2  2.241e-07  9.099e-08  6.911e-08  5.840e-04  4.019e-04  3.103e-04
 group F can not meet its target!
 Overall linear iterations used: 17
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.249 sec), linear its =  17 ( 0.154 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.148 sec), linear its =  17 ( 0.101 sec)
 Sub steps started at time = 110 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 120 (days)
@@ -780,7 +780,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.421844 seconds; total solver time 4.461174 seconds.
+Time step took 0.261507 seconds; total solver time 4.926666 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -807,7 +807,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    2  1.365e-07  5.173e-08  3.890e-08  3.897e-04  1.863e-04  1.438e-04
 group F can not meet its target!
 Overall linear iterations used: 17
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.265 sec), linear its =  17 ( 0.173 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.187 sec), linear its =  17 ( 0.123 sec)
 Sub steps started at time = 120 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 130 (days)
@@ -845,7 +845,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.457052 seconds; total solver time 4.918227 seconds.
+Time step took 0.325049 seconds; total solver time 5.251716 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -872,7 +872,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    2  8.389e-08  2.300e-08  1.704e-08  2.430e-04  1.088e-04  8.391e-05
 group F can not meet its target!
 Overall linear iterations used: 19
-    Substep summary: newton its =  2, linearizations =  3 ( 0.276 sec), linear its =  19 ( 0.183 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.129 sec), linear its =  19 ( 0.103 sec)
 Sub steps started at time = 130 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 140 (days)
@@ -910,7 +910,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.478234 seconds; total solver time 5.396461 seconds.
+Time step took 0.243555 seconds; total solver time 5.495270 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -937,7 +937,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    2  5.825e-08  2.285e-08  1.769e-08  1.639e-04  1.022e-04  7.878e-05
 group F can not meet its target!
 Overall linear iterations used: 18
-    Substep summary: newton its =  2, linearizations =  3 ( 0.235 sec), linear its =  18 ( 0.167 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.135 sec), linear its =  18 ( 0.101 sec)
 Sub steps started at time = 140 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 150 (days)
@@ -975,7 +975,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.420372 seconds; total solver time 5.816833 seconds.
+Time step took 0.246867 seconds; total solver time 5.742137 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1002,7 +1002,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    2  4.063e-08  1.687e-08  1.307e-08  1.180e-04  8.576e-05  6.613e-05
 group F can not meet its target!
 Overall linear iterations used: 18
-    Substep summary: newton its =  2, linearizations =  3 ( 0.239 sec), linear its =  18 ( 0.173 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.201 sec), linear its =  18 ( 0.125 sec)
 Sub steps started at time = 150 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 160 (days)
@@ -1040,7 +1040,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.434126 seconds; total solver time 6.250958 seconds.
+Time step took 0.341970 seconds; total solver time 6.084107 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1067,7 +1067,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    2  3.154e-08  1.576e-08  1.220e-08  8.918e-05  6.752e-05  5.205e-05
 group F can not meet its target!
 Overall linear iterations used: 17
-    Substep summary: newton its =  2, linearizations =  3 ( 0.278 sec), linear its =  17 ( 0.193 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.134 sec), linear its =  17 ( 0.100 sec)
 Sub steps started at time = 160 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 170 (days)
@@ -1105,7 +1105,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.496324 seconds; total solver time 6.747283 seconds.
+Time step took 0.245244 seconds; total solver time 6.329350 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1132,7 +1132,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    2  2.612e-08  1.893e-08  1.368e-08  7.171e-05  6.936e-05  5.346e-05
 group F can not meet its target!
 Overall linear iterations used: 16
-    Substep summary: newton its =  2, linearizations =  3 ( 0.313 sec), linear its =  16 ( 0.182 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.144 sec), linear its =  16 ( 0.097 sec)
 Sub steps started at time = 170 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 180 (days)
@@ -1170,7 +1170,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.519123 seconds; total solver time 7.266406 seconds.
+Time step took 0.252400 seconds; total solver time 6.581750 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1197,7 +1197,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    2  2.209e-08  1.245e-08  9.678e-09  5.998e-05  6.120e-05  4.717e-05
 group F can not meet its target!
 Overall linear iterations used: 16
-    Substep summary: newton its =  2, linearizations =  3 ( 0.446 sec), linear its =  16 ( 0.212 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.184 sec), linear its =  16 ( 0.106 sec)
 Sub steps started at time = 180 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 190 (days)
@@ -1235,7 +1235,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.692656 seconds; total solver time 7.959062 seconds.
+Time step took 0.304820 seconds; total solver time 6.886570 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1262,7 +1262,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    2  2.038e-08  1.370e-08  1.055e-08  5.131e-05  5.241e-05  4.039e-05
 group F can not meet its target!
 Overall linear iterations used: 17
-    Substep summary: newton its =  2, linearizations =  3 ( 0.287 sec), linear its =  17 ( 0.177 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.194 sec), linear its =  17 ( 0.137 sec)
 Sub steps started at time = 190 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 200 (days)
@@ -1300,7 +1300,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.488804 seconds; total solver time 8.447867 seconds.
+Time step took 0.348413 seconds; total solver time 7.234983 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1326,7 +1326,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    2  1.317e-06  2.480e-07  1.909e-07  3.594e-03  8.610e-04  6.636e-04
    3  4.050e-07  1.213e-08  9.152e-09  1.138e-03  6.783e-05  5.228e-05
 Overall linear iterations used: 23
-    Substep summary: well its =  1, newton its =  3, linearizations =  4 ( 0.218 sec), linear its =  23 ( 0.160 sec)
+    Substep summary: well its =  1, newton its =  3, linearizations =  4 ( 0.288 sec), linear its =  23 ( 0.208 sec)
 Sub steps started at time = 200 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 210 (days)
@@ -1364,7 +1364,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.396226 seconds; total solver time 8.844092 seconds.
+Time step took 0.519756 seconds; total solver time 7.754739 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1389,7 +1389,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  4.648e-07  3.844e-07  1.869e-07  2.128e-03  1.540e-03  1.187e-03
    2  2.407e-07  6.153e-08  4.737e-08  7.167e-04  4.329e-05  3.337e-05
 Overall linear iterations used: 13
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.149 sec), linear its =  13 ( 0.085 sec)
+    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.198 sec), linear its =  13 ( 0.105 sec)
 Sub steps started at time = 210 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 220 (days)
@@ -1427,7 +1427,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.246484 seconds; total solver time 9.090577 seconds.
+Time step took 0.324942 seconds; total solver time 8.079681 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1452,7 +1452,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  6.257e-07  8.019e-08  4.254e-09  1.972e-03  5.452e-04  4.202e-04
    2  1.912e-07  4.707e-08  3.585e-08  6.195e-04  2.182e-05  1.682e-05
 Overall linear iterations used: 12
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.165 sec), linear its =  12 ( 0.096 sec)
+    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.137 sec), linear its =  12 ( 0.074 sec)
 Sub steps started at time = 220 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 230 (days)
@@ -1490,7 +1490,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.276454 seconds; total solver time 9.367030 seconds.
+Time step took 0.224628 seconds; total solver time 8.304309 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1515,7 +1515,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  1.238e-07  9.620e-07  7.335e-07  5.145e-04  9.430e-04  7.269e-04
    2  5.492e-08  1.043e-07  8.043e-08  1.550e-04  1.140e-04  8.788e-05
 Overall linear iterations used: 12
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.189 sec), linear its =  12 ( 0.122 sec)
+    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.170 sec), linear its =  12 ( 0.092 sec)
 Sub steps started at time = 230 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 240 (days)
@@ -1553,7 +1553,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.327190 seconds; total solver time 9.694220 seconds.
+Time step took 0.275185 seconds; total solver time 8.579494 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1578,7 +1578,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  7.439e-08  1.316e-06  1.005e-06  5.963e-04  9.198e-04  7.090e-04
    2  3.989e-08  1.098e-07  7.994e-08  1.918e-04  1.408e-04  1.086e-04
 Overall linear iterations used: 12
-    Substep summary: newton its =  2, linearizations =  3 ( 0.213 sec), linear its =  12 ( 0.119 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.172 sec), linear its =  12 ( 0.096 sec)
 Sub steps started at time = 240 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 250 (days)
@@ -1616,7 +1616,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.348328 seconds; total solver time 10.042549 seconds.
+Time step took 0.283262 seconds; total solver time 8.862755 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1641,7 +1641,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  8.950e-09  1.001e-06  7.453e-07  2.079e-04  1.207e-03  9.303e-04
    2  3.184e-08  1.653e-07  1.267e-07  4.774e-05  1.032e-04  7.952e-05
 Overall linear iterations used: 9
-    Substep summary: newton its =  2, linearizations =  3 ( 0.232 sec), linear its =   9 ( 0.106 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.194 sec), linear its =   9 ( 0.087 sec)
 Sub steps started at time = 250 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 260 (days)
@@ -1679,7 +1679,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.358483 seconds; total solver time 10.401032 seconds.
+Time step took 0.297276 seconds; total solver time 9.160031 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1704,7 +1704,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  1.566e-07  7.226e-07  5.505e-07  3.893e-04  3.023e-03  2.330e-03
    2  8.473e-08  3.128e-07  2.405e-07  9.399e-05  7.227e-05  5.570e-05
 Overall linear iterations used: 8
-    Substep summary: newton its =  2, linearizations =  3 ( 0.272 sec), linear its =   8 ( 0.103 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.196 sec), linear its =   8 ( 0.096 sec)
 Sub steps started at time = 260 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 270 (days)
@@ -1742,7 +1742,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.398477 seconds; total solver time 10.799508 seconds.
+Time step took 0.308404 seconds; total solver time 9.468435 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1767,7 +1767,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  1.995e-08  6.442e-07  4.853e-07  7.563e-05  2.437e-04  1.877e-04
    2  3.237e-09  3.273e-08  2.540e-08  5.767e-06  7.791e-05  6.005e-05
 Overall linear iterations used: 13
-    Substep summary: newton its =  2, linearizations =  3 ( 0.298 sec), linear its =  13 ( 0.140 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.181 sec), linear its =  13 ( 0.095 sec)
 Sub steps started at time = 270 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 280 (days)
@@ -1805,7 +1805,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.462461 seconds; total solver time 11.261969 seconds.
+Time step took 0.290142 seconds; total solver time 9.758577 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1830,7 +1830,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  1.253e-08  5.027e-07  3.789e-07  1.518e-04  2.305e-04  1.777e-04
    2  1.008e-08  2.731e-08  2.161e-08  3.190e-05  6.846e-05  5.276e-05
 Overall linear iterations used: 13
-    Substep summary: newton its =  2, linearizations =  3 ( 0.264 sec), linear its =  13 ( 0.141 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.158 sec), linear its =  13 ( 0.094 sec)
 Sub steps started at time = 280 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 290 (days)
@@ -1868,7 +1868,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.427902 seconds; total solver time 11.689871 seconds.
+Time step took 0.266525 seconds; total solver time 10.025102 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1893,7 +1893,7 @@ Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G)
    1  1.730e-09  3.805e-07  2.918e-07  8.143e-05  2.286e-04  1.762e-04
    2  4.586e-10  2.882e-08  2.155e-08  5.583e-06  5.408e-05  4.168e-05
 Overall linear iterations used: 13
-    Substep summary: newton its =  2, linearizations =  3 ( 0.250 sec), linear its =  13 ( 0.119 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.179 sec), linear its =  13 ( 0.108 sec)
 Sub steps started at time = 290 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 300 (days)
@@ -1931,19 +1931,19 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.387954 seconds; total solver time 12.077825 seconds.
+Time step took 0.301460 seconds; total solver time 10.326562 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 ================    End of simulation     ===============
 
-Total time (seconds):         13.251
-Solver time (seconds):        12.0778
- Assembly time (seconds):     7.35827 (Failed: 0; 0%)
- Linear solve time (seconds): 4.09511 (Failed: 0; 0%)
- Update time (seconds):       0.479267 (Failed: 0; 0%)
- Output write time (seconds): 0.75784
+Total time (seconds):         11.1813
+Solver time (seconds):        10.3266
+ Assembly time (seconds):     6.20298 (Failed: 0; 0%)
+ Linear solve time (seconds): 3.56047 (Failed: 0; 0%)
+ Update time (seconds):       0.416489 (Failed: 0; 0%)
+ Output write time (seconds): 0.558102
 Overall Well Iterations:      38 (Failed: 0; 0%)
 Overall Linearizations:       98 (Failed: 0; 0%)
 Overall Newton Iterations:    67 (Failed: 0; 0%)
