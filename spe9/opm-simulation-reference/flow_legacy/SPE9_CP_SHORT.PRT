@@ -34,7 +34,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    3  7.940e-07  5.482e-06  1.749e-05  6.192e-04  6.095e-02  4.433e-02  1.109e-05  1.079e-03  8.018e-04  0.000e+00
    4  9.162e-08  3.897e-07  4.694e-07  5.310e-04  4.028e-03  3.494e-03  1.768e-08  3.591e-05  3.204e-05  0.000e+00
 Overall linear iterations used: 27
-    Substep summary: well its =  2, newton its =  4, linearizations =  5 ( 1.004 sec), linear its =  27 ( 0.312 sec)
+    Substep summary: well its =  2, newton its =  4, linearizations =  5 ( 0.767 sec), linear its =  27 ( 0.312 sec)
   Substep 1, stepsize 6.7 days.
 Iter  W-FLUX(W)  W-FLUX(O)  W-FLUX(G)  WELL-CONT
    0  1.390e-06  6.441e-04  4.931e-04  0.000e+00
@@ -48,7 +48,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    3  4.406e-06  4.695e-06  3.029e-05  1.450e-03  2.057e-02  1.588e-02  2.492e-07  1.191e-04  9.036e-05  0.000e+00
    4  1.690e-07  7.873e-08  1.987e-07  5.273e-05  5.685e-04  4.339e-04  3.104e-09  9.779e-07  7.852e-07  0.000e+00
 Overall linear iterations used: 27
-    Substep summary: well its =  1, newton its =  4, linearizations =  5 ( 1.714 sec), linear its =  27 ( 0.488 sec)
+    Substep summary: well its =  1, newton its =  4, linearizations =  5 ( 0.845 sec), linear its =  27 ( 0.284 sec)
 Sub steps started at time = 0 (days)
  step[ 0 ] = 3.3 (days)
  step[ 1 ] = 6.7 (days)
@@ -81,7 +81,7 @@ Suggested next step size = 20.1 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 3.576286 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 2.256926 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -111,7 +111,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    3  1.037e-06  1.566e-06  3.021e-06  4.387e-04  6.215e-03  1.497e-02  3.441e-07  3.909e-05  1.266e-04  0.000e+00
    4  1.003e-07  2.157e-07  1.367e-07  1.976e-05  1.940e-04  2.002e-04  8.670e-10  1.654e-06  1.703e-06  0.000e+00
 Overall linear iterations used: 27
-    Substep summary: well its =  2, newton its =  4, linearizations =  5 ( 1.895 sec), linear its =  27 ( 0.523 sec)
+    Substep summary: well its =  2, newton its =  4, linearizations =  5 ( 0.880 sec), linear its =  27 ( 0.261 sec)
 Sub steps started at time = 10 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 20 (days)
@@ -143,7 +143,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 6.060472 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 3.429802 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -172,7 +172,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  9.413e-07  1.712e-05  5.403e-05  2.752e-03  7.870e-02  6.156e-02  2.370e-07  5.307e-06  4.162e-05  0.000e+00
    3  7.754e-07  1.351e-06  1.985e-06  2.210e-04  7.493e-03  5.851e-03  3.419e-09  1.537e-06  1.154e-06  0.000e+00
 Overall linear iterations used: 19
-    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 1.230 sec), linear its =  19 ( 0.377 sec)
+    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.706 sec), linear its =  19 ( 0.219 sec)
 Sub steps started at time = 20 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 30 (days)
@@ -204,7 +204,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 7.709875 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 4.381135 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -236,7 +236,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    3  3.875e-07  2.576e-06  2.396e-06  2.217e-04  3.577e-03  2.169e-03  9.402e-07  6.237e-04  6.002e-06  0.000e+00
    4  4.257e-07  1.070e-06  8.058e-07  9.818e-05  1.282e-03  1.786e-03  5.129e-08  1.349e-05  3.219e-06  0.000e+00
 Overall linear iterations used: 21
-    Substep summary: well its =  2, newton its =  4, linearizations =  5 ( 1.665 sec), linear its =  21 ( 0.467 sec)
+    Substep summary: well its =  2, newton its =  4, linearizations =  5 ( 0.660 sec), linear its =  21 ( 0.200 sec)
 Sub steps started at time = 30 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 40 (days)
@@ -268,7 +268,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 9.891323 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 5.266247 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -297,7 +297,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  8.654e-07  1.017e-05  1.759e-05  5.576e-03  8.394e-03  1.669e-01  2.403e-05  4.167e-05  7.026e-04  0.000e+00
    3  2.831e-07  1.646e-07  3.679e-07  8.633e-05  3.911e-04  4.775e-04  2.508e-08  1.359e-07  1.086e-06  0.000e+00
 Overall linear iterations used: 16
-    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 1.257 sec), linear its =  16 ( 0.337 sec)
+    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.521 sec), linear its =  16 ( 0.153 sec)
 Sub steps started at time = 40 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 50 (days)
@@ -329,7 +329,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 11.544418 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 5.959338 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -358,7 +358,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  6.891e-07  7.158e-06  2.166e-05  3.253e-03  1.829e-03  8.756e-03  3.831e-08  1.129e-06  4.632e-06  0.000e+00
    3  2.005e-08  1.202e-07  9.059e-08  8.880e-05  6.928e-04  5.173e-04  2.104e-10  2.835e-09  2.435e-09  0.000e+00
 Overall linear iterations used: 21
-    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.781 sec), linear its =  21 ( 0.223 sec)
+    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.846 sec), linear its =  21 ( 0.285 sec)
 Sub steps started at time = 50 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 60 (days)
@@ -390,7 +390,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 12.578118 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 7.115002 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -419,7 +419,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  5.636e-07  8.223e-06  1.618e-05  4.765e-04  2.630e-02  2.053e-02  7.881e-07  1.395e-04  1.072e-04  0.000e+00
    3  3.137e-07  6.994e-07  6.631e-07  6.776e-05  4.655e-04  2.195e-04  1.799e-07  1.399e-06  6.386e-07  0.000e+00
 Overall linear iterations used: 19
-    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 1.103 sec), linear its =  19 ( 0.363 sec)
+    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.568 sec), linear its =  19 ( 0.169 sec)
 Sub steps started at time = 60 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 70 (days)
@@ -451,7 +451,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 14.077157 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 7.871854 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -481,7 +481,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  1.219e-06  6.527e-06  1.649e-05  2.356e-04  6.021e-03  8.594e-03  8.357e-08  1.259e-05  9.477e-06  0.000e+00
    3  5.655e-08  1.640e-07  2.473e-07  8.530e-05  5.533e-04  2.406e-03  1.407e-11  2.286e-09  1.903e-09  0.000e+00
 Overall linear iterations used: 17
-    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 1.178 sec), linear its =  17 ( 0.342 sec)
+    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.880 sec), linear its =  17 ( 0.322 sec)
 Sub steps started at time = 70 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 80 (days)
@@ -513,7 +513,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 15.632736 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 9.100866 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -543,7 +543,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  1.301e-06  4.235e-06  1.645e-05  1.799e-03  8.160e-02  5.633e-02  1.874e-08  5.872e-07  1.008e-06  0.000e+00
    3  5.689e-08  4.427e-07  4.587e-07  1.950e-04  3.465e-03  1.108e-03  1.465e-10  2.220e-07  3.305e-07  0.000e+00
 Overall linear iterations used: 15
-    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 1.173 sec), linear its =  15 ( 0.327 sec)
+    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.532 sec), linear its =  15 ( 0.165 sec)
 Sub steps started at time = 80 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 90 (days)
@@ -575,7 +575,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 17.169968 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 9.820657 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -605,7 +605,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  9.583e-07  3.782e-06  1.313e-05  3.175e-04  1.078e-02  8.256e-03  1.330e-08  9.177e-07  1.559e-06  0.000e+00
    3  3.577e-08  1.051e-08  6.052e-08  1.276e-04  1.387e-04  1.363e-04  2.855e-12  1.069e-09  9.868e-10  0.000e+00
 Overall linear iterations used: 18
-    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 1.041 sec), linear its =  18 ( 0.265 sec)
+    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.859 sec), linear its =  18 ( 0.229 sec)
 Sub steps started at time = 90 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 100 (days)
@@ -637,7 +637,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 18.517236 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 10.933248 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -665,7 +665,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    4  2.044e-07  1.336e-08  1.112e-06  4.046e-03  5.071e-03  1.944e-02  5.854e-06  6.409e-06  4.375e-06  0.000e+00
    5  1.133e-07  3.874e-10  2.593e-09  3.540e-05  1.929e-03  1.394e-03  3.536e-08  8.486e-07  5.040e-07  0.000e+00
 Overall linear iterations used: 20
-    Substep summary: well its =  2, newton its =  5, linearizations =  6 ( 1.828 sec), linear its =  20 ( 0.536 sec)
+    Substep summary: well its =  2, newton its =  5, linearizations =  6 ( 0.891 sec), linear its =  20 ( 0.274 sec)
 Sub steps started at time = 100 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 110 (days)
@@ -697,7 +697,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 20.922880 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 12.133744 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -723,7 +723,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  1.151e-07  2.800e-06  9.269e-06  1.772e-04  2.787e-03  2.293e-02  8.114e-08  4.755e-06  6.567e-06  0.000e+00
    3  3.989e-08  2.612e-07  2.387e-07  1.868e-05  1.931e-04  1.210e-03  9.081e-10  7.045e-09  3.204e-08  0.000e+00
 Overall linear iterations used: 17
-    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 1.027 sec), linear its =  17 ( 0.291 sec)
+    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.701 sec), linear its =  17 ( 0.215 sec)
 Sub steps started at time = 110 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 120 (days)
@@ -755,7 +755,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 22.276228 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 13.070858 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -781,7 +781,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  3.450e-07  1.936e-06  5.510e-06  9.398e-05  7.468e-03  4.497e-02  2.051e-09  6.027e-06  3.740e-05  0.000e+00
    3  6.530e-08  5.426e-08  2.134e-08  2.894e-05  7.031e-04  2.085e-03  2.202e-14  4.043e-07  1.640e-06  0.000e+00
 Overall linear iterations used: 15
-    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 1.052 sec), linear its =  15 ( 0.275 sec)
+    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.683 sec), linear its =  15 ( 0.249 sec)
 Sub steps started at time = 120 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 130 (days)
@@ -813,7 +813,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 23.638063 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 14.028672 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -839,7 +839,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  2.012e-07  1.293e-06  3.808e-06  5.579e-05  4.111e-03  5.964e-02  3.947e-10  6.537e-09  1.116e-08  0.000e+00
    3  1.303e-07  5.402e-07  4.653e-07  4.666e-05  5.934e-04  7.025e-03  8.394e-15  2.201e-10  1.514e-10  0.000e+00
 Overall linear iterations used: 12
-    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.656 sec), linear its =  12 ( 0.165 sec)
+    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.904 sec), linear its =  12 ( 0.250 sec)
 Sub steps started at time = 130 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 140 (days)
@@ -871,7 +871,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 24.485162 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 15.207679 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -897,7 +897,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  1.031e-07  1.184e-06  3.655e-06  3.542e-05  1.348e-03  3.412e-02  9.857e-12  1.342e-09  2.810e-09  0.000e+00
    3  4.462e-08  6.389e-08  6.589e-08  2.023e-05  3.532e-04  2.638e-03  2.136e-15  1.598e-12  1.840e-12  0.000e+00
 Overall linear iterations used: 14
-    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 1.274 sec), linear its =  14 ( 0.313 sec)
+    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.535 sec), linear its =  14 ( 0.151 sec)
 Sub steps started at time = 140 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 150 (days)
@@ -929,7 +929,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 26.102261 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 15.912773 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -955,7 +955,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  6.910e-08  8.512e-07  2.906e-06  3.954e-05  3.574e-03  6.864e-02  1.809e-09  2.981e-08  2.241e-08  0.000e+00
    3  5.057e-08  3.623e-07  3.044e-07  3.093e-05  9.096e-04  9.250e-03  1.749e-13  1.042e-08  7.817e-09  0.000e+00
 Overall linear iterations used: 12
-    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 1.068 sec), linear its =  12 ( 0.272 sec)
+    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.552 sec), linear its =  12 ( 0.144 sec)
 Sub steps started at time = 150 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 160 (days)
@@ -987,7 +987,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 27.483519 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 16.629257 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1019,7 +1019,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    5  2.331e-08  2.655e-07  5.720e-06  6.848e-05  1.291e-03  1.053e-01  5.137e-08  5.152e-06  4.516e-04  0.000e+00
    6  2.792e-08  1.079e-07  5.140e-07  5.388e-05  3.185e-03  5.450e-03  8.326e-10  1.556e-05  2.190e-05  0.000e+00
 Overall linear iterations used: 16
-    Substep summary: well its =  2, newton its =  6, linearizations =  7 ( 2.291 sec), linear its =  16 ( 0.591 sec)
+    Substep summary: well its =  2, newton its =  6, linearizations =  7 ( 1.240 sec), linear its =  16 ( 0.342 sec)
 Sub steps started at time = 160 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 170 (days)
@@ -1051,7 +1051,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 30.414532 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 18.247619 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1083,7 +1083,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    4  3.041e-07  3.204e-07  2.731e-06  6.697e-05  1.206e-02  1.382e-02  5.707e-07  1.027e-04  1.169e-04  0.000e+00
    5  1.398e-07  1.514e-07  1.554e-07  2.564e-05  1.076e-04  1.438e-04  1.337e-09  1.659e-08  5.704e-07  0.000e+00
 Overall linear iterations used: 19
-    Substep summary: well its =  2, newton its =  5, linearizations =  6 ( 1.786 sec), linear its =  19 ( 0.476 sec)
+    Substep summary: well its =  2, newton its =  5, linearizations =  6 ( 1.051 sec), linear its =  19 ( 0.309 sec)
 Sub steps started at time = 170 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 180 (days)
@@ -1115,7 +1115,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 32.722904 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 19.653628 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1146,7 +1146,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  1.026e-06  2.745e-06  6.440e-07  7.011e-04  1.870e-02  4.972e-02  3.078e-07  1.902e-05  1.013e-04  0.000e+00
    3  1.512e-07  1.688e-07  1.826e-07  6.761e-05  7.180e-04  8.901e-04  1.532e-09  2.715e-06  2.181e-06  0.000e+00
 Overall linear iterations used: 15
-    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.600 sec), linear its =  15 ( 0.156 sec)
+    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.567 sec), linear its =  15 ( 0.155 sec)
 Sub steps started at time = 180 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 190 (days)
@@ -1178,7 +1178,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 33.508471 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 20.402333 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1210,7 +1210,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  1.364e-06  3.474e-07  5.240e-06  4.530e-04  1.326e-02  1.152e-02  4.673e-08  7.060e-07  6.375e-07  0.000e+00
    3  1.533e-07  5.043e-09  5.911e-08  4.496e-05  7.741e-04  6.091e-04  1.550e-10  2.399e-09  1.451e-08  0.000e+00
 Overall linear iterations used: 14
-    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.579 sec), linear its =  14 ( 0.156 sec)
+    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.823 sec), linear its =  14 ( 0.199 sec)
 Sub steps started at time = 190 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 200 (days)
@@ -1242,7 +1242,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 34.265172 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 21.448470 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1274,7 +1274,7 @@ Iter   MB(Wat)    MB(Oil)    MB(Gas)     CNV(W)     CNV(O)     CNV(G)   W-FLUX(W
    2  2.203e-07  1.409e-06  5.061e-06  1.214e-03  2.579e-02  1.815e-02  3.613e-09  7.742e-06  5.000e-06  0.000e+00
    3  1.002e-07  1.261e-09  4.173e-09  2.232e-04  6.461e-04  1.275e-04  5.726e-11  1.472e-09  6.431e-09  0.000e+00
 Overall linear iterations used: 15
-    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.585 sec), linear its =  15 ( 0.202 sec)
+    Substep summary: well its =  2, newton its =  3, linearizations =  4 ( 0.605 sec), linear its =  15 ( 0.150 sec)
 Sub steps started at time = 200 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 210 (days)
@@ -1306,19 +1306,19 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 35.074225 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 22.233929 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 ================    End of simulation     ===============
 
-Total time (seconds):         35.5113
-Solver time (seconds):        35.0742
- Assembly time (seconds):     26.7879
- Linear solve time (seconds): 7.45543
- Update time (seconds):       0.296051
- Output write time (seconds): 0.0781723
+Total time (seconds):         22.5322
+Solver time (seconds):        22.2339
+ Assembly time (seconds):     16.6135
+ Linear solve time (seconds): 5.03688
+ Update time (seconds):       0.217674
+ Output write time (seconds): 0.0551558
 Overall Well Iterations:      43
 Overall Linearizations:       99
 Overall Newton Iterations:    77
