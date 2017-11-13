@@ -10,13 +10,14 @@
 Flow is a simulator for fully implicit three-phase black-oil flow, and is part of OPM.
 For more information visit: http://opm-project.org 
 
-Flow Version  =  2017.10-pre
+Flow Version  =  2018.04-pre
 System        =  opm-deb (Number of cores: 8, RAM: 16051.20 MB) 
 Architecture  =  Linux x86_64 (Release: 4.9.0-3-amd64, Version: #1 SMP Debian 4.9.30-2+deb9u2 (2017-06-26) )
-Simulation started on 09-10-2017 at 10:21:41 hrs
+Simulation started on 10-11-2017 at 14:41:23 hrs
 
 
-***************Saturation Functions Diagnostics***************
+===============Saturation Functions Diagnostics===============
+
 System:  Black-oil system.
 Relative permeability input format: Saturation Family I.
 Number of saturation regions: 1
@@ -65,18 +66,18 @@ Time step    0 at day 0/300, date = 01-Jan-2015
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  4.831e-05  4.831e-05  3.676e-05  9.281e-02  2.074e-01  1.578e-01
-   1  7.578e-08  1.867e-05  5.993e-05  2.135e-02  4.557e-01  4.039e-01
-   2  5.717e-07  2.101e-05  1.182e-05  1.773e-01  4.944e-02  3.532e-02
-   3  9.400e-08  2.904e-07  1.527e-08  3.568e-04  1.968e-03  1.499e-03
+   1  1.171e-07  1.826e-05  6.021e-05  2.135e-02  4.557e-01  4.058e-01
+   2  5.685e-07  2.400e-05  9.505e-06  1.773e-01  5.071e-02  3.628e-02
+   3  9.399e-08  2.924e-07  1.375e-08  3.568e-04  1.968e-03  1.499e-03
 Overall linear iterations used: 16
-    Substep summary: well its =  6, newton its =  3, linearizations =  4 ( 0.238 sec), linear its =  16 ( 0.128 sec)
+    Substep summary: well its =  6, newton its =  3, linearizations =  4 ( 0.540 sec), linear its =  16 ( 0.276 sec)
   Substep 1, stepsize 6.7 days.
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  4.954e-05  9.808e-05  7.453e-05  4.819e-02  4.317e-02  3.288e-02
-   1  4.569e-07  3.121e-06  7.117e-06  2.717e-03  9.806e-03  1.061e-02
-   2  4.966e-08  1.484e-07  3.876e-09  3.866e-04  4.505e-04  2.151e-04
+   1  7.121e-07  2.195e-06  7.813e-06  2.717e-03  1.724e-02  1.300e-02
+   2  4.962e-08  1.512e-07  1.745e-09  3.866e-04  4.505e-04  2.151e-04
 Overall linear iterations used: 13
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.122 sec), linear its =  13 ( 0.070 sec)
+    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.353 sec), linear its =  13 ( 0.150 sec)
 Sub steps started at time = 0 (days)
  step[ 0 ] = 3.3 (days)
  step[ 1 ] = 6.7 (days)
@@ -86,7 +87,7 @@ Suggested next step size = 20.1 (days)
 
                               **************************************************************************
   Balance  at        10  Days *                         SPE 9                                          *
-  Report    1    11 Jan 2015  *                                             Flow  version 2017.10-pre  *
+  Report    1    11 Jan 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -115,7 +116,7 @@ Suggested next step size = 20.1 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.659302 seconds; total solver time 0.659302 seconds.
+Time step took 1.548839 seconds; total solver time 1.548839 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -132,10 +133,10 @@ Time step    1 at day 10/300, date = 11-Jan-2015
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  6.361e-05  1.464e-04  1.110e-04  7.111e-02  6.975e-02  5.321e-02
-   1  3.207e-07  1.670e-06  8.800e-06  4.667e-03  1.856e-02  1.419e-02
-   2  6.812e-09  6.130e-07  2.866e-07  9.583e-05  8.407e-04  6.428e-04
+   1  5.895e-07  1.107e-06  1.088e-05  4.667e-03  5.098e-02  3.816e-02
+   2  6.995e-09  5.755e-07  2.585e-07  9.583e-05  8.715e-04  6.769e-04
 Overall linear iterations used: 14
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.205 sec), linear its =  14 ( 0.150 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.397 sec), linear its =  14 ( 0.193 sec)
 Sub steps started at time = 10 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 20 (days)
@@ -144,7 +145,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at        20  Days *                         SPE 9                                          *
-  Report    2    21 Jan 2015  *                                             Flow  version 2017.10-pre  *
+  Report    2    21 Jan 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -173,7 +174,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.370314 seconds; total solver time 1.029615 seconds.
+Time step took 0.627360 seconds; total solver time 2.176199 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -191,12 +192,12 @@ Time step    2 at day 20/300, date = 21-Jan-2015
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  6.048e-05  1.464e-04  1.110e-04  7.031e-02  6.977e-02  5.335e-02
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-   1  6.922e-07  7.066e-06  1.244e-05  3.714e-02  1.551e-01  1.158e-01
-   2  3.548e-07  4.167e-06  3.101e-06  2.342e-02  5.356e-02  4.103e-02
-   3  9.248e-07  2.597e-06  1.985e-06  3.062e-03  5.410e-03  4.145e-03
-   4  4.293e-08  2.799e-07  2.028e-07  3.762e-05  9.667e-05  7.406e-05
+   1  2.773e-05  6.911e-06  1.232e-05  5.687e-02  1.551e-01  1.158e-01
+   2  2.707e-05  4.167e-06  3.101e-06  5.634e-02  5.356e-02  4.103e-02
+   3  3.578e-06  2.597e-06  1.985e-06  7.098e-03  5.410e-03  4.145e-03
+   4  1.533e-08  2.799e-07  2.028e-07  3.958e-05  9.667e-05  7.406e-05
 Overall linear iterations used: 15
-    Substep summary: well its =  2, newton its =  4, linearizations =  5 ( 0.225 sec), linear its =  15 ( 0.125 sec)
+    Substep summary: well its =  2, newton its =  4, linearizations =  5 ( 0.608 sec), linear its =  15 ( 0.224 sec)
 Sub steps started at time = 20 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 30 (days)
@@ -205,7 +206,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at        30  Days *                         SPE 9                                          *
-  Report    3    31 Jan 2015  *                                             Flow  version 2017.10-pre  *
+  Report    3    31 Jan 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -234,7 +235,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.368378 seconds; total solver time 1.397993 seconds.
+Time step took 0.885948 seconds; total solver time 3.062148 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -252,10 +253,10 @@ Time step    3 at day 30/300, date = 31-Jan-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  5.929e-05  1.438e-04  1.092e-04  5.697e-02  5.550e-02  4.252e-02
-   1  8.399e-07  4.671e-06  5.522e-07  5.165e-02  4.403e-02  3.378e-02
-   2  3.782e-07  1.410e-06  1.091e-06  4.313e-03  3.931e-03  3.016e-03
+   1  7.989e-06  4.652e-06  5.667e-07  4.538e-02  4.403e-02  3.378e-02
+   2  3.406e-07  1.408e-06  1.090e-06  4.270e-03  3.931e-03  3.016e-03
 Overall linear iterations used: 12
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.229 sec), linear its =  12 ( 0.117 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.264 sec), linear its =  12 ( 0.141 sec)
 Sub steps started at time = 30 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 40 (days)
@@ -264,7 +265,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at        40  Days *                         SPE 9                                          *
-  Report    4    10 Feb 2015  *                                             Flow  version 2017.10-pre  *
+  Report    4    10 Feb 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -293,7 +294,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.365472 seconds; total solver time 1.763465 seconds.
+Time step took 0.436320 seconds; total solver time 3.498468 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -311,10 +312,10 @@ Time step    4 at day 40/300, date = 10-Feb-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  5.871e-05  1.401e-04  1.065e-04  5.900e-02  5.834e-02  4.476e-02
-   1  4.688e-07  1.871e-06  2.624e-06  5.717e-03  4.979e-03  3.826e-03
-   2  3.007e-09  1.001e-07  8.867e-08  7.974e-05  9.711e-05  4.732e-05
+   1  9.718e-08  1.849e-06  2.641e-06  5.384e-03  4.979e-03  3.826e-03
+   2  5.287e-10  9.922e-08  8.800e-08  7.974e-05  9.711e-05  4.732e-05
 Overall linear iterations used: 16
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.239 sec), linear its =  16 ( 0.178 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.252 sec), linear its =  16 ( 0.178 sec)
 Sub steps started at time = 40 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 50 (days)
@@ -323,7 +324,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at        50  Days *                         SPE 9                                          *
-  Report    5    20 Feb 2015  *                                             Flow  version 2017.10-pre  *
+  Report    5    20 Feb 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -352,7 +353,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.437198 seconds; total solver time 2.200663 seconds.
+Time step took 0.460275 seconds; total solver time 3.958743 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -370,10 +371,10 @@ Time step    5 at day 50/300, date = 20-Feb-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  5.837e-05  1.378e-04  1.048e-04  3.476e-02  3.449e-02  2.650e-02
-   1  5.295e-07  1.294e-06  1.114e-06  3.195e-03  3.629e-03  4.892e-02
-   2  1.920e-07  5.166e-07  4.185e-07  5.417e-05  1.156e-04  3.685e-04
+   1  4.034e-07  1.252e-06  1.082e-06  3.617e-03  3.629e-03  4.892e-02
+   2  1.917e-07  5.166e-07  4.185e-07  5.417e-05  1.156e-04  3.685e-04
 Overall linear iterations used: 13
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.129 sec), linear its =  13 ( 0.087 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.301 sec), linear its =  13 ( 0.166 sec)
 Sub steps started at time = 50 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 60 (days)
@@ -382,7 +383,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at        60  Days *                         SPE 9                                          *
-  Report    6    02 Mar 2015  *                                             Flow  version 2017.10-pre  *
+  Report    6    02 Mar 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -411,7 +412,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.229624 seconds; total solver time 2.430287 seconds.
+Time step took 0.497379 seconds; total solver time 4.456122 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -429,10 +430,10 @@ Time step    6 at day 60/300, date = 02-Mar-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  5.814e-05  1.373e-04  1.047e-04  3.509e-02  3.499e-02  2.692e-02
-   1  4.731e-07  9.154e-07  1.149e-06  9.086e-03  9.265e-03  7.136e-03
-   2  6.045e-09  1.197e-07  9.222e-08  3.584e-05  2.615e-05  2.014e-05
+   1  7.615e-07  8.397e-07  1.207e-06  9.217e-03  9.265e-03  7.136e-03
+   2  6.934e-09  1.196e-07  9.217e-08  3.584e-05  2.615e-05  2.014e-05
 Overall linear iterations used: 15
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.137 sec), linear its =  15 ( 0.092 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.347 sec), linear its =  15 ( 0.171 sec)
 Sub steps started at time = 60 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 70 (days)
@@ -441,7 +442,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at        70  Days *                         SPE 9                                          *
-  Report    7    12 Mar 2015  *                                             Flow  version 2017.10-pre  *
+  Report    7    12 Mar 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -470,7 +471,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.242276 seconds; total solver time 2.672563 seconds.
+Time step took 0.554390 seconds; total solver time 5.010513 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -488,10 +489,10 @@ Time step    7 at day 70/300, date = 12-Mar-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  5.797e-05  1.370e-04  1.044e-04  2.863e-02  2.860e-02  2.203e-02
-   1  6.031e-07  1.479e-06  2.587e-06  5.913e-04  1.468e-03  3.586e-02
-   2  1.182e-07  3.759e-07  3.759e-07  7.621e-05  2.010e-04  8.284e-04
+   1  6.301e-07  1.383e-06  2.511e-06  5.913e-04  1.468e-03  3.569e-02
+   2  1.182e-07  3.623e-07  3.656e-07  7.621e-05  2.010e-04  7.525e-04
 Overall linear iterations used: 12
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.128 sec), linear its =  12 ( 0.082 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.439 sec), linear its =  12 ( 0.169 sec)
 Sub steps started at time = 70 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 80 (days)
@@ -500,7 +501,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at        80  Days *                         SPE 9                                          *
-  Report    8    22 Mar 2015  *                                             Flow  version 2017.10-pre  *
+  Report    8    22 Mar 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -529,7 +530,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.222270 seconds; total solver time 2.894833 seconds.
+Time step took 0.655429 seconds; total solver time 5.665942 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -547,10 +548,10 @@ Time step    8 at day 80/300, date = 22-Mar-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  5.783e-05  1.365e-04  1.045e-04  2.156e-02  2.151e-02  1.659e-02
-   1  6.416e-07  1.393e-06  8.247e-07  3.108e-04  1.215e-03  9.376e-04
-   2  6.506e-09  1.187e-07  9.288e-08  6.605e-05  6.017e-05  3.154e-05
+   1  5.982e-08  1.309e-06  8.889e-07  9.310e-04  1.215e-03  9.376e-04
+   2  5.849e-09  1.184e-07  9.269e-08  6.605e-05  6.017e-05  3.162e-05
 Overall linear iterations used: 14
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.176 sec), linear its =  14 ( 0.097 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.384 sec), linear its =  14 ( 0.184 sec)
 Sub steps started at time = 80 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 90 (days)
@@ -559,7 +560,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at        90  Days *                         SPE 9                                          *
-  Report    9    01 Apr 2015  *                                             Flow  version 2017.10-pre  *
+  Report    9    01 Apr 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -588,7 +589,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.285784 seconds; total solver time 3.180617 seconds.
+Time step took 0.617689 seconds; total solver time 6.283631 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -606,10 +607,10 @@ Time step    9 at day 90/300, date = 01-Apr-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  5.772e-05  1.360e-04  1.041e-04  2.106e-02  2.109e-02  1.628e-02
-   1  5.361e-07  8.869e-07  8.384e-07  3.466e-03  3.712e-03  2.868e-03
-   2  1.203e-08  1.774e-07  1.379e-07  1.444e-05  2.952e-05  2.281e-05
+   1  1.210e-06  7.642e-07  9.322e-07  3.662e-03  3.712e-03  2.868e-03
+   2  9.988e-09  1.772e-07  1.377e-07  1.444e-05  2.952e-05  2.281e-05
 Overall linear iterations used: 13
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.137 sec), linear its =  13 ( 0.092 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.317 sec), linear its =  13 ( 0.182 sec)
 Sub steps started at time = 90 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 100 (days)
@@ -618,7 +619,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       100  Days *                         SPE 9                                          *
-  Report   10    11 Apr 2015  *                                             Flow  version 2017.10-pre  *
+  Report   10    11 Apr 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -647,7 +648,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.242497 seconds; total solver time 3.423114 seconds.
+Time step took 0.530269 seconds; total solver time 6.813900 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -671,12 +672,12 @@ Time step   10 at day 100/300, date = 11-Apr-2015
     Switching control mode for well PRODU23 from BHP to SURFACE_RATE
 group F can not meet its target!
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.276e-06  8.302e-06  6.356e-06  4.637e-02  3.555e-01  2.747e-01
-   1  1.945e-06  1.359e-05  4.110e-06  1.472e-03  1.476e-02  2.596e-02
-   2  1.592e-06  4.715e-07  3.051e-07  1.866e-03  1.263e-03  9.970e-04
+   0  8.277e-06  8.302e-06  6.356e-06  4.637e-02  3.555e-01  2.747e-01
+   1  2.821e-06  1.479e-05  5.005e-06  1.472e-03  1.638e-02  2.165e-02
+   2  1.298e-07  7.802e-07  5.664e-07  2.070e-04  6.628e-03  5.256e-03
 group F can not meet its target!
 Overall linear iterations used: 14
-    Substep summary: well its =  5, newton its =  2, linearizations =  3 ( 0.164 sec), linear its =  14 ( 0.098 sec)
+    Substep summary: well its =  5, newton its =  2, linearizations =  3 ( 0.199 sec), linear its =  14 ( 0.112 sec)
 Sub steps started at time = 100 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 110 (days)
@@ -685,7 +686,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       110  Days *                         SPE 9                                          *
-  Report   11    21 Apr 2015  *                                             Flow  version 2017.10-pre  *
+  Report   11    21 Apr 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -714,7 +715,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.276663 seconds; total solver time 3.699776 seconds.
+Time step took 0.337238 seconds; total solver time 7.151138 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -736,12 +737,12 @@ Time step   11 at day 110/300, date = 21-Apr-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.376e-06  8.302e-06  6.448e-06  4.491e-03  2.173e-02  1.576e-02
-   1  5.302e-07  3.021e-06  8.838e-07  1.046e-03  2.854e-03  8.849e-04
-   2  6.966e-09  5.886e-10  1.173e-09  2.440e-05  2.747e-05  3.968e-06
+   0  8.445e-06  8.303e-06  6.449e-06  4.428e-03  2.170e-02  1.574e-02
+   1  5.216e-07  3.032e-06  8.929e-07  1.046e-03  2.863e-03  8.849e-04
+   2  7.492e-09  5.618e-10  1.194e-09  2.440e-05  2.747e-05  3.968e-06
 group F can not meet its target!
 Overall linear iterations used: 16
-    Substep summary: well its =  3, newton its =  2, linearizations =  3 ( 0.263 sec), linear its =  16 ( 0.209 sec)
+    Substep summary: well its =  3, newton its =  2, linearizations =  3 ( 0.190 sec), linear its =  16 ( 0.118 sec)
 Sub steps started at time = 110 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 120 (days)
@@ -750,7 +751,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       120  Days *                         SPE 9                                          *
-  Report   12    01 May 2015  *                                             Flow  version 2017.10-pre  *
+  Report   12    01 May 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -779,7 +780,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.497579 seconds; total solver time 4.197355 seconds.
+Time step took 0.330305 seconds; total solver time 7.481442 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -801,12 +802,12 @@ Time step   12 at day 120/300, date = 01-May-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.386e-06  8.301e-06  6.459e-06  3.060e-03  8.929e-03  6.963e-03
-   1  2.080e-07  1.245e-06  4.664e-07  2.180e-04  9.026e-04  3.420e-04
-   2  6.541e-09  1.729e-09  1.196e-09  3.765e-06  3.284e-06  2.486e-06
+   0  8.385e-06  8.301e-06  6.459e-06  3.060e-03  8.929e-03  6.963e-03
+   1  2.030e-07  1.257e-06  4.764e-07  2.180e-04  9.026e-04  3.789e-04
+   2  6.764e-09  1.711e-09  1.183e-09  3.767e-06  3.288e-06  2.488e-06
 group F can not meet its target!
 Overall linear iterations used: 17
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.314 sec), linear its =  17 ( 0.210 sec)
+    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.193 sec), linear its =  17 ( 0.136 sec)
 Sub steps started at time = 120 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 130 (days)
@@ -815,7 +816,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       130  Days *                         SPE 9                                          *
-  Report   13    11 May 2015  *                                             Flow  version 2017.10-pre  *
+  Report   13    11 May 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -844,7 +845,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.556936 seconds; total solver time 4.754292 seconds.
+Time step took 0.359942 seconds; total solver time 7.841384 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -866,12 +867,12 @@ Time step   13 at day 130/300, date = 11-May-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.391e-06  8.301e-06  6.461e-06  3.076e-03  3.206e-03  2.474e-03
-   1  4.246e-08  6.390e-07  1.499e-07  8.631e-05  7.847e-04  3.395e-04
-   2  4.352e-09  4.026e-09  2.674e-09  3.463e-06  2.141e-04  1.651e-04
+   0  8.385e-06  8.255e-06  6.425e-06  3.076e-03  3.206e-03  2.474e-03
+   1  3.872e-08  6.412e-07  1.516e-07  8.632e-05  7.847e-04  3.395e-04
+   2  4.332e-09  3.953e-09  2.618e-09  3.445e-06  2.141e-04  1.651e-04
 group F can not meet its target!
 Overall linear iterations used: 18
-    Substep summary: newton its =  2, linearizations =  3 ( 0.142 sec), linear its =  18 ( 0.124 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.232 sec), linear its =  18 ( 0.142 sec)
 Sub steps started at time = 130 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 140 (days)
@@ -880,7 +881,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       140  Days *                         SPE 9                                          *
-  Report   14    21 May 2015  *                                             Flow  version 2017.10-pre  *
+  Report   14    21 May 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -909,7 +910,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.281033 seconds; total solver time 5.035324 seconds.
+Time step took 0.404024 seconds; total solver time 8.245408 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -931,12 +932,12 @@ Time step   14 at day 140/300, date = 21-May-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.395e-06  8.301e-06  6.463e-06  2.828e-03  2.918e-03  2.250e-03
-   1  9.983e-08  6.176e-07  3.269e-07  1.811e-04  4.746e-04  2.515e-04
-   2  3.816e-09  5.984e-10  4.331e-10  2.247e-06  1.344e-06  1.027e-06
+   0  8.391e-06  8.278e-06  6.445e-06  2.828e-03  2.918e-03  2.250e-03
+   1  9.704e-08  6.194e-07  3.283e-07  1.811e-04  4.746e-04  2.515e-04
+   2  3.789e-09  5.989e-10  4.335e-10  2.246e-06  1.344e-06  1.027e-06
 group F can not meet its target!
 Overall linear iterations used: 17
-    Substep summary: newton its =  2, linearizations =  3 ( 0.115 sec), linear its =  17 ( 0.101 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.200 sec), linear its =  17 ( 0.129 sec)
 Sub steps started at time = 140 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 150 (days)
@@ -945,7 +946,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       150  Days *                         SPE 9                                          *
-  Report   15    31 May 2015  *                                             Flow  version 2017.10-pre  *
+  Report   15    31 May 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -974,7 +975,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.227302 seconds; total solver time 5.262626 seconds.
+Time step took 0.359182 seconds; total solver time 8.604590 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -996,12 +997,12 @@ Time step   15 at day 150/300, date = 31-May-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.398e-06  8.301e-06  6.464e-06  2.552e-03  2.620e-03  2.020e-03
-   1  9.722e-08  6.563e-07  2.606e-07  2.834e-05  5.263e-04  1.594e-04
-   2  2.382e-09  4.436e-09  3.383e-09  1.300e-05  5.019e-05  3.869e-05
+   0  8.395e-06  8.284e-06  6.451e-06  2.552e-03  2.620e-03  2.020e-03
+   1  9.513e-08  6.573e-07  2.614e-07  2.834e-05  5.263e-04  1.594e-04
+   2  2.365e-09  4.436e-09  3.383e-09  1.300e-05  5.019e-05  3.869e-05
 group F can not meet its target!
 Overall linear iterations used: 17
-    Substep summary: newton its =  2, linearizations =  3 ( 0.144 sec), linear its =  17 ( 0.118 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.239 sec), linear its =  17 ( 0.141 sec)
 Sub steps started at time = 150 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 160 (days)
@@ -1010,7 +1011,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       160  Days *                         SPE 9                                          *
-  Report   16    10 Jun 2015  *                                             Flow  version 2017.10-pre  *
+  Report   16    10 Jun 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -1022,7 +1023,7 @@ Suggested next step size = 30 (days)
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216954406             0     216954406:    212679979   :        214910     301356893     301571803:
+:Currently   in place    :     216954406             0     216954406:    212679979   :        214910     301356894     301571803:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
@@ -1034,12 +1035,12 @@ Suggested next step size = 30 (days)
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216954406             0     216954406:    212679979   :        214910     301356893     301571803:
+:Currently   in place    :     216954406             0     216954406:    212679979   :        214910     301356894     301571803:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.275340 seconds; total solver time 5.537966 seconds.
+Time step took 0.404827 seconds; total solver time 9.009417 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1061,12 +1062,12 @@ Time step   16 at day 160/300, date = 10-Jun-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.400e-06  8.301e-06  6.465e-06  2.245e-03  2.383e-03  1.837e-03
-   1  8.735e-08  4.920e-07  2.340e-07  1.672e-04  4.220e-04  6.408e-05
-   2  1.109e-09  1.603e-09  1.195e-09  4.123e-06  5.184e-07  3.996e-07
+   0  8.398e-06  8.287e-06  6.455e-06  2.245e-03  2.383e-03  1.837e-03
+   1  8.583e-08  4.928e-07  2.347e-07  1.672e-04  4.220e-04  6.408e-05
+   2  1.090e-09  1.603e-09  1.196e-09  4.123e-06  5.184e-07  3.996e-07
 group F can not meet its target!
 Overall linear iterations used: 17
-    Substep summary: newton its =  2, linearizations =  3 ( 0.117 sec), linear its =  17 ( 0.107 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.394 sec), linear its =  17 ( 0.249 sec)
 Sub steps started at time = 160 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 170 (days)
@@ -1075,7 +1076,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       170  Days *                         SPE 9                                          *
-  Report   17    20 Jun 2015  *                                             Flow  version 2017.10-pre  *
+  Report   17    20 Jun 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -1087,7 +1088,7 @@ Suggested next step size = 30 (days)
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216951006             0     216951006:    212683773   :        204708     301362321     301567029:
+:Currently   in place    :     216951006             0     216951006:    212683774   :        204708     301362321     301567029:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
@@ -1099,12 +1100,12 @@ Suggested next step size = 30 (days)
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216951006             0     216951006:    212683773   :        204708     301362321     301567029:
+:Currently   in place    :     216951006             0     216951006:    212683774   :        204708     301362321     301567029:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.237522 seconds; total solver time 5.775488 seconds.
+Time step took 0.674454 seconds; total solver time 9.683871 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1126,12 +1127,12 @@ Time step   17 at day 170/300, date = 20-Jun-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.402e-06  8.301e-06  6.466e-06  2.257e-03  2.367e-03  1.824e-03
-   1  8.559e-08  4.451e-07  2.225e-07  2.052e-04  3.073e-04  6.462e-05
-   2  3.761e-10  1.062e-09  7.894e-10  4.101e-06  5.990e-07  4.617e-07
+   0  8.400e-06  8.289e-06  6.457e-06  2.257e-03  2.367e-03  1.824e-03
+   1  8.432e-08  4.459e-07  2.231e-07  2.052e-04  3.073e-04  6.462e-05
+   2  3.728e-10  1.062e-09  7.894e-10  4.102e-06  5.990e-07  4.617e-07
 group F can not meet its target!
 Overall linear iterations used: 17
-    Substep summary: newton its =  2, linearizations =  3 ( 0.115 sec), linear its =  17 ( 0.106 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.388 sec), linear its =  17 ( 0.274 sec)
 Sub steps started at time = 170 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 180 (days)
@@ -1140,13 +1141,13 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       180  Days *                         SPE 9                                          *
-  Report   18    30 Jun 2015  *                                             Flow  version 2017.10-pre  *
+  Report   18    30 Jun 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3779.33  PSIA                 :
-                                                  :      PORV =     453381769   RB                  :
+                                                  :      PORV =     453381770   RB                  :
                                                   : Pressure is weighted by hydrocarbon pore volume :
                                                   : Pore volumes are taken at reference conditions  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
@@ -1160,7 +1161,7 @@ Suggested next step size = 30 (days)
                                                   ===================================================
                                                   :        FIPNUM report region   1                 :
                                                   :      PAV  =       3779.33  PSIA                 :
-                                                  :      PORV =     453381769   RB                  :
+                                                  :      PORV =     453381770   RB                  :
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
@@ -1169,7 +1170,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.233277 seconds; total solver time 6.008765 seconds.
+Time step took 0.705467 seconds; total solver time 10.389339 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1191,12 +1192,12 @@ Time step   18 at day 180/300, date = 30-Jun-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.403e-06  8.301e-06  6.466e-06  2.266e-03  2.356e-03  1.816e-03
-   1  9.171e-08  5.280e-07  2.182e-07  2.900e-04  7.829e-04  1.106e-04
-   2  1.916e-09  3.232e-09  2.432e-09  5.309e-06  4.675e-07  6.976e-07
+   0  8.402e-06  8.291e-06  6.458e-06  2.266e-03  2.356e-03  1.816e-03
+   1  9.088e-08  5.566e-07  2.411e-07  2.900e-04  1.270e-03  2.813e-04
+   2  9.962e-11  3.238e-09  2.437e-09  5.310e-06  4.676e-07  6.121e-07
 group F can not meet its target!
 Overall linear iterations used: 17
-    Substep summary: newton its =  2, linearizations =  3 ( 0.121 sec), linear its =  17 ( 0.104 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.433 sec), linear its =  17 ( 0.250 sec)
 Sub steps started at time = 180 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 190 (days)
@@ -1205,7 +1206,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       190  Days *                         SPE 9                                          *
-  Report   19    10 Jul 2015  *                                             Flow  version 2017.10-pre  *
+  Report   19    10 Jul 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -1234,7 +1235,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.236493 seconds; total solver time 6.245258 seconds.
+Time step took 0.730930 seconds; total solver time 11.120269 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1256,12 +1257,12 @@ Time step   19 at day 190/300, date = 10-Jul-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.402e-06  8.301e-06  6.465e-06  2.275e-03  2.349e-03  1.810e-03
-   1  9.893e-08  3.326e-07  2.177e-07  8.201e-05  2.152e-04  5.823e-05
-   2  5.419e-10  6.161e-11  4.682e-11  1.900e-05  7.468e-07  6.535e-07
+   0  8.403e-06  8.289e-06  6.455e-06  2.275e-03  2.349e-03  1.810e-03
+   1  1.013e-07  3.326e-07  2.177e-07  8.201e-05  2.152e-04  5.823e-05
+   2  5.260e-10  6.185e-11  4.701e-11  1.900e-05  7.468e-07  6.535e-07
 group F can not meet its target!
 Overall linear iterations used: 18
-    Substep summary: newton its =  2, linearizations =  3 ( 0.115 sec), linear its =  18 ( 0.105 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.338 sec), linear its =  18 ( 0.215 sec)
 Sub steps started at time = 190 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 200 (days)
@@ -1270,7 +1271,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       200  Days *                         SPE 9                                          *
-  Report   20    20 Jul 2015  *                                             Flow  version 2017.10-pre  *
+  Report   20    20 Jul 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -1282,7 +1283,7 @@ Suggested next step size = 30 (days)
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216940808             0     216940808:    212695159   :        179340     301373365     301552705:
+:Currently   in place    :     216940808             0     216940808:    212695159   :        179339     301373365     301552705:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
@@ -1294,12 +1295,12 @@ Suggested next step size = 30 (days)
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216940808             0     216940808:    212695159   :        179340     301373365     301552705:
+:Currently   in place    :     216940808             0     216940808:    212695159   :        179339     301373365     301552705:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.231066 seconds; total solver time 6.476324 seconds.
+Time step took 0.605832 seconds; total solver time 11.726101 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1321,10 +1322,10 @@ Time step   20 at day 200/300, date = 20-Jul-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  3.680e-05  3.660e-05  2.826e-05  3.627e-02  1.214e-01  9.356e-02
-   1  6.216e-07  1.882e-06  1.319e-06  3.879e-03  9.424e-04  7.263e-04
-   2  1.660e-09  7.002e-09  4.545e-09  4.196e-05  7.688e-06  6.473e-06
+   1  6.102e-07  1.879e-06  1.317e-06  3.879e-03  9.424e-04  7.263e-04
+   2  1.276e-09  7.003e-09  4.546e-09  4.196e-05  7.685e-06  6.470e-06
 Overall linear iterations used: 16
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.138 sec), linear its =  16 ( 0.110 sec)
+    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.375 sec), linear its =  16 ( 0.202 sec)
 Sub steps started at time = 200 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 210 (days)
@@ -1333,7 +1334,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       210  Days *                         SPE 9                                          *
-  Report   21    30 Jul 2015  *                                             Flow  version 2017.10-pre  *
+  Report   21    30 Jul 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -1345,7 +1346,7 @@ Suggested next step size = 30 (days)
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216925821             0     216925821:    212711761   :        181719     301350142     301531861:
+:Currently   in place    :     216925821             0     216925821:    212711762   :        181719     301350142     301531861:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
@@ -1357,12 +1358,12 @@ Suggested next step size = 30 (days)
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216925821             0     216925821:    212711761   :        181719     301350142     301531861:
+:Currently   in place    :     216925821             0     216925821:    212711762   :        181719     301350142     301531861:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.260988 seconds; total solver time 6.737312 seconds.
+Time step took 0.620288 seconds; total solver time 12.346389 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1383,11 +1384,11 @@ Time step   21 at day 210/300, date = 30-Jul-2015
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  3.676e-05  3.660e-05  2.822e-05  1.781e-02  9.103e-03  7.015e-03
-   1  2.176e-07  5.444e-08  7.637e-08  7.407e-04  1.610e-03  1.241e-03
-   2  7.320e-09  1.391e-09  1.224e-09  1.700e-05  1.653e-05  1.255e-05
+   0  3.676e-05  3.660e-05  2.822e-05  1.780e-02  9.103e-03  7.015e-03
+   1  2.233e-07  5.426e-08  7.651e-08  7.407e-04  1.610e-03  1.241e-03
+   2  7.266e-09  1.404e-09  1.235e-09  1.694e-05  1.653e-05  1.255e-05
 Overall linear iterations used: 11
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.112 sec), linear its =  11 ( 0.076 sec)
+    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.356 sec), linear its =  11 ( 0.145 sec)
 Sub steps started at time = 210 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 220 (days)
@@ -1396,7 +1397,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       220  Days *                         SPE 9                                          *
-  Report   22    09 Aug 2015  *                                             Flow  version 2017.10-pre  *
+  Report   22    09 Aug 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -1425,7 +1426,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.199867 seconds; total solver time 6.937178 seconds.
+Time step took 0.548231 seconds; total solver time 12.894620 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1447,10 +1448,10 @@ Time step   22 at day 220/300, date = 09-Aug-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  3.675e-05  3.660e-05  2.821e-05  1.348e-02  1.292e-02  9.959e-03
-   1  5.156e-08  1.380e-07  1.740e-07  9.615e-04  3.039e-04  2.661e-04
-   2  5.268e-09  4.071e-09  4.948e-09  1.524e-06  6.961e-06  2.177e-05
+   1  4.039e-08  1.381e-07  1.741e-07  9.484e-04  3.040e-04  2.661e-04
+   2  5.242e-09  4.072e-09  4.948e-09  1.524e-06  6.960e-06  2.176e-05
 Overall linear iterations used: 14
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.112 sec), linear its =  14 ( 0.104 sec)
+    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.374 sec), linear its =  14 ( 0.170 sec)
 Sub steps started at time = 220 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 230 (days)
@@ -1459,7 +1460,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       230  Days *                         SPE 9                                          *
-  Report   23    19 Aug 2015  *                                             Flow  version 2017.10-pre  *
+  Report   23    19 Aug 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -1488,7 +1489,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.229106 seconds; total solver time 7.166284 seconds.
+Time step took 0.626397 seconds; total solver time 13.521017 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1510,10 +1511,10 @@ Time step   23 at day 230/300, date = 19-Aug-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  3.674e-05  3.660e-05  2.821e-05  1.168e-02  1.150e-02  8.864e-03
-   1  9.182e-08  2.722e-07  2.250e-07  2.544e-04  1.119e-03  8.624e-04
-   2  1.841e-08  9.758e-08  7.524e-08  8.157e-06  3.474e-05  2.676e-05
+   1  8.986e-08  2.723e-07  2.251e-07  2.549e-04  1.119e-03  8.624e-04
+   2  1.827e-08  9.755e-08  7.522e-08  8.157e-06  3.473e-05  2.675e-05
 Overall linear iterations used: 11
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.145 sec), linear its =  11 ( 0.092 sec)
+    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.339 sec), linear its =  11 ( 0.151 sec)
 Sub steps started at time = 230 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 240 (days)
@@ -1522,7 +1523,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       240  Days *                         SPE 9                                          *
-  Report   24    29 Aug 2015  *                                             Flow  version 2017.10-pre  *
+  Report   24    29 Aug 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -1551,7 +1552,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.251099 seconds; total solver time 7.417384 seconds.
+Time step took 0.524711 seconds; total solver time 14.045729 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1573,10 +1574,10 @@ Time step   24 at day 240/300, date = 29-Aug-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  3.673e-05  3.660e-05  2.820e-05  1.200e-02  1.165e-02  8.983e-03
-   1  1.776e-07  1.235e-06  9.400e-07  5.840e-04  8.092e-04  6.237e-04
-   2  3.958e-08  6.744e-08  5.147e-08  1.053e-05  7.898e-06  6.088e-06
+   1  1.353e-07  1.235e-06  9.398e-07  5.765e-04  8.092e-04  6.238e-04
+   2  3.942e-08  6.743e-08  5.146e-08  1.053e-05  7.896e-06  6.087e-06
 Overall linear iterations used: 11
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.156 sec), linear its =  11 ( 0.086 sec)
+    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.365 sec), linear its =  11 ( 0.126 sec)
 Sub steps started at time = 240 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 250 (days)
@@ -1585,7 +1586,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       250  Days *                         SPE 9                                          *
-  Report   25    08 Sep 2015  *                                             Flow  version 2017.10-pre  *
+  Report   25    08 Sep 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -1614,7 +1615,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.256061 seconds; total solver time 7.673445 seconds.
+Time step took 0.531120 seconds; total solver time 14.576849 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1636,10 +1637,10 @@ Time step   25 at day 250/300, date = 08-Sep-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  3.673e-05  3.659e-05  2.819e-05  1.009e-02  9.876e-03  7.613e-03
-   1  6.667e-08  8.981e-07  6.676e-07  1.575e-04  1.352e-03  1.043e-03
-   2  4.704e-08  1.317e-07  1.020e-07  9.950e-06  2.265e-05  1.746e-05
+   1  6.391e-08  8.981e-07  6.675e-07  1.575e-04  1.352e-03  1.043e-03
+   2  4.687e-08  1.317e-07  1.020e-07  9.950e-06  2.265e-05  1.746e-05
 Overall linear iterations used: 9
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.154 sec), linear its =   9 ( 0.081 sec)
+    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.357 sec), linear its =   9 ( 0.125 sec)
 Sub steps started at time = 250 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 260 (days)
@@ -1648,7 +1649,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       260  Days *                         SPE 9                                          *
-  Report   26    18 Sep 2015  *                                             Flow  version 2017.10-pre  *
+  Report   26    18 Sep 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -1677,7 +1678,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.249749 seconds; total solver time 7.923194 seconds.
+Time step took 0.521662 seconds; total solver time 15.098511 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1698,11 +1699,11 @@ Time step   26 at day 260/300, date = 18-Sep-2015
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  3.672e-05  3.659e-05  2.819e-05  8.708e-03  8.334e-03  6.425e-03
-   1  8.539e-08  8.098e-07  6.177e-07  3.782e-04  2.978e-03  2.296e-03
-   2  4.806e-08  7.566e-08  5.845e-08  2.115e-05  3.801e-05  2.874e-05
+   0  3.671e-05  3.659e-05  2.819e-05  8.708e-03  8.334e-03  6.425e-03
+   1  1.756e-08  8.108e-07  6.184e-07  3.848e-04  2.978e-03  2.296e-03
+   2  4.786e-08  7.559e-08  5.840e-08  2.116e-05  3.802e-05  2.874e-05
 Overall linear iterations used: 9
-    Substep summary: newton its =  2, linearizations =  3 ( 0.116 sec), linear its =   9 ( 0.065 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.369 sec), linear its =   9 ( 0.143 sec)
 Sub steps started at time = 260 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 270 (days)
@@ -1711,7 +1712,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       270  Days *                         SPE 9                                          *
-  Report   27    28 Sep 2015  *                                             Flow  version 2017.10-pre  *
+  Report   27    28 Sep 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -1740,7 +1741,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.192423 seconds; total solver time 8.115617 seconds.
+Time step took 0.553027 seconds; total solver time 15.651539 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1761,11 +1762,11 @@ Time step   27 at day 270/300, date = 28-Sep-2015
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  3.671e-05  3.659e-05  2.818e-05  7.883e-03  7.756e-03  5.979e-03
-   1  6.601e-08  5.652e-07  4.181e-07  6.872e-05  2.202e-04  1.696e-04
-   2  4.254e-09  1.104e-08  1.025e-08  1.965e-06  3.267e-05  5.955e-06
+   0  3.672e-05  3.659e-05  2.818e-05  7.883e-03  7.756e-03  5.979e-03
+   1  5.704e-08  5.653e-07  4.181e-07  6.872e-05  2.202e-04  1.696e-04
+   2  4.074e-09  1.104e-08  1.025e-08  1.965e-06  3.268e-05  5.955e-06
 Overall linear iterations used: 13
-    Substep summary: newton its =  2, linearizations =  3 ( 0.115 sec), linear its =  13 ( 0.080 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.396 sec), linear its =  13 ( 0.215 sec)
 Sub steps started at time = 270 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 280 (days)
@@ -1774,7 +1775,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       280  Days *                         SPE 9                                          *
-  Report   28    08 Oct 2015  *                                             Flow  version 2017.10-pre  *
+  Report   28    08 Oct 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -1803,7 +1804,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.205973 seconds; total solver time 8.321590 seconds.
+Time step took 0.656766 seconds; total solver time 16.308304 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1824,11 +1825,11 @@ Time step   28 at day 280/300, date = 08-Oct-2015
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  3.671e-05  3.659e-05  2.818e-05  7.806e-03  7.682e-03  5.922e-03
-   1  5.206e-10  4.825e-07  3.677e-07  1.465e-04  2.263e-04  1.745e-04
-   2  6.113e-09  1.798e-08  1.384e-08  8.615e-06  2.797e-06  2.453e-06
+   0  3.670e-05  3.659e-05  2.817e-05  7.806e-03  7.682e-03  5.922e-03
+   1  2.425e-09  4.826e-07  3.677e-07  1.465e-04  2.263e-04  1.745e-04
+   2  5.909e-09  1.801e-08  1.386e-08  8.514e-06  2.798e-06  2.453e-06
 Overall linear iterations used: 13
-    Substep summary: newton its =  2, linearizations =  3 ( 0.118 sec), linear its =  13 ( 0.091 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.337 sec), linear its =  13 ( 0.171 sec)
 Sub steps started at time = 280 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 290 (days)
@@ -1837,7 +1838,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       290  Days *                         SPE 9                                          *
-  Report   29    18 Oct 2015  *                                             Flow  version 2017.10-pre  *
+  Report   29    18 Oct 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -1866,7 +1867,7 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.220209 seconds; total solver time 8.541799 seconds.
+Time step took 0.546215 seconds; total solver time 16.854520 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -1888,10 +1889,10 @@ Time step   29 at day 290/300, date = 18-Oct-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
    0  3.670e-05  3.659e-05  2.817e-05  7.679e-03  7.642e-03  5.891e-03
-   1  2.512e-08  3.403e-07  2.593e-07  8.057e-05  2.299e-04  1.772e-04
-   2  2.859e-09  9.869e-09  7.469e-09  4.644e-06  3.333e-06  2.925e-06
+   1  1.827e-08  3.403e-07  2.593e-07  8.057e-05  2.299e-04  1.772e-04
+   2  2.676e-09  9.916e-09  7.506e-09  4.360e-06  3.333e-06  2.925e-06
 Overall linear iterations used: 14
-    Substep summary: newton its =  2, linearizations =  3 ( 0.120 sec), linear its =  14 ( 0.090 sec)
+    Substep summary: newton its =  2, linearizations =  3 ( 0.320 sec), linear its =  14 ( 0.163 sec)
 Sub steps started at time = 290 (days)
  step[ 0 ] = 10 (days)
 sub steps end time = 300 (days)
@@ -1900,7 +1901,7 @@ Suggested next step size = 30 (days)
 
                               **************************************************************************
   Balance  at       300  Days *                         SPE 9                                          *
-  Report   30    28 Oct 2015  *                                             Flow  version 2017.10-pre  *
+  Report   30    28 Oct 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
                                                   ===================================================
@@ -1912,7 +1913,7 @@ Suggested next step size = 30 (days)
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216791008             0     216791008:    212861079   :        209672     301134933     301344606:
+:Currently   in place    :     216791008             0     216791008:    212861079   :        209672     301134934     301344606:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
@@ -1924,24 +1925,24 @@ Suggested next step size = 30 (days)
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216791008             0     216791008:    212861079   :        209672     301134933     301344606:
+:Currently   in place    :     216791008             0     216791008:    212861079   :        209672     301134934     301344606:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546457             0     217546457:    212389620   :             0     302387655     302387655:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.221754 seconds; total solver time 8.763553 seconds.
+Time step took 0.517954 seconds; total solver time 17.372474 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 ================    End of simulation     ===============
 
-Total time (seconds):         9.63533
-Solver time (seconds):        8.76355
- Assembly time (seconds):     4.86096 (Failed: 0; 0%)
- Linear solve time (seconds): 3.3739 (Failed: 0; 0%)
- Update time (seconds):       0.393223 (Failed: 0; 0%)
- Output write time (seconds): 0.588474
+Total time (seconds):         18.7061
+Solver time (seconds):        17.3725
+ Assembly time (seconds):     10.596 (Failed: 0; 0%)
+ Linear solve time (seconds): 5.41238 (Failed: 0; 0%)
+ Update time (seconds):       0.684728 (Failed: 0; 0%)
+ Output write time (seconds): 1.15024
 Overall Well Iterations:      41 (Failed: 0; 0%)
 Overall Linearizations:       96 (Failed: 0; 0%)
 Overall Newton Iterations:    65 (Failed: 0; 0%)
