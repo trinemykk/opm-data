@@ -13,7 +13,7 @@ For more information visit: http://opm-project.org
 Flow Version  =  2018.04-pre
 System        =  opm-deb (Number of cores: 8, RAM: 16051.20 MB) 
 Architecture  =  Linux x86_64 (Release: 4.9.0-3-amd64, Version: #1 SMP Debian 4.9.30-2+deb9u2 (2017-06-26) )
-Simulation started on 13-11-2017 at 15:58:56 hrs
+Simulation started on 24-11-2017 at 10:59:30 hrs
 
 
 ===============Saturation Functions Diagnostics===============
@@ -25,14 +25,6 @@ Number of saturation regions: 1
 
 
 ================ Starting main simulation loop ===============
-
-
-
----------------    Simulation step number 0    ---------------
-      Current time (days)     0
-      Current stepsize (days) 10
-      Total time (days)       300
-
 
                                                   ===================================================
                                                   :                   Field Totals                  :
@@ -61,29 +53,14 @@ Number of saturation regions: 1
 :========================:==========================================:================:==========================================:
 
 
-Time step    0 at day 0/300, date = 01-Jan-2015
-  Substep 0, stepsize 3.3 days.
-    Switching control mode for well INJE1 from SURFACE_RATE to BHP
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  4.831e-05  4.831e-05  3.676e-05  9.281e-02  2.074e-01  1.578e-01
-   1  9.258e-08  1.843e-05  5.871e-05  1.636e-02  4.598e-01  4.110e-01
-   2  6.387e-07  2.290e-05  8.537e-06  6.913e-03  5.274e-02  3.782e-02
-   3  1.057e-07  2.902e-07  1.110e-08  3.227e-04  2.766e-03  2.106e-03
-Overall linear iterations used: 15
-    Substep summary: well its =  6, newton its =  3, linearizations =  4 ( 0.545 sec), linear its =  15 ( 0.204 sec)
-  Substep 1, stepsize 6.7 days.
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  4.954e-05  9.808e-05  7.453e-05  4.819e-02  4.317e-02  3.287e-02
-   1  8.435e-07  2.027e-06  7.957e-06  2.716e-03  1.754e-02  1.323e-02
-   2  2.839e-08  5.347e-08  7.771e-08  2.913e-04  4.525e-04  2.265e-04
-Overall linear iterations used: 14
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.339 sec), linear its =  14 ( 0.153 sec)
-Sub steps started at time = 0 (days)
- step[ 0 ] = 3.3 (days)
- step[ 1 ] = 6.7 (days)
-sub steps end time = 10 (days)
-Suggested next step size = 20.1 (days)
+Report step  0/30 at day 0/300, date = 01-Jan-2015
 
+Time step 0, stepsize 3.3 days.
+    Switching control mode for well INJE1 from SURFACE_RATE to BHP
+Time step summary: well its =  6, newton its =  3, linearizations =  4 ( 0.510 sec), linear its =  15 ( 0.207 sec)
+
+Time step 1, stepsize 6.7 days.
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.329 sec), linear its =  14 ( 0.164 sec)
 
                               **************************************************************************
   Balance  at        10  Days *                         SPE 9                                          *
@@ -116,32 +93,14 @@ Suggested next step size = 20.1 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 1.419287 seconds; total solver time 1.419287 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step  1/30 at day 10/300, date = 11-Jan-2015
 
----------------    Simulation step number 1    ---------------
-      Current time (days)     10
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step    1 at day 10/300, date = 11-Jan-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  6.361e-05  1.464e-04  1.110e-04  7.111e-02  6.975e-02  5.321e-02
-   1  5.977e-07  1.108e-06  1.087e-05  4.758e-03  5.099e-02  3.817e-02
-   2  8.848e-09  5.642e-07  2.481e-07  1.329e-04  8.728e-04  6.778e-04
-Overall linear iterations used: 14
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.336 sec), linear its =  14 ( 0.171 sec)
-Sub steps started at time = 10 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 20 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.310 sec), linear its =  14 ( 0.160 sec)
 
                               **************************************************************************
   Balance  at        20  Days *                         SPE 9                                          *
@@ -174,35 +133,15 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.544638 seconds; total solver time 1.963925 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step  2/30 at day 20/300, date = 21-Jan-2015
 
----------------    Simulation step number 2    ---------------
-      Current time (days)     20
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step    2 at day 20/300, date = 21-Jan-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  6.048e-05  1.464e-04  1.110e-04  7.031e-02  6.977e-02  5.335e-02
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-   1  2.773e-05  6.945e-06  1.234e-05  5.687e-02  1.555e-01  1.162e-01
-   2  2.707e-05  4.169e-06  3.102e-06  5.635e-02  5.356e-02  4.103e-02
-   3  3.578e-06  2.599e-06  1.986e-06  7.100e-03  5.410e-03  4.145e-03
-   4  1.532e-08  2.794e-07  2.022e-07  3.963e-05  9.683e-05  7.418e-05
-Overall linear iterations used: 15
-    Substep summary: well its =  2, newton its =  4, linearizations =  5 ( 0.617 sec), linear its =  15 ( 0.229 sec)
-Sub steps started at time = 20 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 30 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 0.483 sec), linear its =  15 ( 0.196 sec)
 
                               **************************************************************************
   Balance  at        30  Days *                         SPE 9                                          *
@@ -235,33 +174,15 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.899635 seconds; total solver time 2.863561 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step  3/30 at day 30/300, date = 31-Jan-2015
 
----------------    Simulation step number 3    ---------------
-      Current time (days)     30
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step    3 at day 30/300, date = 31-Jan-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  5.929e-05  1.438e-04  1.091e-04  5.697e-02  5.550e-02  4.252e-02
-   1  7.989e-06  4.680e-06  6.523e-07  4.538e-02  4.403e-02  3.378e-02
-   2  3.410e-07  1.401e-06  1.085e-06  4.270e-03  3.930e-03  3.016e-03
-Overall linear iterations used: 12
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.316 sec), linear its =  12 ( 0.149 sec)
-Sub steps started at time = 30 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 40 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.258 sec), linear its =  12 ( 0.134 sec)
 
                               **************************************************************************
   Balance  at        40  Days *                         SPE 9                                          *
@@ -294,33 +215,15 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.501727 seconds; total solver time 3.365287 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step  4/30 at day 40/300, date = 10-Feb-2015
 
----------------    Simulation step number 4    ---------------
-      Current time (days)     40
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step    4 at day 40/300, date = 10-Feb-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  5.871e-05  1.401e-04  1.065e-04  5.901e-02  5.834e-02  4.476e-02
-   1  9.707e-08  1.849e-06  2.635e-06  5.384e-03  4.979e-03  3.826e-03
-   2  5.553e-10  9.908e-08  8.804e-08  8.007e-05  9.835e-05  4.732e-05
-Overall linear iterations used: 16
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.351 sec), linear its =  16 ( 0.152 sec)
-Sub steps started at time = 40 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 50 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.279 sec), linear its =  16 ( 0.160 sec)
 
                               **************************************************************************
   Balance  at        50  Days *                         SPE 9                                          *
@@ -353,33 +256,15 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.536672 seconds; total solver time 3.901959 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step  5/30 at day 50/300, date = 20-Feb-2015
 
----------------    Simulation step number 5    ---------------
-      Current time (days)     50
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step    5 at day 50/300, date = 20-Feb-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  5.837e-05  1.378e-04  1.048e-04  3.476e-02  3.449e-02  2.650e-02
-   1  4.033e-07  1.254e-06  1.084e-06  3.617e-03  3.629e-03  4.899e-02
-   2  1.918e-07  5.164e-07  4.185e-07  5.337e-05  1.112e-04  3.700e-04
-Overall linear iterations used: 13
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.298 sec), linear its =  13 ( 0.135 sec)
-Sub steps started at time = 50 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 60 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.362 sec), linear its =  13 ( 0.149 sec)
 
                               **************************************************************************
   Balance  at        60  Days *                         SPE 9                                          *
@@ -412,33 +297,15 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.463841 seconds; total solver time 4.365800 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step  6/30 at day 60/300, date = 02-Mar-2015
 
----------------    Simulation step number 6    ---------------
-      Current time (days)     60
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step    6 at day 60/300, date = 02-Mar-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  5.814e-05  1.373e-04  1.047e-04  3.509e-02  3.499e-02  2.692e-02
-   1  7.615e-07  8.391e-07  1.204e-06  9.216e-03  9.264e-03  7.136e-03
-   2  6.953e-09  1.196e-07  9.212e-08  3.570e-05  2.614e-05  2.013e-05
-Overall linear iterations used: 15
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.267 sec), linear its =  15 ( 0.145 sec)
-Sub steps started at time = 60 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 70 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.333 sec), linear its =  15 ( 0.156 sec)
 
                               **************************************************************************
   Balance  at        70  Days *                         SPE 9                                          *
@@ -471,33 +338,15 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.442849 seconds; total solver time 4.808649 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step  7/30 at day 70/300, date = 12-Mar-2015
 
----------------    Simulation step number 7    ---------------
-      Current time (days)     70
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step    7 at day 70/300, date = 12-Mar-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  5.797e-05  1.369e-04  1.044e-04  2.863e-02  2.860e-02  2.203e-02
-   1  6.302e-07  1.382e-06  2.514e-06  5.903e-04  1.466e-03  3.568e-02
-   2  1.174e-07  3.594e-07  3.634e-07  7.615e-05  1.989e-04  7.518e-04
-Overall linear iterations used: 12
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.351 sec), linear its =  12 ( 0.119 sec)
-Sub steps started at time = 70 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 80 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.334 sec), linear its =  12 ( 0.149 sec)
 
                               **************************************************************************
   Balance  at        80  Days *                         SPE 9                                          *
@@ -530,33 +379,15 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.505458 seconds; total solver time 5.314107 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step  8/30 at day 80/300, date = 22-Mar-2015
 
----------------    Simulation step number 8    ---------------
-      Current time (days)     80
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step    8 at day 80/300, date = 22-Mar-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  5.783e-05  1.365e-04  1.045e-04  2.156e-02  2.151e-02  1.659e-02
-   1  6.008e-08  1.307e-06  8.919e-07  9.310e-04  1.212e-03  9.353e-04
-   2  5.991e-09  1.182e-07  9.267e-08  6.571e-05  6.073e-05  3.185e-05
-Overall linear iterations used: 14
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.323 sec), linear its =  14 ( 0.144 sec)
-Sub steps started at time = 80 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 90 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.280 sec), linear its =  14 ( 0.148 sec)
 
                               **************************************************************************
   Balance  at        90  Days *                         SPE 9                                          *
@@ -589,33 +420,15 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.500320 seconds; total solver time 5.814426 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step  9/30 at day 90/300, date = 01-Apr-2015
 
----------------    Simulation step number 9    ---------------
-      Current time (days)     90
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step    9 at day 90/300, date = 01-Apr-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  5.772e-05  1.360e-04  1.041e-04  2.106e-02  2.109e-02  1.628e-02
-   1  1.210e-06  7.623e-07  9.292e-07  3.662e-03  3.711e-03  2.868e-03
-   2  9.756e-09  1.770e-07  1.376e-07  1.407e-05  2.963e-05  2.289e-05
-Overall linear iterations used: 13
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.294 sec), linear its =  13 ( 0.134 sec)
-Sub steps started at time = 90 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 100 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.296 sec), linear its =  13 ( 0.133 sec)
 
                               **************************************************************************
   Balance  at       100  Days *                         SPE 9                                          *
@@ -648,20 +461,12 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.473551 seconds; total solver time 6.287977 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 10/30 at day 100/300, date = 11-Apr-2015
 
----------------    Simulation step number 10    ---------------
-      Current time (days)     100
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   10 at day 100/300, date = 11-Apr-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
@@ -671,18 +476,8 @@ Time step   10 at day 100/300, date = 11-Apr-2015
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from BHP to SURFACE_RATE
 group F can not meet its target!
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.277e-06  8.302e-06  6.356e-06  4.637e-02  3.555e-01  2.746e-01
-   1  2.827e-06  1.464e-05  5.034e-06  1.474e-03  1.638e-02  2.165e-02
-   2  1.251e-07  7.388e-07  5.676e-07  2.099e-04  6.626e-03  5.254e-03
 group F can not meet its target!
-Overall linear iterations used: 14
-    Substep summary: well its =  5, newton its =  2, linearizations =  3 ( 0.235 sec), linear its =  14 ( 0.106 sec)
-Sub steps started at time = 100 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 110 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  5, newton its =  2, linearizations =  3 ( 0.339 sec), linear its =  14 ( 0.185 sec)
 
                               **************************************************************************
   Balance  at       110  Days *                         SPE 9                                          *
@@ -715,20 +510,12 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.367908 seconds; total solver time 6.655885 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 11/30 at day 110/300, date = 21-Apr-2015
 
----------------    Simulation step number 11    ---------------
-      Current time (days)     110
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   11 at day 110/300, date = 21-Apr-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
@@ -736,18 +523,8 @@ Time step   11 at day 110/300, date = 21-Apr-2015
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.445e-06  8.303e-06  6.449e-06  4.428e-03  2.170e-02  1.574e-02
-   1  5.229e-07  3.037e-06  8.927e-07  1.064e-03  2.863e-03  8.854e-04
-   2  7.497e-09  9.968e-10  9.921e-10  2.442e-05  2.859e-05  3.974e-06
 group F can not meet its target!
-Overall linear iterations used: 16
-    Substep summary: well its =  3, newton its =  2, linearizations =  3 ( 0.288 sec), linear its =  16 ( 0.144 sec)
-Sub steps started at time = 110 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 120 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  3, newton its =  2, linearizations =  3 ( 0.335 sec), linear its =  16 ( 0.207 sec)
 
                               **************************************************************************
   Balance  at       120  Days *                         SPE 9                                          *
@@ -780,20 +557,12 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.479523 seconds; total solver time 7.135408 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 12/30 at day 120/300, date = 01-May-2015
 
----------------    Simulation step number 12    ---------------
-      Current time (days)     120
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   12 at day 120/300, date = 01-May-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
@@ -801,18 +570,8 @@ Time step   12 at day 120/300, date = 01-May-2015
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.385e-06  8.301e-06  6.459e-06  3.061e-03  8.929e-03  6.962e-03
-   1  2.032e-07  1.260e-06  4.761e-07  2.181e-04  9.038e-04  3.787e-04
-   2  6.941e-09  1.927e-09  1.326e-09  3.569e-06  3.232e-06  2.446e-06
 group F can not meet its target!
-Overall linear iterations used: 17
-    Substep summary: well its =  2, newton its =  2, linearizations =  3 ( 0.281 sec), linear its =  17 ( 0.140 sec)
-Sub steps started at time = 120 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 130 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.370 sec), linear its =  17 ( 0.239 sec)
 
                               **************************************************************************
   Balance  at       130  Days *                         SPE 9                                          *
@@ -845,20 +604,12 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.461402 seconds; total solver time 7.596811 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 13/30 at day 130/300, date = 11-May-2015
 
----------------    Simulation step number 13    ---------------
-      Current time (days)     130
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   13 at day 130/300, date = 11-May-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
@@ -866,18 +617,8 @@ Time step   13 at day 130/300, date = 11-May-2015
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.385e-06  8.255e-06  6.425e-06  3.076e-03  3.207e-03  2.474e-03
-   1  3.862e-08  6.430e-07  1.510e-07  8.642e-05  7.864e-04  3.398e-04
-   2  4.492e-09  2.520e-09  1.439e-09  3.379e-06  2.140e-04  1.651e-04
 group F can not meet its target!
-Overall linear iterations used: 18
-    Substep summary: newton its =  2, linearizations =  3 ( 0.196 sec), linear its =  18 ( 0.125 sec)
-Sub steps started at time = 130 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 140 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: newton its =  2, linearizations =  3 ( 0.318 sec), linear its =  18 ( 0.216 sec)
 
                               **************************************************************************
   Balance  at       140  Days *                         SPE 9                                          *
@@ -910,20 +651,12 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.343462 seconds; total solver time 7.940273 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 14/30 at day 140/300, date = 21-May-2015
 
----------------    Simulation step number 14    ---------------
-      Current time (days)     140
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   14 at day 140/300, date = 21-May-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
@@ -931,18 +664,8 @@ Time step   14 at day 140/300, date = 21-May-2015
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.391e-06  8.278e-06  6.445e-06  2.828e-03  2.918e-03  2.250e-03
-   1  9.703e-08  6.208e-07  3.281e-07  1.811e-04  4.765e-04  2.509e-04
-   2  3.855e-09  6.256e-10  4.538e-10  2.342e-06  1.279e-06  9.860e-07
 group F can not meet its target!
-Overall linear iterations used: 17
-    Substep summary: newton its =  2, linearizations =  3 ( 0.278 sec), linear its =  17 ( 0.128 sec)
-Sub steps started at time = 140 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 150 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: newton its =  2, linearizations =  3 ( 0.308 sec), linear its =  17 ( 0.225 sec)
 
                               **************************************************************************
   Balance  at       150  Days *                         SPE 9                                          *
@@ -975,20 +698,12 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.432551 seconds; total solver time 8.372824 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 15/30 at day 150/300, date = 31-May-2015
 
----------------    Simulation step number 15    ---------------
-      Current time (days)     150
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   15 at day 150/300, date = 31-May-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
@@ -996,18 +711,8 @@ Time step   15 at day 150/300, date = 31-May-2015
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.395e-06  8.284e-06  6.451e-06  2.551e-03  2.619e-03  2.020e-03
-   1  9.506e-08  6.586e-07  2.609e-07  2.823e-05  5.276e-04  1.592e-04
-   2  2.376e-09  4.422e-09  3.371e-09  1.261e-05  5.020e-05  3.870e-05
 group F can not meet its target!
-Overall linear iterations used: 17
-    Substep summary: newton its =  2, linearizations =  3 ( 0.268 sec), linear its =  17 ( 0.182 sec)
-Sub steps started at time = 150 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 160 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: newton its =  2, linearizations =  3 ( 0.333 sec), linear its =  17 ( 0.200 sec)
 
                               **************************************************************************
   Balance  at       160  Days *                         SPE 9                                          *
@@ -1040,20 +745,12 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.483727 seconds; total solver time 8.856551 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 16/30 at day 160/300, date = 10-Jun-2015
 
----------------    Simulation step number 16    ---------------
-      Current time (days)     160
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   16 at day 160/300, date = 10-Jun-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
@@ -1061,18 +758,8 @@ Time step   16 at day 160/300, date = 10-Jun-2015
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.398e-06  8.287e-06  6.455e-06  2.245e-03  2.383e-03  1.837e-03
-   1  8.583e-08  4.943e-07  2.344e-07  1.635e-04  4.232e-04  6.408e-05
-   2  1.045e-09  1.582e-09  1.180e-09  5.724e-06  4.722e-07  3.640e-07
 group F can not meet its target!
-Overall linear iterations used: 17
-    Substep summary: newton its =  2, linearizations =  3 ( 0.355 sec), linear its =  17 ( 0.182 sec)
-Sub steps started at time = 160 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 170 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: newton its =  2, linearizations =  3 ( 0.325 sec), linear its =  17 ( 0.209 sec)
 
                               **************************************************************************
   Balance  at       170  Days *                         SPE 9                                          *
@@ -1105,20 +792,12 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.571694 seconds; total solver time 9.428245 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 17/30 at day 170/300, date = 20-Jun-2015
 
----------------    Simulation step number 17    ---------------
-      Current time (days)     170
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   17 at day 170/300, date = 20-Jun-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
@@ -1126,18 +805,8 @@ Time step   17 at day 170/300, date = 20-Jun-2015
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.400e-06  8.289e-06  6.457e-06  2.257e-03  2.367e-03  1.824e-03
-   1  8.425e-08  4.460e-07  2.230e-07  2.054e-04  3.084e-04  6.458e-05
-   2  3.776e-10  1.247e-09  9.509e-10  5.099e-06  6.974e-07  5.375e-07
 group F can not meet its target!
-Overall linear iterations used: 17
-    Substep summary: newton its =  2, linearizations =  3 ( 0.268 sec), linear its =  17 ( 0.152 sec)
-Sub steps started at time = 170 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 180 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: newton its =  2, linearizations =  3 ( 0.400 sec), linear its =  17 ( 0.222 sec)
 
                               **************************************************************************
   Balance  at       180  Days *                         SPE 9                                          *
@@ -1170,20 +839,12 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.454296 seconds; total solver time 9.882541 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 18/30 at day 180/300, date = 30-Jun-2015
 
----------------    Simulation step number 18    ---------------
-      Current time (days)     180
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   18 at day 180/300, date = 30-Jun-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
@@ -1191,18 +852,8 @@ Time step   18 at day 180/300, date = 30-Jun-2015
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.402e-06  8.291e-06  6.459e-06  2.266e-03  2.356e-03  1.816e-03
-   1  9.080e-08  5.575e-07  2.407e-07  2.901e-04  1.268e-03  2.809e-04
-   2  9.144e-11  3.244e-09  2.451e-09  5.304e-06  4.661e-07  6.100e-07
 group F can not meet its target!
-Overall linear iterations used: 17
-    Substep summary: newton its =  2, linearizations =  3 ( 0.234 sec), linear its =  17 ( 0.160 sec)
-Sub steps started at time = 180 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 190 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: newton its =  2, linearizations =  3 ( 0.315 sec), linear its =  17 ( 0.198 sec)
 
                               **************************************************************************
   Balance  at       190  Days *                         SPE 9                                          *
@@ -1235,20 +886,12 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.431258 seconds; total solver time 10.313799 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 19/30 at day 190/300, date = 10-Jul-2015
 
----------------    Simulation step number 19    ---------------
-      Current time (days)     190
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   19 at day 190/300, date = 10-Jul-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
@@ -1256,18 +899,8 @@ Time step   19 at day 190/300, date = 10-Jul-2015
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  8.403e-06  8.289e-06  6.455e-06  2.275e-03  2.349e-03  1.810e-03
-   1  1.013e-07  3.331e-07  2.174e-07  8.210e-05  2.164e-04  5.822e-05
-   2  5.344e-10  6.022e-11  4.576e-11  1.921e-05  7.394e-07  6.469e-07
 group F can not meet its target!
-Overall linear iterations used: 18
-    Substep summary: newton its =  2, linearizations =  3 ( 0.220 sec), linear its =  18 ( 0.124 sec)
-Sub steps started at time = 190 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 200 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: newton its =  2, linearizations =  3 ( 0.270 sec), linear its =  18 ( 0.184 sec)
 
                               **************************************************************************
   Balance  at       200  Days *                         SPE 9                                          *
@@ -1300,37 +933,19 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.372021 seconds; total solver time 10.685820 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 20/30 at day 200/300, date = 20-Jul-2015
 
----------------    Simulation step number 20    ---------------
-      Current time (days)     200
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   20 at day 200/300, date = 20-Jul-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  3.680e-05  3.660e-05  2.826e-05  3.627e-02  1.214e-01  9.356e-02
-   1  6.102e-07  1.879e-06  1.317e-06  3.879e-03  9.426e-04  7.264e-04
-   2  1.334e-09  6.975e-09  4.634e-09  4.179e-05  7.668e-06  5.910e-06
-Overall linear iterations used: 16
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.237 sec), linear its =  16 ( 0.114 sec)
-Sub steps started at time = 200 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 210 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.279 sec), linear its =  16 ( 0.181 sec)
 
                               **************************************************************************
   Balance  at       210  Days *                         SPE 9                                          *
@@ -1363,37 +978,19 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.375890 seconds; total solver time 11.061710 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 21/30 at day 210/300, date = 30-Jul-2015
 
----------------    Simulation step number 21    ---------------
-      Current time (days)     210
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   21 at day 210/300, date = 30-Jul-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  3.676e-05  3.660e-05  2.822e-05  1.781e-02  9.103e-03  7.015e-03
-   1  2.233e-07  5.405e-08  7.584e-08  7.407e-04  1.610e-03  1.241e-03
-   2  7.233e-09  1.397e-09  1.234e-09  1.694e-05  1.646e-05  1.250e-05
-Overall linear iterations used: 11
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.255 sec), linear its =  11 ( 0.097 sec)
-Sub steps started at time = 210 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 220 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.278 sec), linear its =  11 ( 0.152 sec)
 
                               **************************************************************************
   Balance  at       220  Days *                         SPE 9                                          *
@@ -1426,37 +1023,19 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.379364 seconds; total solver time 11.441074 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 22/30 at day 220/300, date = 09-Aug-2015
 
----------------    Simulation step number 22    ---------------
-      Current time (days)     220
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   22 at day 220/300, date = 09-Aug-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  3.675e-05  3.660e-05  2.821e-05  1.348e-02  1.292e-02  9.959e-03
-   1  4.055e-08  1.378e-07  1.737e-07  9.484e-04  3.040e-04  2.673e-04
-   2  5.218e-09  4.045e-09  4.858e-09  1.523e-06  6.698e-06  2.094e-05
-Overall linear iterations used: 14
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.282 sec), linear its =  14 ( 0.125 sec)
-Sub steps started at time = 220 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 230 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.257 sec), linear its =  14 ( 0.143 sec)
 
                               **************************************************************************
   Balance  at       230  Days *                         SPE 9                                          *
@@ -1489,37 +1068,19 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.437872 seconds; total solver time 11.878946 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 23/30 at day 230/300, date = 19-Aug-2015
 
----------------    Simulation step number 23    ---------------
-      Current time (days)     230
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   23 at day 230/300, date = 19-Aug-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  3.674e-05  3.660e-05  2.821e-05  1.168e-02  1.150e-02  8.864e-03
-   1  8.983e-08  2.728e-07  2.258e-07  2.550e-04  1.119e-03  8.625e-04
-   2  1.834e-08  9.761e-08  7.527e-08  8.163e-06  3.472e-05  2.674e-05
-Overall linear iterations used: 11
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.314 sec), linear its =  11 ( 0.119 sec)
-Sub steps started at time = 230 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 240 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.322 sec), linear its =  11 ( 0.163 sec)
 
                               **************************************************************************
   Balance  at       240  Days *                         SPE 9                                          *
@@ -1552,37 +1113,19 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.466317 seconds; total solver time 12.345263 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 24/30 at day 240/300, date = 29-Aug-2015
 
----------------    Simulation step number 24    ---------------
-      Current time (days)     240
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   24 at day 240/300, date = 29-Aug-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  3.673e-05  3.660e-05  2.820e-05  1.200e-02  1.165e-02  8.983e-03
-   1  1.354e-07  1.236e-06  9.405e-07  5.765e-04  8.092e-04  6.238e-04
-   2  3.942e-08  6.745e-08  5.152e-08  1.053e-05  7.904e-06  6.093e-06
-Overall linear iterations used: 11
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.269 sec), linear its =  11 ( 0.112 sec)
-Sub steps started at time = 240 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 250 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.347 sec), linear its =  11 ( 0.141 sec)
 
                               **************************************************************************
   Balance  at       250  Days *                         SPE 9                                          *
@@ -1615,37 +1158,19 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.419168 seconds; total solver time 12.764430 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 25/30 at day 250/300, date = 08-Sep-2015
 
----------------    Simulation step number 25    ---------------
-      Current time (days)     250
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   25 at day 250/300, date = 08-Sep-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  3.673e-05  3.659e-05  2.819e-05  1.009e-02  9.876e-03  7.613e-03
-   1  6.392e-08  8.980e-07  6.679e-07  1.575e-04  1.353e-03  1.043e-03
-   2  4.687e-08  1.316e-07  1.021e-07  9.951e-06  2.265e-05  1.746e-05
-Overall linear iterations used: 9
-    Substep summary: well its =  1, newton its =  2, linearizations =  3 ( 0.274 sec), linear its =   9 ( 0.094 sec)
-Sub steps started at time = 250 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 260 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.337 sec), linear its =   9 ( 0.125 sec)
 
                               **************************************************************************
   Balance  at       260  Days *                         SPE 9                                          *
@@ -1678,37 +1203,19 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.406958 seconds; total solver time 13.171388 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 26/30 at day 260/300, date = 18-Sep-2015
 
----------------    Simulation step number 26    ---------------
-      Current time (days)     260
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   26 at day 260/300, date = 18-Sep-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  3.671e-05  3.659e-05  2.819e-05  8.708e-03  8.334e-03  6.425e-03
-   1  1.758e-08  8.106e-07  6.188e-07  3.849e-04  2.979e-03  2.296e-03
-   2  4.785e-08  7.547e-08  5.838e-08  2.118e-05  3.810e-05  2.881e-05
-Overall linear iterations used: 9
-    Substep summary: newton its =  2, linearizations =  3 ( 0.291 sec), linear its =   9 ( 0.084 sec)
-Sub steps started at time = 260 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 270 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: newton its =  2, linearizations =  3 ( 0.333 sec), linear its =   9 ( 0.123 sec)
 
                               **************************************************************************
   Balance  at       270  Days *                         SPE 9                                          *
@@ -1741,37 +1248,19 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.403486 seconds; total solver time 13.574874 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 27/30 at day 270/300, date = 28-Sep-2015
 
----------------    Simulation step number 27    ---------------
-      Current time (days)     270
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   27 at day 270/300, date = 28-Sep-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  3.672e-05  3.659e-05  2.818e-05  7.883e-03  7.757e-03  5.979e-03
-   1  5.705e-08  5.651e-07  4.184e-07  6.872e-05  2.202e-04  1.696e-04
-   2  4.030e-09  1.070e-08  1.026e-08  1.872e-06  3.370e-05  5.203e-06
-Overall linear iterations used: 13
-    Substep summary: newton its =  2, linearizations =  3 ( 0.231 sec), linear its =  13 ( 0.104 sec)
-Sub steps started at time = 270 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 280 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: newton its =  2, linearizations =  3 ( 0.336 sec), linear its =  13 ( 0.178 sec)
 
                               **************************************************************************
   Balance  at       280  Days *                         SPE 9                                          *
@@ -1804,37 +1293,19 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.362396 seconds; total solver time 13.937270 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 28/30 at day 280/300, date = 08-Oct-2015
 
----------------    Simulation step number 28    ---------------
-      Current time (days)     280
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   28 at day 280/300, date = 08-Oct-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  3.670e-05  3.659e-05  2.817e-05  7.807e-03  7.682e-03  5.922e-03
-   1  2.419e-09  4.826e-07  3.678e-07  1.456e-04  2.263e-04  1.745e-04
-   2  5.914e-09  1.802e-08  1.387e-08  8.600e-06  2.798e-06  2.453e-06
-Overall linear iterations used: 13
-    Substep summary: newton its =  2, linearizations =  3 ( 0.224 sec), linear its =  13 ( 0.114 sec)
-Sub steps started at time = 280 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 290 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: newton its =  2, linearizations =  3 ( 0.320 sec), linear its =  13 ( 0.171 sec)
 
                               **************************************************************************
   Balance  at       290  Days *                         SPE 9                                          *
@@ -1867,37 +1338,19 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.366970 seconds; total solver time 14.304241 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
+Report step 29/30 at day 290/300, date = 18-Oct-2015
 
----------------    Simulation step number 29    ---------------
-      Current time (days)     290
-      Current stepsize (days) 10
-      Total time (days)       300
-
-
-
-Time step   29 at day 290/300, date = 18-Oct-2015
-  Substep 0, stepsize 10 days.
+Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well INJE2 from SURFACE_RATE to RESERVOIR_RATE
     Switching control mode for well PRODU7 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Iter    MB(W)      MB(O)      MB(G)      CNV(W)     CNV(O)     CNV(G) 
-   0  3.670e-05  3.659e-05  2.817e-05  7.679e-03  7.642e-03  5.891e-03
-   1  1.828e-08  3.401e-07  2.595e-07  8.057e-05  2.299e-04  1.772e-04
-   2  2.656e-09  9.847e-09  7.479e-09  4.487e-06  3.334e-06  2.926e-06
-Overall linear iterations used: 14
-    Substep summary: newton its =  2, linearizations =  3 ( 0.186 sec), linear its =  14 ( 0.085 sec)
-Sub steps started at time = 290 (days)
- step[ 0 ] = 10 (days)
-sub steps end time = 300 (days)
-Suggested next step size = 30 (days)
-
+Time step summary: newton its =  2, linearizations =  3 ( 0.274 sec), linear its =  14 ( 0.150 sec)
 
                               **************************************************************************
   Balance  at       300  Days *                         SPE 9                                          *
@@ -1930,19 +1383,18 @@ Suggested next step size = 30 (days)
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Time step took 0.292381 seconds; total solver time 14.596622 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 ================    End of simulation     ===============
 
-Total time (seconds):         15.7383
-Solver time (seconds):        14.5966
- Assembly time (seconds):     9.22325 (Failed: 0; 0%)
- Linear solve time (seconds): 4.22409 (Failed: 0; 0%)
- Update time (seconds):       0.595522 (Failed: 0; 0%)
- Output write time (seconds): 0.984708
+Total time (seconds):         18.2808
+Solver time (seconds):        16.8647
+ Assembly time (seconds):     10.171 (Failed: 0; 0%)
+ Linear solve time (seconds): 5.36687 (Failed: 0; 0%)
+ Update time (seconds):       0.686138 (Failed: 0; 0%)
+ Output write time (seconds): 1.21154
 Overall Well Iterations:      41 (Failed: 0; 0%)
 Overall Linearizations:       96 (Failed: 0; 0%)
 Overall Newton Iterations:    65 (Failed: 0; 0%)
