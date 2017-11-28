@@ -34,9 +34,30 @@ PLYADS
  3.000   0.000025 /
 
 PLMIXPAR
- 1.0  /
+ 0.3  /
 
 PLYMAX
  3.00  0  /
+
+
+PLYSHLOG
+-- reference conditions
+-- polymer   salinity   temperature
+    0.5
+/
+
+-- velocity multiplier
+-- m/day   dimensionless
+0.0000001  1.0
+0.000001   1.1
+0.0001     1.3
+0.001      1.47
+0.01       1.67
+0.1        2.0
+1.0        2.2
+10.0       2.3
+100.0      2.4
+1000.0     2.4
+/
 
 ECHO
