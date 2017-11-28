@@ -13,7 +13,7 @@ For more information visit: http://opm-project.org
 Flow Version  =  2018.04-pre
 System        =  opm-deb (Number of cores: 8, RAM: 16051.20 MB) 
 Architecture  =  Linux x86_64 (Release: 4.9.0-3-amd64, Version: #1 SMP Debian 4.9.30-2+deb9u2 (2017-06-26) )
-Simulation started on 24-11-2017 at 10:58:21 hrs
+Simulation started on 27-11-2017 at 11:33:49 hrs
 
 
 ===============Saturation Functions Diagnostics===============
@@ -70,13 +70,13 @@ Timestep chopped to 5.678356 days
 Time step 0, stepsize 5.67836 days.
     Switching control mode for well INJ from SURFACE_RATE to BHP
     Switching control mode for well INJ from BHP to SURFACE_RATE
-Time step summary: well its =  3, newton its =  5, linearizations =  6 ( 0.015 sec), linear its =  50 ( 0.010 sec)
+Time step summary: well its =  3, newton its =  5, linearizations =  6 ( 0.025 sec), linear its =  50 ( 0.016 sec)
 
 Time step 1, stepsize 11.3567 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  21 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  21 ( 0.009 sec)
 
 Time step 2, stepsize 35.1078 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  24 ( 0.007 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  24 ( 0.007 sec)
 
                               **************************************************************************
   Balance  at   52.1428  Days *                SPE 3 - CASE 1                                          *
@@ -115,7 +115,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step  1/175 at day 52.1428/5475, date = 22-Feb-2015
 
 Time step 0, stepsize 52.1428 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  22 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  22 ( 0.007 sec)
 
                               **************************************************************************
   Balance  at   104.286  Days *                SPE 3 - CASE 1                                          *
@@ -154,7 +154,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step  2/175 at day 104.286/5475, date = 15-Apr-2015
 
 Time step 0, stepsize 52.1428 days.
-Time step summary: well its =  1, newton its =  3, linearizations =  4 ( 0.017 sec), linear its =  34 ( 0.010 sec)
+Time step summary: well its =  1, newton its =  3, linearizations =  4 ( 0.015 sec), linear its =  34 ( 0.010 sec)
 
                               **************************************************************************
   Balance  at   156.429  Days *                SPE 3 - CASE 1                                          *
@@ -232,7 +232,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step  4/175 at day 208.571/5475, date = 28-Jul-2015
 
 Time step 0, stepsize 52.1428 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  21 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  21 ( 0.006 sec)
 
                               **************************************************************************
   Balance  at   260.714  Days *                SPE 3 - CASE 1                                          *
@@ -271,7 +271,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step  5/175 at day 260.714/5475, date = 18-Sep-2015
 
 Time step 0, stepsize 52.1428 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  23 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  23 ( 0.006 sec)
 
                               **************************************************************************
   Balance  at   312.857  Days *                SPE 3 - CASE 1                                          *
@@ -310,7 +310,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step  6/175 at day 312.857/5475, date = 09-Nov-2015
 
 Time step 0, stepsize 52.1428 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  20 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  20 ( 0.006 sec)
 
                               **************************************************************************
   Balance  at       365  Days *                SPE 3 - CASE 1                                          *
@@ -349,7 +349,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step  7/175 at day 365/5475, date = 31-Dec-2015
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  19 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  19 ( 0.007 sec)
 
                               **************************************************************************
   Balance  at       396  Days *                SPE 3 - CASE 1                                          *
@@ -388,7 +388,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step  8/175 at day 396/5475, date = 31-Jan-2016
 
 Time step 0, stepsize 28 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  19 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  19 ( 0.006 sec)
 
                               **************************************************************************
   Balance  at       424  Days *                SPE 3 - CASE 1                                          *
@@ -427,7 +427,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step  9/175 at day 424/5475, date = 28-Feb-2016
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  19 ( 0.006 sec)
 
                               **************************************************************************
   Balance  at       455  Days *                SPE 3 - CASE 1                                          *
@@ -466,7 +466,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 10/175 at day 455/5475, date = 30-Mar-2016
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  20 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  20 ( 0.006 sec)
 
                               **************************************************************************
   Balance  at       485  Days *                SPE 3 - CASE 1                                          *
@@ -505,7 +505,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 11/175 at day 485/5475, date = 29-Apr-2016
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  18 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  18 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at       516  Days *                SPE 3 - CASE 1                                          *
@@ -544,7 +544,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 12/175 at day 516/5475, date = 30-May-2016
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  20 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  20 ( 0.006 sec)
 
                               **************************************************************************
   Balance  at       546  Days *                SPE 3 - CASE 1                                          *
@@ -583,7 +583,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 13/175 at day 546/5475, date = 29-Jun-2016
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  19 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  19 ( 0.006 sec)
 
                               **************************************************************************
   Balance  at       577  Days *                SPE 3 - CASE 1                                          *
@@ -622,7 +622,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 14/175 at day 577/5475, date = 30-Jul-2016
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  22 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  22 ( 0.006 sec)
 
                               **************************************************************************
   Balance  at       608  Days *                SPE 3 - CASE 1                                          *
@@ -661,7 +661,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 15/175 at day 608/5475, date = 30-Aug-2016
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  18 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  18 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at       638  Days *                SPE 3 - CASE 1                                          *
@@ -700,7 +700,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 16/175 at day 638/5475, date = 29-Sep-2016
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  18 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  18 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at       669  Days *                SPE 3 - CASE 1                                          *
@@ -739,7 +739,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 17/175 at day 669/5475, date = 30-Oct-2016
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  20 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  20 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at       699  Days *                SPE 3 - CASE 1                                          *
@@ -778,7 +778,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 18/175 at day 699/5475, date = 29-Nov-2016
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  13 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  13 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at       730  Days *                SPE 3 - CASE 1                                          *
@@ -817,7 +817,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 19/175 at day 730/5475, date = 30-Dec-2016
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  13 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.018 sec), linear its =  13 ( 0.008 sec)
 
                               **************************************************************************
   Balance  at       761  Days *                SPE 3 - CASE 1                                          *
@@ -856,7 +856,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 20/175 at day 761/5475, date = 30-Jan-2017
 
 Time step 0, stepsize 28 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  18 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.013 sec), linear its =  18 ( 0.006 sec)
 
                               **************************************************************************
   Balance  at       789  Days *                SPE 3 - CASE 1                                          *
@@ -895,7 +895,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 21/175 at day 789/5475, date = 27-Feb-2017
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  20 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  20 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at       820  Days *                SPE 3 - CASE 1                                          *
@@ -934,7 +934,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 22/175 at day 820/5475, date = 30-Mar-2017
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.013 sec), linear its =  20 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  20 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at       850  Days *                SPE 3 - CASE 1                                          *
@@ -973,7 +973,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 23/175 at day 850/5475, date = 29-Apr-2017
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  20 ( 0.007 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  20 ( 0.006 sec)
 
                               **************************************************************************
   Balance  at       881  Days *                SPE 3 - CASE 1                                          *
@@ -1012,7 +1012,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 24/175 at day 881/5475, date = 30-May-2017
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  12 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  12 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at       911  Days *                SPE 3 - CASE 1                                          *
@@ -1051,7 +1051,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 25/175 at day 911/5475, date = 29-Jun-2017
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  19 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at       942  Days *                SPE 3 - CASE 1                                          *
@@ -1090,7 +1090,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 26/175 at day 942/5475, date = 30-Jul-2017
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  19 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at       973  Days *                SPE 3 - CASE 1                                          *
@@ -1131,7 +1131,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 27/175 at day 973/5475, date = 30-Aug-2017
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  18 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  18 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at      1003  Days *                SPE 3 - CASE 1                                          *
@@ -1209,7 +1209,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 29/175 at day 1034/5475, date = 30-Oct-2017
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  19 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  19 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at      1064  Days *                SPE 3 - CASE 1                                          *
@@ -1248,7 +1248,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 30/175 at day 1064/5475, date = 29-Nov-2017
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  21 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  21 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      1095  Days *                SPE 3 - CASE 1                                          *
@@ -1287,7 +1287,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 31/175 at day 1095/5475, date = 30-Dec-2017
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  20 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  20 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      1126  Days *                SPE 3 - CASE 1                                          *
@@ -1365,7 +1365,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 33/175 at day 1154/5475, date = 27-Feb-2018
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  16 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  16 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at      1185  Days *                SPE 3 - CASE 1                                          *
@@ -1404,7 +1404,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 34/175 at day 1185/5475, date = 30-Mar-2018
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  20 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  20 ( 0.006 sec)
 
                               **************************************************************************
   Balance  at      1215  Days *                SPE 3 - CASE 1                                          *
@@ -1482,7 +1482,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 36/175 at day 1246/5475, date = 30-May-2018
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  17 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  17 ( 0.006 sec)
 
                               **************************************************************************
   Balance  at      1276  Days *                SPE 3 - CASE 1                                          *
@@ -1560,7 +1560,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 38/175 at day 1307/5475, date = 30-Jul-2018
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  17 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  17 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at      1338  Days *                SPE 3 - CASE 1                                          *
@@ -1599,7 +1599,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 39/175 at day 1338/5475, date = 30-Aug-2018
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  20 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  20 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at      1368  Days *                SPE 3 - CASE 1                                          *
@@ -1638,7 +1638,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 40/175 at day 1368/5475, date = 29-Sep-2018
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  19 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at      1399  Days *                SPE 3 - CASE 1                                          *
@@ -1677,7 +1677,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 41/175 at day 1399/5475, date = 30-Oct-2018
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  18 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  18 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at      1429  Days *                SPE 3 - CASE 1                                          *
@@ -1718,7 +1718,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 42/175 at day 1429/5475, date = 29-Nov-2018
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  12 ( 0.003 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  12 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      1460  Days *                SPE 3 - CASE 1                                          *
@@ -1757,7 +1757,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 43/175 at day 1460/5475, date = 30-Dec-2018
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  18 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  18 ( 0.006 sec)
 
                               **************************************************************************
   Balance  at      1491  Days *                SPE 3 - CASE 1                                          *
@@ -1796,7 +1796,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 44/175 at day 1491/5475, date = 30-Jan-2019
 
 Time step 0, stepsize 28 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  11 ( 0.003 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  11 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      1519  Days *                SPE 3 - CASE 1                                          *
@@ -1835,7 +1835,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 45/175 at day 1519/5475, date = 27-Feb-2019
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  12 ( 0.003 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  12 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      1550  Days *                SPE 3 - CASE 1                                          *
@@ -1874,7 +1874,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 46/175 at day 1550/5475, date = 30-Mar-2019
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  13 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  13 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      1580  Days *                SPE 3 - CASE 1                                          *
@@ -1913,7 +1913,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 47/175 at day 1580/5475, date = 29-Apr-2019
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  16 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  16 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      1611  Days *                SPE 3 - CASE 1                                          *
@@ -1952,7 +1952,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 48/175 at day 1611/5475, date = 30-May-2019
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  3, linearizations =  4 ( 0.012 sec), linear its =  23 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  3, linearizations =  4 ( 0.005 sec), linear its =  23 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      1641  Days *                SPE 3 - CASE 1                                          *
@@ -1991,7 +1991,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 49/175 at day 1641/5475, date = 29-Jun-2019
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  20 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  20 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      1672  Days *                SPE 3 - CASE 1                                          *
@@ -2032,7 +2032,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 50/175 at day 1672/5475, date = 30-Jul-2019
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  13 ( 0.003 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  13 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      1703  Days *                SPE 3 - CASE 1                                          *
@@ -2071,7 +2071,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 51/175 at day 1703/5475, date = 30-Aug-2019
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  20 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  20 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      1733  Days *                SPE 3 - CASE 1                                          *
@@ -2110,7 +2110,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 52/175 at day 1733/5475, date = 29-Sep-2019
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  20 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  20 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      1764  Days *                SPE 3 - CASE 1                                          *
@@ -2149,7 +2149,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 53/175 at day 1764/5475, date = 30-Oct-2019
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  20 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  20 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      1794  Days *                SPE 3 - CASE 1                                          *
@@ -2188,7 +2188,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 54/175 at day 1794/5475, date = 29-Nov-2019
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  20 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  20 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      1825  Days *                SPE 3 - CASE 1                                          *
@@ -2227,7 +2227,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 55/175 at day 1825/5475, date = 30-Dec-2019
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.013 sec), linear its =  18 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  18 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      1856  Days *                SPE 3 - CASE 1                                          *
@@ -2266,7 +2266,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 56/175 at day 1856/5475, date = 30-Jan-2020
 
 Time step 0, stepsize 28 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  16 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  16 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      1884  Days *                SPE 3 - CASE 1                                          *
@@ -2305,7 +2305,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 57/175 at day 1884/5475, date = 27-Feb-2020
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  21 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  21 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      1915  Days *                SPE 3 - CASE 1                                          *
@@ -2344,7 +2344,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 58/175 at day 1915/5475, date = 29-Mar-2020
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  20 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  20 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      1945  Days *                SPE 3 - CASE 1                                          *
@@ -2383,7 +2383,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 59/175 at day 1945/5475, date = 28-Apr-2020
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  18 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      1976  Days *                SPE 3 - CASE 1                                          *
@@ -2422,7 +2422,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 60/175 at day 1976/5475, date = 29-May-2020
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  20 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  20 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      2006  Days *                SPE 3 - CASE 1                                          *
@@ -2461,7 +2461,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 61/175 at day 2006/5475, date = 28-Jun-2020
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  20 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  20 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      2037  Days *                SPE 3 - CASE 1                                          *
@@ -2500,7 +2500,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 62/175 at day 2037/5475, date = 29-Jul-2020
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  18 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      2068  Days *                SPE 3 - CASE 1                                          *
@@ -2541,7 +2541,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 63/175 at day 2068/5475, date = 29-Aug-2020
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  14 ( 0.003 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  14 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      2098  Days *                SPE 3 - CASE 1                                          *
@@ -2580,7 +2580,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 64/175 at day 2098/5475, date = 28-Sep-2020
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  12 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  12 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      2129  Days *                SPE 3 - CASE 1                                          *
@@ -2621,7 +2621,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 65/175 at day 2129/5475, date = 29-Oct-2020
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  19 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  19 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      2159  Days *                SPE 3 - CASE 1                                          *
@@ -2660,7 +2660,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 66/175 at day 2159/5475, date = 28-Nov-2020
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  21 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  21 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      2190  Days *                SPE 3 - CASE 1                                          *
@@ -2699,7 +2699,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 67/175 at day 2190/5475, date = 29-Dec-2020
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  19 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  19 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      2221  Days *                SPE 3 - CASE 1                                          *
@@ -2738,7 +2738,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 68/175 at day 2221/5475, date = 29-Jan-2021
 
 Time step 0, stepsize 28 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  16 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  16 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      2249  Days *                SPE 3 - CASE 1                                          *
@@ -2777,7 +2777,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 69/175 at day 2249/5475, date = 26-Feb-2021
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  19 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  19 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      2280  Days *                SPE 3 - CASE 1                                          *
@@ -2816,7 +2816,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 70/175 at day 2280/5475, date = 29-Mar-2021
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  17 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  17 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      2310  Days *                SPE 3 - CASE 1                                          *
@@ -2855,7 +2855,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 71/175 at day 2310/5475, date = 28-Apr-2021
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  18 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      2341  Days *                SPE 3 - CASE 1                                          *
@@ -2894,7 +2894,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 72/175 at day 2341/5475, date = 29-May-2021
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  16 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  16 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      2371  Days *                SPE 3 - CASE 1                                          *
@@ -2933,7 +2933,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 73/175 at day 2371/5475, date = 28-Jun-2021
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  12 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  12 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      2402  Days *                SPE 3 - CASE 1                                          *
@@ -2972,7 +2972,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 74/175 at day 2402/5475, date = 29-Jul-2021
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  19 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  19 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      2433  Days *                SPE 3 - CASE 1                                          *
@@ -3011,7 +3011,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 75/175 at day 2433/5475, date = 29-Aug-2021
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  20 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  20 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      2463  Days *                SPE 3 - CASE 1                                          *
@@ -3050,7 +3050,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 76/175 at day 2463/5475, date = 28-Sep-2021
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  19 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      2494  Days *                SPE 3 - CASE 1                                          *
@@ -3089,7 +3089,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 77/175 at day 2494/5475, date = 29-Oct-2021
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  19 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  19 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at      2524  Days *                SPE 3 - CASE 1                                          *
@@ -3128,7 +3128,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 78/175 at day 2524/5475, date = 28-Nov-2021
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  20 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  20 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      2555  Days *                SPE 3 - CASE 1                                          *
@@ -3167,7 +3167,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 79/175 at day 2555/5475, date = 29-Dec-2021
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  18 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  18 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      2586  Days *                SPE 3 - CASE 1                                          *
@@ -3206,7 +3206,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 80/175 at day 2586/5475, date = 29-Jan-2022
 
 Time step 0, stepsize 28 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  19 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  19 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      2614  Days *                SPE 3 - CASE 1                                          *
@@ -3245,7 +3245,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 81/175 at day 2614/5475, date = 26-Feb-2022
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  23 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  23 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      2645  Days *                SPE 3 - CASE 1                                          *
@@ -3284,7 +3284,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 82/175 at day 2645/5475, date = 29-Mar-2022
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  20 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  20 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      2675  Days *                SPE 3 - CASE 1                                          *
@@ -3323,7 +3323,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 83/175 at day 2675/5475, date = 28-Apr-2022
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  19 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      2706  Days *                SPE 3 - CASE 1                                          *
@@ -3362,7 +3362,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 84/175 at day 2706/5475, date = 29-May-2022
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  21 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  21 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      2736  Days *                SPE 3 - CASE 1                                          *
@@ -3403,7 +3403,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 85/175 at day 2736/5475, date = 28-Jun-2022
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  18 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  18 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      2767  Days *                SPE 3 - CASE 1                                          *
@@ -3444,7 +3444,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 86/175 at day 2767/5475, date = 29-Jul-2022
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  19 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  19 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      2798  Days *                SPE 3 - CASE 1                                          *
@@ -3483,7 +3483,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 87/175 at day 2798/5475, date = 29-Aug-2022
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  12 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  12 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      2828  Days *                SPE 3 - CASE 1                                          *
@@ -3522,7 +3522,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 88/175 at day 2828/5475, date = 28-Sep-2022
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.013 sec), linear its =  19 ( 0.007 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  19 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      2859  Days *                SPE 3 - CASE 1                                          *
@@ -3563,7 +3563,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 89/175 at day 2859/5475, date = 29-Oct-2022
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  17 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  17 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      2889  Days *                SPE 3 - CASE 1                                          *
@@ -3602,7 +3602,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 90/175 at day 2889/5475, date = 28-Nov-2022
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  19 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  19 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      2920  Days *                SPE 3 - CASE 1                                          *
@@ -3641,7 +3641,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 91/175 at day 2920/5475, date = 29-Dec-2022
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  19 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  19 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      2951  Days *                SPE 3 - CASE 1                                          *
@@ -3680,7 +3680,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 92/175 at day 2951/5475, date = 29-Jan-2023
 
 Time step 0, stepsize 28 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  18 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  18 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      2979  Days *                SPE 3 - CASE 1                                          *
@@ -3719,7 +3719,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 93/175 at day 2979/5475, date = 26-Feb-2023
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  15 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  15 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      3010  Days *                SPE 3 - CASE 1                                          *
@@ -3758,7 +3758,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 94/175 at day 3010/5475, date = 29-Mar-2023
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  20 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  20 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      3040  Days *                SPE 3 - CASE 1                                          *
@@ -3797,7 +3797,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 95/175 at day 3040/5475, date = 28-Apr-2023
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  19 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      3071  Days *                SPE 3 - CASE 1                                          *
@@ -3836,7 +3836,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 96/175 at day 3071/5475, date = 29-May-2023
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  11 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  11 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      3101  Days *                SPE 3 - CASE 1                                          *
@@ -3875,7 +3875,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 97/175 at day 3101/5475, date = 28-Jun-2023
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  21 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  21 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      3132  Days *                SPE 3 - CASE 1                                          *
@@ -3914,7 +3914,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 98/175 at day 3132/5475, date = 29-Jul-2023
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  15 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  15 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      3163  Days *                SPE 3 - CASE 1                                          *
@@ -3953,7 +3953,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 99/175 at day 3163/5475, date = 29-Aug-2023
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  21 ( 0.007 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  21 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      3193  Days *                SPE 3 - CASE 1                                          *
@@ -3992,7 +3992,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 100/175 at day 3193/5475, date = 28-Sep-2023
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  21 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  21 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      3224  Days *                SPE 3 - CASE 1                                          *
@@ -4031,7 +4031,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 101/175 at day 3224/5475, date = 29-Oct-2023
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  21 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  21 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      3254  Days *                SPE 3 - CASE 1                                          *
@@ -4111,7 +4111,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 103/175 at day 3285/5475, date = 29-Dec-2023
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  18 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  18 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      3316  Days *                SPE 3 - CASE 1                                          *
@@ -4150,7 +4150,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 104/175 at day 3316/5475, date = 29-Jan-2024
 
 Time step 0, stepsize 28 days.
-Time step summary: well its =  1, newton its =  3, linearizations =  4 ( 0.012 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  3, linearizations =  4 ( 0.010 sec), linear its =  19 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at      3344  Days *                SPE 3 - CASE 1                                          *
@@ -4189,7 +4189,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 105/175 at day 3344/5475, date = 26-Feb-2024
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  20 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  20 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      3375  Days *                SPE 3 - CASE 1                                          *
@@ -4228,7 +4228,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 106/175 at day 3375/5475, date = 28-Mar-2024
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  21 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  21 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at      3405  Days *                SPE 3 - CASE 1                                          *
@@ -4267,7 +4267,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 107/175 at day 3405/5475, date = 27-Apr-2024
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  20 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  20 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      3436  Days *                SPE 3 - CASE 1                                          *
@@ -4306,7 +4306,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 108/175 at day 3436/5475, date = 28-May-2024
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  18 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  18 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      3466  Days *                SPE 3 - CASE 1                                          *
@@ -4345,7 +4345,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 109/175 at day 3466/5475, date = 27-Jun-2024
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  20 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  20 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      3497  Days *                SPE 3 - CASE 1                                          *
@@ -4384,7 +4384,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 110/175 at day 3497/5475, date = 28-Jul-2024
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.014 sec), linear its =  19 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  19 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      3528  Days *                SPE 3 - CASE 1                                          *
@@ -4425,7 +4425,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 111/175 at day 3528/5475, date = 28-Aug-2024
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  18 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  18 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      3558  Days *                SPE 3 - CASE 1                                          *
@@ -4464,7 +4464,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 112/175 at day 3558/5475, date = 27-Sep-2024
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  16 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  16 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      3589  Days *                SPE 3 - CASE 1                                          *
@@ -4505,7 +4505,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 113/175 at day 3589/5475, date = 28-Oct-2024
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  14 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  14 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      3619  Days *                SPE 3 - CASE 1                                          *
@@ -4544,7 +4544,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 114/175 at day 3619/5475, date = 27-Nov-2024
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  19 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at      3650  Days *                SPE 3 - CASE 1                                          *
@@ -4583,7 +4583,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 115/175 at day 3650/5475, date = 28-Dec-2024
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  19 ( 0.005 sec)
 
                               **************************************************************************
   Balance  at      3681  Days *                SPE 3 - CASE 1                                          *
@@ -4622,7 +4622,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 116/175 at day 3681/5475, date = 28-Jan-2025
 
 Time step 0, stepsize 28 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  18 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  18 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      3709  Days *                SPE 3 - CASE 1                                          *
@@ -4661,7 +4661,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 117/175 at day 3709/5475, date = 25-Feb-2025
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.014 sec), linear its =  18 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  18 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      3740  Days *                SPE 3 - CASE 1                                          *
@@ -4700,7 +4700,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 118/175 at day 3740/5475, date = 28-Mar-2025
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.013 sec), linear its =  18 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      3770  Days *                SPE 3 - CASE 1                                          *
@@ -4739,7 +4739,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 119/175 at day 3770/5475, date = 27-Apr-2025
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.016 sec), linear its =  18 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  18 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      3801  Days *                SPE 3 - CASE 1                                          *
@@ -4778,7 +4778,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 120/175 at day 3801/5475, date = 28-May-2025
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  17 ( 0.007 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  17 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      3831  Days *                SPE 3 - CASE 1                                          *
@@ -4817,7 +4817,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 121/175 at day 3831/5475, date = 27-Jun-2025
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  18 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      3862  Days *                SPE 3 - CASE 1                                          *
@@ -4858,7 +4858,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 122/175 at day 3862/5475, date = 28-Jul-2025
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  18 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      3893  Days *                SPE 3 - CASE 1                                          *
@@ -4897,7 +4897,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 123/175 at day 3893/5475, date = 28-Aug-2025
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  18 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      3923  Days *                SPE 3 - CASE 1                                          *
@@ -4936,7 +4936,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 124/175 at day 3923/5475, date = 27-Sep-2025
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  18 ( 0.007 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      3954  Days *                SPE 3 - CASE 1                                          *
@@ -4975,7 +4975,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 125/175 at day 3954/5475, date = 28-Oct-2025
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.014 sec), linear its =  18 ( 0.008 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  18 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      3984  Days *                SPE 3 - CASE 1                                          *
@@ -5014,7 +5014,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 126/175 at day 3984/5475, date = 27-Nov-2025
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  16 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  16 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      4015  Days *                SPE 3 - CASE 1                                          *
@@ -5053,7 +5053,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 127/175 at day 4015/5475, date = 28-Dec-2025
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.013 sec), linear its =  21 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  21 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      4046  Days *                SPE 3 - CASE 1                                          *
@@ -5092,7 +5092,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 128/175 at day 4046/5475, date = 28-Jan-2026
 
 Time step 0, stepsize 28 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  16 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  16 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4074  Days *                SPE 3 - CASE 1                                          *
@@ -5131,7 +5131,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 129/175 at day 4074/5475, date = 25-Feb-2026
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  18 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4105  Days *                SPE 3 - CASE 1                                          *
@@ -5170,7 +5170,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 130/175 at day 4105/5475, date = 28-Mar-2026
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  17 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  17 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4135  Days *                SPE 3 - CASE 1                                          *
@@ -5209,7 +5209,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 131/175 at day 4135/5475, date = 27-Apr-2026
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.016 sec), linear its =  18 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4166  Days *                SPE 3 - CASE 1                                          *
@@ -5250,7 +5250,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 132/175 at day 4166/5475, date = 28-May-2026
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.015 sec), linear its =  19 ( 0.008 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  19 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4196  Days *                SPE 3 - CASE 1                                          *
@@ -5289,7 +5289,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 133/175 at day 4196/5475, date = 27-Jun-2026
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.013 sec), linear its =  17 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  17 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      4227  Days *                SPE 3 - CASE 1                                          *
@@ -5328,7 +5328,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 134/175 at day 4227/5475, date = 28-Jul-2026
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.013 sec), linear its =  17 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  17 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      4258  Days *                SPE 3 - CASE 1                                          *
@@ -5367,7 +5367,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 135/175 at day 4258/5475, date = 28-Aug-2026
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.016 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  19 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4288  Days *                SPE 3 - CASE 1                                          *
@@ -5408,7 +5408,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 136/175 at day 4288/5475, date = 27-Sep-2026
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  19 ( 0.018 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  19 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4319  Days *                SPE 3 - CASE 1                                          *
@@ -5447,7 +5447,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 137/175 at day 4319/5475, date = 28-Oct-2026
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  19 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  19 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      4349  Days *                SPE 3 - CASE 1                                          *
@@ -5488,7 +5488,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 138/175 at day 4349/5475, date = 27-Nov-2026
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  19 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  19 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4380  Days *                SPE 3 - CASE 1                                          *
@@ -5527,7 +5527,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 139/175 at day 4380/5475, date = 28-Dec-2026
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  19 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  19 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      4411  Days *                SPE 3 - CASE 1                                          *
@@ -5566,7 +5566,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 140/175 at day 4411/5475, date = 28-Jan-2027
 
 Time step 0, stepsize 28 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  20 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  20 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      4439  Days *                SPE 3 - CASE 1                                          *
@@ -5605,7 +5605,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 141/175 at day 4439/5475, date = 25-Feb-2027
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  19 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      4470  Days *                SPE 3 - CASE 1                                          *
@@ -5646,7 +5646,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 142/175 at day 4470/5475, date = 28-Mar-2027
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  19 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4500  Days *                SPE 3 - CASE 1                                          *
@@ -5687,7 +5687,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 143/175 at day 4500/5475, date = 27-Apr-2027
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  19 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  19 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4531  Days *                SPE 3 - CASE 1                                          *
@@ -5728,7 +5728,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 144/175 at day 4531/5475, date = 28-May-2027
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.008 sec), linear its =  18 ( 0.004 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4561  Days *                SPE 3 - CASE 1                                          *
@@ -5769,7 +5769,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 145/175 at day 4561/5475, date = 27-Jun-2027
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  18 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4592  Days *                SPE 3 - CASE 1                                          *
@@ -5808,7 +5808,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 146/175 at day 4592/5475, date = 28-Jul-2027
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  18 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4623  Days *                SPE 3 - CASE 1                                          *
@@ -5847,7 +5847,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 147/175 at day 4623/5475, date = 28-Aug-2027
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  18 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4653  Days *                SPE 3 - CASE 1                                          *
@@ -5886,7 +5886,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 148/175 at day 4653/5475, date = 27-Sep-2027
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.009 sec), linear its =  23 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  23 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      4684  Days *                SPE 3 - CASE 1                                          *
@@ -5925,7 +5925,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 149/175 at day 4684/5475, date = 28-Oct-2027
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.010 sec), linear its =  21 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  21 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4714  Days *                SPE 3 - CASE 1                                          *
@@ -5964,7 +5964,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 150/175 at day 4714/5475, date = 27-Nov-2027
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  21 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  21 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4745  Days *                SPE 3 - CASE 1                                          *
@@ -6003,7 +6003,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 151/175 at day 4745/5475, date = 28-Dec-2027
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  19 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      4776  Days *                SPE 3 - CASE 1                                          *
@@ -6042,7 +6042,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 152/175 at day 4776/5475, date = 28-Jan-2028
 
 Time step 0, stepsize 28 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  18 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4804  Days *                SPE 3 - CASE 1                                          *
@@ -6081,7 +6081,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 153/175 at day 4804/5475, date = 25-Feb-2028
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  19 ( 0.008 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  19 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4835  Days *                SPE 3 - CASE 1                                          *
@@ -6120,7 +6120,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 154/175 at day 4835/5475, date = 27-Mar-2028
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  18 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4865  Days *                SPE 3 - CASE 1                                          *
@@ -6159,7 +6159,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 155/175 at day 4865/5475, date = 26-Apr-2028
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  18 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4896  Days *                SPE 3 - CASE 1                                          *
@@ -6198,7 +6198,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 156/175 at day 4896/5475, date = 27-May-2028
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  18 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  18 ( 0.006 sec)
 
                               **************************************************************************
   Balance  at      4926  Days *                SPE 3 - CASE 1                                          *
@@ -6237,7 +6237,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 157/175 at day 4926/5475, date = 26-Jun-2028
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  17 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  17 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      4957  Days *                SPE 3 - CASE 1                                          *
@@ -6276,7 +6276,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 158/175 at day 4957/5475, date = 27-Jul-2028
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  20 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  20 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      4988  Days *                SPE 3 - CASE 1                                          *
@@ -6315,7 +6315,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 159/175 at day 4988/5475, date = 27-Aug-2028
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  18 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  18 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      5018  Days *                SPE 3 - CASE 1                                          *
@@ -6354,7 +6354,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 160/175 at day 5018/5475, date = 26-Sep-2028
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  20 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  20 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      5049  Days *                SPE 3 - CASE 1                                          *
@@ -6393,7 +6393,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 161/175 at day 5049/5475, date = 27-Oct-2028
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  17 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.005 sec), linear its =  17 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      5079  Days *                SPE 3 - CASE 1                                          *
@@ -6432,7 +6432,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 162/175 at day 5079/5475, date = 26-Nov-2028
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  21 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  21 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      5110  Days *                SPE 3 - CASE 1                                          *
@@ -6471,7 +6471,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 163/175 at day 5110/5475, date = 27-Dec-2028
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  20 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  20 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      5141  Days *                SPE 3 - CASE 1                                          *
@@ -6510,7 +6510,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 164/175 at day 5141/5475, date = 27-Jan-2029
 
 Time step 0, stepsize 28 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  17 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  17 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      5169  Days *                SPE 3 - CASE 1                                          *
@@ -6549,7 +6549,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 165/175 at day 5169/5475, date = 24-Feb-2029
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  18 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  18 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      5200  Days *                SPE 3 - CASE 1                                          *
@@ -6588,7 +6588,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 166/175 at day 5200/5475, date = 27-Mar-2029
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  20 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  20 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      5230  Days *                SPE 3 - CASE 1                                          *
@@ -6627,7 +6627,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 167/175 at day 5230/5475, date = 26-Apr-2029
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  17 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  17 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      5261  Days *                SPE 3 - CASE 1                                          *
@@ -6666,7 +6666,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 168/175 at day 5261/5475, date = 27-May-2029
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.003 sec), linear its =  19 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      5291  Days *                SPE 3 - CASE 1                                          *
@@ -6705,7 +6705,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 169/175 at day 5291/5475, date = 26-Jun-2029
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  17 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  17 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      5322  Days *                SPE 3 - CASE 1                                          *
@@ -6744,7 +6744,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 170/175 at day 5322/5475, date = 27-Jul-2029
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  15 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.004 sec), linear its =  15 ( 0.002 sec)
 
                               **************************************************************************
   Balance  at      5353  Days *                SPE 3 - CASE 1                                          *
@@ -6783,7 +6783,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 171/175 at day 5353/5475, date = 27-Aug-2029
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  16 ( 0.005 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  16 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      5383  Days *                SPE 3 - CASE 1                                          *
@@ -6822,7 +6822,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 172/175 at day 5383/5475, date = 26-Sep-2029
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  18 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  18 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      5414  Days *                SPE 3 - CASE 1                                          *
@@ -6861,7 +6861,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 173/175 at day 5414/5475, date = 27-Oct-2029
 
 Time step 0, stepsize 30 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.011 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.006 sec), linear its =  19 ( 0.004 sec)
 
                               **************************************************************************
   Balance  at      5444  Days *                SPE 3 - CASE 1                                          *
@@ -6900,7 +6900,7 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 Report step 174/175 at day 5444/5475, date = 26-Nov-2029
 
 Time step 0, stepsize 31 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.012 sec), linear its =  19 ( 0.006 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.007 sec), linear its =  19 ( 0.003 sec)
 
                               **************************************************************************
   Balance  at      5475  Days *                SPE 3 - CASE 1                                          *
@@ -6939,12 +6939,12 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 ================    End of simulation     ===============
 
-Total time (seconds):         3.68795
-Solver time (seconds):        3.24009
- Assembly time (seconds):     1.81854 (Failed: 0.0521271; 2.86642%)
- Linear solve time (seconds): 0.951404 (Failed: 0.0205882; 2.16398%)
- Update time (seconds):       0.208503 (Failed: 0.00640236; 3.07063%)
- Output write time (seconds): 0.297939
+Total time (seconds):         2.49784
+Solver time (seconds):        2.21143
+ Assembly time (seconds):     1.18967 (Failed: 0.0782508; 6.57751%)
+ Linear solve time (seconds): 0.679888 (Failed: 0.0322427; 4.74235%)
+ Update time (seconds):       0.129959 (Failed: 0.00858567; 6.60643%)
+ Output write time (seconds): 0.199753
 Overall Well Iterations:      182 (Failed: 3; 1.64835%)
 Overall Linearizations:       559 (Failed: 21; 3.75671%)
 Overall Newton Iterations:    382 (Failed: 21; 5.49738%)

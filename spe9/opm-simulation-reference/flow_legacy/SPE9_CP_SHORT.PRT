@@ -25,12 +25,12 @@ Time step 0, stepsize 3.3 days.
 well converged iter: 2
     Switching control mode for well PRODU21 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.508 sec), linear its =  24 ( 0.520 sec)
+Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.564 sec), linear its =  24 ( 0.524 sec)
 
 Time step 1, stepsize 6.7 days.
 well converged iter: 1
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  1, newton its =  4, linearizations =  5 ( 1.594 sec), linear its =  27 ( 0.533 sec)
+Time step summary: well its =  1, newton its =  4, linearizations =  5 ( 1.517 sec), linear its =  27 ( 0.462 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3778.58  PSIA                 :
@@ -40,7 +40,7 @@ Time step summary: well its =  1, newton its =  4, linearizations =  5 ( 1.594 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     217179415             0     217179415:    212399705   :        286088     301599626     301885714:
+:Currently   in place    :     217179414             0     217179414:    212399705   :        286089     301599624     301885713:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -52,12 +52,12 @@ Time step summary: well its =  1, newton its =  4, linearizations =  5 ( 1.594 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     217179415             0     217179415:    212399705   :        286088     301599626     301885714:
+:Currently   in place    :     217179414             0     217179414:    212399705   :        286089     301599624     301885713:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 4.224308 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 4.162518 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -77,7 +77,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.538 sec), linear its =  27 ( 0.535 sec)
+Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.698 sec), linear its =  27 ( 0.586 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3752.44  PSIA                 :
@@ -87,7 +87,7 @@ Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.538 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216821269             0     216821269:    212406820   :        723759     300675861     301399620:
+:Currently   in place    :     216821268             0     216821268:    212406820   :        723760     300675858     301399619:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -99,12 +99,12 @@ Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.538 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216821269             0     216821269:    212406820   :        723759     300675861     301399620:
+:Currently   in place    :     216821268             0     216821268:    212406820   :        723760     300675858     301399619:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 6.359663 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 6.492222 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -124,7 +124,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.254 sec), linear its =  19 ( 0.382 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.311 sec), linear its =  19 ( 0.420 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3729.78  PSIA                 :
@@ -134,7 +134,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.254 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216465298             0     216465298:    212412919   :       1186141     299725503     300911644:
+:Currently   in place    :     216465297             0     216465297:    212412919   :       1186143     299725500     300911642:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -146,12 +146,12 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.254 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216465298             0     216465298:    212412919   :       1186141     299725503     300911644:
+:Currently   in place    :     216465297             0     216465297:    212412919   :       1186143     299725500     300911642:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 8.042757 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 8.270864 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -173,7 +173,7 @@ Time step 0, stepsize 10 days.
 well converged iter: 2
     Switching control mode for well PRODU9 from SURFACE_RATE to BHP
     Switching control mode for well PRODU9 from BHP to SURFACE_RATE
-Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.562 sec), linear its =  21 ( 0.508 sec)
+Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.685 sec), linear its =  21 ( 0.558 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3709.23  PSIA                 :
@@ -183,7 +183,7 @@ Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.562 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216111559             0     216111559:    212418507   :       1659026     298764213     300423238:
+:Currently   in place    :     216111558             0     216111558:    212418507   :       1659027     298764210     300423237:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -195,12 +195,12 @@ Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.562 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     216111559             0     216111559:    212418507   :       1659026     298764213     300423238:
+:Currently   in place    :     216111558             0     216111558:    212418507   :       1659027     298764210     300423237:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 10.165316 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 10.565264 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -220,7 +220,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.461 sec), linear its =  16 ( 0.461 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.335 sec), linear its =  16 ( 0.380 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3690.04  PSIA                 :
@@ -230,7 +230,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.461 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     215759896             0     215759896:    212423791   :       2137944     297785756     299923699:
+:Currently   in place    :     215759895             0     215759895:    212423791   :       2137945     297785752     299923698:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -242,12 +242,12 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.461 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     215759896             0     215759896:    212423791   :       2137944     297785756     299923699:
+:Currently   in place    :     215759895             0     215759895:    212423791   :       2137945     297785752     299923698:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 12.135685 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 12.320723 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -267,7 +267,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.571 sec), linear its =  21 ( 0.513 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.262 sec), linear its =  21 ( 0.401 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3671.64  PSIA                 :
@@ -277,7 +277,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.571 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     215409888             0     215409888:    212428861   :       2619548     296784546     299404094:
+:Currently   in place    :     215409887             0     215409887:    212428861   :       2619549     296784543     299404092:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -289,12 +289,12 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.571 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     215409888             0     215409888:    212428861   :       2619548     296784546     299404094:
+:Currently   in place    :     215409887             0     215409887:    212428861   :       2619549     296784543     299404092:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 14.274857 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 14.050544 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -314,7 +314,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.156 sec), linear its =  19 ( 0.359 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.447 sec), linear its =  19 ( 0.492 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3653.55  PSIA                 :
@@ -324,7 +324,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.156 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     215060665             0     215060665:    212433348   :       3103454     295748279     298851733:
+:Currently   in place    :     215060664             0     215060664:    212433348   :       3103456     295748276     298851731:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -336,12 +336,12 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.156 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     215060665             0     215060665:    212433348   :       3103454     295748279     298851733:
+:Currently   in place    :     215060664             0     215060664:    212433348   :       3103456     295748276     298851731:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 15.831679 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 16.043321 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -362,7 +362,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
     Switching control mode for well PRODU9 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.114 sec), linear its =  17 ( 0.323 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.170 sec), linear its =  17 ( 0.359 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3635.61  PSIA                 :
@@ -372,7 +372,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.114 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     214712776             0     214712776:    212437323   :       3587704     294672389     298260092:
+:Currently   in place    :     214712775             0     214712775:    212437323   :       3587705     294672385     298260090:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -384,12 +384,12 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.114 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     214712776             0     214712776:    212437323   :       3587704     294672389     298260092:
+:Currently   in place    :     214712775             0     214712775:    212437323   :       3587705     294672385     298260090:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 17.314477 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 17.620110 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -410,7 +410,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
     Switching control mode for well PRODU9 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.157 sec), linear its =  15 ( 0.319 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.951 sec), linear its =  15 ( 0.246 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3617.72  PSIA                 :
@@ -420,7 +420,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.157 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     214366679             0     214366679:    212440693   :       4071222     293552482     297623704:
+:Currently   in place    :     214366678             0     214366678:    212440693   :       4071224     293552478     297623701:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -432,12 +432,12 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.157 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     214366679             0     214366679:    212440693   :       4071222     293552482     297623704:
+:Currently   in place    :     214366678             0     214366678:    212440693   :       4071224     293552478     297623701:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 18.831401 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 18.846976 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -458,7 +458,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.057 sec), linear its =  18 ( 0.306 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.018 sec), linear its =  18 ( 0.304 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3599.82  PSIA                 :
@@ -468,7 +468,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.057 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     214022473             0     214022473:    212443331   :       4553241     292388801     296942043:
+:Currently   in place    :     214022472             0     214022472:    212443331   :       4553243     292388797     296942040:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -480,12 +480,12 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.057 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     214022473             0     214022473:    212443331   :       4553241     292388801     296942043:
+:Currently   in place    :     214022472             0     214022472:    212443331   :       4553243     292388797     296942040:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 20.234575 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 20.201417 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -502,7 +502,7 @@ Time step   10 at day 100/210, date = 11-Apr-2015
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 1.099 sec), linear its =  20 ( 0.339 sec)
+Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 1.664 sec), linear its =  20 ( 0.498 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3593.39  PSIA                 :
@@ -512,7 +512,7 @@ Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 1.099 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213997478             0     213997478:    212451210   :       4566655     292342157     296908813:
+:Currently   in place    :     213997477             0     213997477:    212451211   :       4566657     292342153     296908810:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -524,12 +524,12 @@ Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 1.099 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213997478             0     213997478:    212451210   :       4566655     292342157     296908813:
+:Currently   in place    :     213997477             0     213997477:    212451211   :       4566657     292342153     296908810:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 21.705242 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 22.417091 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -546,7 +546,7 @@ Time step   11 at day 110/210, date = 21-Apr-2015
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.100 sec), linear its =  17 ( 0.362 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.047 sec), linear its =  17 ( 0.349 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3588.06  PSIA                 :
@@ -556,7 +556,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.100 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213972371             0     213972371:    212459190   :       4571078     292305255     296876333:
+:Currently   in place    :     213972370             0     213972370:    212459190   :       4571080     292305251     296876331:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -568,12 +568,12 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.100 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213972371             0     213972371:    212459190   :       4571078     292305255     296876333:
+:Currently   in place    :     213972370             0     213972370:    212459190   :       4571080     292305251     296876331:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 23.202503 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 23.850367 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -590,7 +590,7 @@ Time step   12 at day 120/210, date = 01-May-2015
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.388 sec), linear its =  15 ( 0.342 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.638 sec), linear its =  15 ( 0.194 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3583.56  PSIA                 :
@@ -600,7 +600,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.388 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213947395             0     213947395:    212467360   :       4574411     292269856     296844266:
+:Currently   in place    :     213947394             0     213947394:    212467360   :       4574412     292269852     296844264:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -612,12 +612,12 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.388 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213947395             0     213947395:    212467360   :       4574411     292269856     296844266:
+:Currently   in place    :     213947394             0     213947394:    212467360   :       4574412     292269852     296844264:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 24.988281 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 24.710940 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -634,7 +634,7 @@ Time step   13 at day 130/210, date = 11-May-2015
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.343 sec), linear its =  12 ( 0.376 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.901 sec), linear its =  12 ( 0.230 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3579.64  PSIA                 :
@@ -644,7 +644,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.343 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213922174             0     213922174:    212475678   :       4578865     292233010     296811874:
+:Currently   in place    :     213922173             0     213922173:    212475678   :       4578866     292233006     296811872:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -656,12 +656,12 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.343 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213922174             0     213922174:    212475678   :       4578865     292233010     296811874:
+:Currently   in place    :     213922173             0     213922173:    212475678   :       4578866     292233006     296811872:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 26.751454 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 25.869970 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -678,7 +678,7 @@ Time step   14 at day 140/210, date = 21-May-2015
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.054 sec), linear its =  14 ( 0.566 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.456 sec), linear its =  14 ( 0.473 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3576.22  PSIA                 :
@@ -688,7 +688,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.054 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213897148             0     213897148:    212484062   :       4584980     292194709     296779689:
+:Currently   in place    :     213897146             0     213897146:    212484062   :       4584982     292194705     296779687:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -700,12 +700,12 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.054 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213897148             0     213897148:    212484062   :       4584980     292194709     296779689:
+:Currently   in place    :     213897146             0     213897146:    212484062   :       4584982     292194705     296779687:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 28.422095 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 27.841271 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -722,7 +722,7 @@ Time step   15 at day 150/210, date = 31-May-2015
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.038 sec), linear its =  12 ( 0.308 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.455 sec), linear its =  12 ( 0.405 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3573.21  PSIA                 :
@@ -732,7 +732,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.038 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213871999             0     213871999:    212492544   :       4593611     292153680     296747291:
+:Currently   in place    :     213871998             0     213871998:    212492544   :       4593613     292153676     296747289:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -744,12 +744,12 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.038 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213871999             0     213871999:    212492544   :       4593611     292153680     296747291:
+:Currently   in place    :     213871998             0     213871998:    212492544   :       4593613     292153676     296747289:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 29.802536 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 29.743021 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -769,7 +769,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
     Switching control mode for well PRODU21 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  6, linearizations =  7 ( 2.291 sec), linear its =  16 ( 0.697 sec)
+Time step summary: well its =  2, newton its =  6, linearizations =  7 ( 2.006 sec), linear its =  16 ( 0.635 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3561.59  PSIA                 :
@@ -779,7 +779,7 @@ Time step summary: well its =  2, newton its =  6, linearizations =  7 ( 2.291 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213521848             0     213521848:    212494992   :       5122270     291149863     296272133:
+:Currently   in place    :     213521846             0     213521846:    212494992   :       5122272     291149859     296272131:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -791,12 +791,12 @@ Time step summary: well its =  2, newton its =  6, linearizations =  7 ( 2.291 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213521848             0     213521848:    212494992   :       5122270     291149863     296272133:
+:Currently   in place    :     213521846             0     213521846:    212494992   :       5122272     291149859     296272131:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 32.854297 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 32.434596 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -817,7 +817,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
     Switching control mode for well PRODU9 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 1.863 sec), linear its =  19 ( 0.591 sec)
+Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 1.984 sec), linear its =  19 ( 0.606 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =        3549.7  PSIA                 :
@@ -827,7 +827,7 @@ Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 1.863 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213175705             0     213175705:    212496661   :       5638428     290100139     295738567:
+:Currently   in place    :     213175704             0     213175704:    212496661   :       5638429     290100135     295738564:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -839,12 +839,12 @@ Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 1.863 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     213175705             0     213175705:    212496661   :       5638428     290100139     295738567:
+:Currently   in place    :     213175704             0     213175704:    212496661   :       5638429     290100135     295738564:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 35.368196 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 35.072725 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -866,7 +866,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
     Switching control mode for well PRODU22 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.731 sec), linear its =  15 ( 0.205 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.810 sec), linear its =  15 ( 0.259 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3536.52  PSIA                 :
@@ -876,7 +876,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.731 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     212833588             0     212833588:    212497463   :       6144666     288951885     295096551:
+:Currently   in place    :     212833587             0     212833587:    212497463   :       6144667     288951881     295096548:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -888,12 +888,12 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.731 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     212833588             0     212833588:    212497463   :       6144666     288951885     295096551:
+:Currently   in place    :     212833587             0     212833587:    212497463   :       6144667     288951881     295096548:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 36.336255 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 36.182447 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -916,7 +916,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
     Switching control mode for well PRODU16 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.694 sec), linear its =  14 ( 0.209 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.774 sec), linear its =  14 ( 0.241 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3522.13  PSIA                 :
@@ -926,7 +926,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.694 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     212495581             0     212495581:    212497298   :       6639964     287720351     294360315:
+:Currently   in place    :     212495580             0     212495580:    212497298   :       6639966     287720347     294360313:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -938,12 +938,12 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.694 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     212495581             0     212495581:    212497298   :       6639964     287720351     294360315:
+:Currently   in place    :     212495580             0     212495580:    212497298   :       6639966     287720347     294360313:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 37.263659 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 37.222631 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -966,7 +966,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.316 sec), linear its =  15 ( 0.381 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.054 sec), linear its =  15 ( 0.328 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3506.85  PSIA                 :
@@ -976,7 +976,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.316 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     212161718             0     212161718:    212496065   :       7124286     286428215     293552500:
+:Currently   in place    :     212161717             0     212161717:    212496066   :       7124287     286428211     293552498:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :    1368324949             0    1368324949:   1335891729   :             0      10678711      10678711:
 :========================:==========================================:================:==========================================:
@@ -988,24 +988,24 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.316 s
                          :--------------- Oil    STB ---------------:-- Wat    STB --:--------------- Gas   MSCF ---------------:
                          :      Liquid        Vapour        Total   :      Total     :      Free        Dissolved       Total   :
 :------------------------:------------------------------------------:----------------:------------------------------------------:
-:Currently   in place    :     212161718             0     212161718:    212496065   :       7124286     286428215     293552500:
+:Currently   in place    :     212161717             0     212161717:    212496066   :       7124287     286428211     293552498:
 :------------------------:------------------------------------------:----------------:------------------------------------------:
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 39.004927 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 38.636425 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 ================    End of simulation     ===============
 
-Total time (seconds):         39.5476
-Solver time (seconds):        39.0049
- Assembly time (seconds):     28.8892
- Linear solve time (seconds): 9.13447
- Update time (seconds):       0.375113
- Output write time (seconds): 0.105126
+Total time (seconds):         39.1172
+Solver time (seconds):        38.6364
+ Assembly time (seconds):     28.7488
+ Linear solve time (seconds): 8.94954
+ Update time (seconds):       0.328777
+ Output write time (seconds): 0.0942909
 Overall Well Iterations:      43
 Overall Linearizations:       99
 Overall Newton Iterations:    77
