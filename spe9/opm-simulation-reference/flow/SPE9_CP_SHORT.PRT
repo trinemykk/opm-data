@@ -11,9 +11,9 @@ Flow is a simulator for fully implicit three-phase black-oil flow, and is part o
 For more information visit: http://opm-project.org 
 
 Flow Version  =  2018.04-pre
-System        =  opm-deb (Number of cores: 8, RAM: 16051.20 MB) 
+System        =  opm-deb (Number of cores: 12, RAM: 32178.65 MB) 
 Architecture  =  Linux x86_64 (Release: 4.9.0-3-amd64, Version: #1 SMP Debian 4.9.30-2+deb9u2 (2017-06-26) )
-Simulation started on 05-12-2017 at 15:51:19 hrs
+Simulation started on 03-01-2018 at 11:06:58 hrs
 
 
 ===============Saturation Functions Diagnostics===============
@@ -58,16 +58,16 @@ Report step  0/21 at day 0/210, date = 01-Jan-2015
 
 Time step 0, stepsize 1 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
-Time step summary: well its =  6, newton its =  3, linearizations =  4 ( 0.735 sec), linear its =  18 ( 0.215 sec)
+Time step summary: well its =  6, newton its =  3, linearizations =  4 ( 0.501 sec), linear its =  18 ( 0.208 sec)
 
 Time step 1, stepsize 3 days.
     Switching control mode for well PRODU21 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
-Time step summary: well its =  1, newton its =  3, linearizations =  4 ( 0.770 sec), linear its =  23 ( 0.267 sec)
+Time step summary: well its =  1, newton its =  3, linearizations =  4 ( 0.438 sec), linear its =  23 ( 0.219 sec)
 
 Time step 2, stepsize 6 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  1, newton its =  3, linearizations =  4 ( 0.685 sec), linear its =  22 ( 0.227 sec)
+Time step summary: well its =  1, newton its =  3, linearizations =  4 ( 0.518 sec), linear its =  22 ( 0.216 sec)
 
                               **************************************************************************
   Balance  at        10  Days *                         SPE 9                                          *
@@ -110,7 +110,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU21 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 0.790 sec), linear its =  24 ( 0.278 sec)
+Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 0.614 sec), linear its =  24 ( 0.278 sec)
 
                               **************************************************************************
   Balance  at        20  Days *                         SPE 9                                          *
@@ -153,7 +153,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU21 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.704 sec), linear its =  20 ( 0.194 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.443 sec), linear its =  20 ( 0.141 sec)
 
                               **************************************************************************
   Balance  at        30  Days *                         SPE 9                                          *
@@ -198,7 +198,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
     Switching control mode for well PRODU9 from SURFACE_RATE to BHP
     Switching control mode for well PRODU9 from BHP to SURFACE_RATE
-Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 0.782 sec), linear its =  22 ( 0.258 sec)
+Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 0.759 sec), linear its =  22 ( 0.327 sec)
 
                               **************************************************************************
   Balance  at        40  Days *                         SPE 9                                          *
@@ -241,7 +241,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU21 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.695 sec), linear its =  16 ( 0.190 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.409 sec), linear its =  16 ( 0.117 sec)
 
                               **************************************************************************
   Balance  at        50  Days *                         SPE 9                                          *
@@ -284,7 +284,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU21 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.536 sec), linear its =  15 ( 0.151 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.396 sec), linear its =  15 ( 0.098 sec)
 
                               **************************************************************************
   Balance  at        60  Days *                         SPE 9                                          *
@@ -327,7 +327,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU21 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.614 sec), linear its =  16 ( 0.196 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.411 sec), linear its =  16 ( 0.160 sec)
 
                               **************************************************************************
   Balance  at        70  Days *                         SPE 9                                          *
@@ -371,7 +371,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
     Switching control mode for well PRODU9 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.504 sec), linear its =  11 ( 0.164 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.278 sec), linear its =  11 ( 0.096 sec)
 
                               **************************************************************************
   Balance  at        80  Days *                         SPE 9                                          *
@@ -415,7 +415,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
     Switching control mode for well PRODU9 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.772 sec), linear its =  15 ( 0.238 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.478 sec), linear its =  15 ( 0.144 sec)
 
                               **************************************************************************
   Balance  at        90  Days *                         SPE 9                                          *
@@ -459,7 +459,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU21 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.595 sec), linear its =  17 ( 0.177 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.478 sec), linear its =  17 ( 0.151 sec)
 
                               **************************************************************************
   Balance  at       100  Days *                         SPE 9                                          *
@@ -499,7 +499,7 @@ Report step 10/21 at day 100/210, date = 11-Apr-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 0.812 sec), linear its =  18 ( 0.214 sec)
+Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 0.624 sec), linear its =  18 ( 0.170 sec)
 
                               **************************************************************************
   Balance  at       110  Days *                         SPE 9                                          *
@@ -539,7 +539,7 @@ Report step 11/21 at day 110/210, date = 21-Apr-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.732 sec), linear its =  16 ( 0.201 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.537 sec), linear its =  16 ( 0.159 sec)
 
                               **************************************************************************
   Balance  at       120  Days *                         SPE 9                                          *
@@ -579,7 +579,7 @@ Report step 12/21 at day 120/210, date = 01-May-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.600 sec), linear its =  15 ( 0.159 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.612 sec), linear its =  15 ( 0.171 sec)
 
                               **************************************************************************
   Balance  at       130  Days *                         SPE 9                                          *
@@ -619,7 +619,7 @@ Report step 13/21 at day 130/210, date = 11-May-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.706 sec), linear its =  15 ( 0.191 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.396 sec), linear its =  15 ( 0.113 sec)
 
                               **************************************************************************
   Balance  at       140  Days *                         SPE 9                                          *
@@ -659,7 +659,7 @@ Report step 14/21 at day 140/210, date = 21-May-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.566 sec), linear its =  15 ( 0.159 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.425 sec), linear its =  15 ( 0.144 sec)
 
                               **************************************************************************
   Balance  at       150  Days *                         SPE 9                                          *
@@ -699,7 +699,7 @@ Report step 15/21 at day 150/210, date = 31-May-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.513 sec), linear its =  15 ( 0.141 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.501 sec), linear its =  15 ( 0.137 sec)
 
                               **************************************************************************
   Balance  at       160  Days *                         SPE 9                                          *
@@ -742,7 +742,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
     Switching control mode for well PRODU21 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 0.672 sec), linear its =  18 ( 0.172 sec)
+Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 0.804 sec), linear its =  18 ( 0.204 sec)
 
                               **************************************************************************
   Balance  at       170  Days *                         SPE 9                                          *
@@ -786,7 +786,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
     Switching control mode for well PRODU9 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 0.661 sec), linear its =  21 ( 0.176 sec)
+Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 0.749 sec), linear its =  21 ( 0.222 sec)
 
                               **************************************************************************
   Balance  at       180  Days *                         SPE 9                                          *
@@ -831,7 +831,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
     Switching control mode for well PRODU22 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.625 sec), linear its =  18 ( 0.204 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.459 sec), linear its =  18 ( 0.183 sec)
 
                               **************************************************************************
   Balance  at       190  Days *                         SPE 9                                          *
@@ -877,7 +877,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
     Switching control mode for well PRODU16 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.653 sec), linear its =  17 ( 0.200 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.516 sec), linear its =  17 ( 0.188 sec)
 
                               **************************************************************************
   Balance  at       200  Days *                         SPE 9                                          *
@@ -923,7 +923,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU22 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.634 sec), linear its =  16 ( 0.172 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.509 sec), linear its =  16 ( 0.267 sec)
 
                               **************************************************************************
   Balance  at       210  Days *                         SPE 9                                          *
@@ -962,12 +962,12 @@ Warning: Keyword 'BASIC' is unhandled for output to file.
 
 ================    End of simulation     ===============
 
-Total time (seconds):         21.9646
-Solver time (seconds):        21.023
- Assembly time (seconds):     15.3564 (Failed: 0; 0%)
- Linear solve time (seconds): 4.54513 (Failed: 0; 0%)
- Update time (seconds):       0.655819 (Failed: 0; 0%)
- Output write time (seconds): 0.896294
+Total time (seconds):         17.6506
+Solver time (seconds):        16.8861
+ Assembly time (seconds):     11.8559 (Failed: 0; 0%)
+ Linear solve time (seconds): 4.1128 (Failed: 0; 0%)
+ Update time (seconds):       0.568277 (Failed: 0; 0%)
+ Output write time (seconds): 0.729068
 Overall Well Iterations:      48 (Failed: 0; 0%)
 Overall Linearizations:       98 (Failed: 0; 0%)
 Overall Newton Iterations:    75 (Failed: 0; 0%)
