@@ -24,18 +24,18 @@ Time step    0 at day 0/210, date = 01-Jan-2015
 Time step 0, stepsize 1 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.982 sec), linear its =  15 ( 0.348 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.929 sec), linear its =  15 ( 0.247 sec)
 
 Time step 1, stepsize 3 days.
 well converged iter: 1
     Switching control mode for well PRODU21 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
-Time step summary: well its =  1, newton its =  4, linearizations =  5 ( 1.240 sec), linear its =  24 ( 0.340 sec)
+Time step summary: well its =  1, newton its =  4, linearizations =  5 ( 1.127 sec), linear its =  24 ( 0.432 sec)
 
 Time step 2, stepsize 6 days.
 well converged iter: 1
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  1, newton its =  4, linearizations =  5 ( 1.235 sec), linear its =  27 ( 0.414 sec)
+Time step summary: well its =  1, newton its =  4, linearizations =  5 ( 1.297 sec), linear its =  27 ( 0.304 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3778.73  PSIA                 :
@@ -62,7 +62,7 @@ Time step summary: well its =  1, newton its =  4, linearizations =  5 ( 1.235 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 4.659915 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 4.401724 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -82,7 +82,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.261 sec), linear its =  26 ( 0.373 sec)
+Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.062 sec), linear its =  26 ( 0.404 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =        3752.6  PSIA                 :
@@ -109,7 +109,7 @@ Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.261 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 6.329035 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 5.909822 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -129,7 +129,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.985 sec), linear its =  19 ( 0.318 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.996 sec), linear its =  19 ( 0.321 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3729.91  PSIA                 :
@@ -156,7 +156,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.985 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 7.667718 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 7.278553 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -178,7 +178,7 @@ Time step 0, stepsize 10 days.
 well converged iter: 2
     Switching control mode for well PRODU9 from SURFACE_RATE to BHP
     Switching control mode for well PRODU9 from BHP to SURFACE_RATE
-Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.153 sec), linear its =  21 ( 0.338 sec)
+Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.081 sec), linear its =  21 ( 0.387 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3709.34  PSIA                 :
@@ -205,7 +205,7 @@ Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 1.153 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 9.197837 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 8.786829 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -225,7 +225,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.051 sec), linear its =  16 ( 0.308 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.841 sec), linear its =  16 ( 0.224 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3690.14  PSIA                 :
@@ -252,7 +252,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.051 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 10.585366 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 9.875709 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -272,7 +272,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.065 sec), linear its =  16 ( 0.313 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.943 sec), linear its =  16 ( 0.259 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3671.66  PSIA                 :
@@ -299,7 +299,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.065 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 12.001357 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 11.101847 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -319,7 +319,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.939 sec), linear its =  20 ( 0.243 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.301 sec), linear its =  20 ( 0.424 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3653.57  PSIA                 :
@@ -346,7 +346,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.939 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 13.233080 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 13.346110 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -367,7 +367,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
     Switching control mode for well PRODU9 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.894 sec), linear its =  18 ( 0.269 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.000 sec), linear its =  18 ( 0.224 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3635.63  PSIA                 :
@@ -394,7 +394,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.894 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 14.435376 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 14.612018 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -415,7 +415,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
     Switching control mode for well PRODU9 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.830 sec), linear its =  15 ( 0.250 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.895 sec), linear its =  15 ( 0.239 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3617.73  PSIA                 :
@@ -442,7 +442,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.830 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 15.555735 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 15.771129 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -463,7 +463,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.846 sec), linear its =  18 ( 0.221 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.855 sec), linear its =  18 ( 0.219 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3599.82  PSIA                 :
@@ -490,7 +490,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.846 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 16.652513 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 16.873701 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -507,7 +507,7 @@ Time step   10 at day 100/210, date = 11-Apr-2015
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 1.383 sec), linear its =  20 ( 0.415 sec)
+Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 1.702 sec), linear its =  20 ( 0.430 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3593.38  PSIA                 :
@@ -534,7 +534,7 @@ Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 1.383 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 18.494840 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 19.039824 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -551,7 +551,7 @@ Time step   11 at day 110/210, date = 21-Apr-2015
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.869 sec), linear its =  17 ( 0.249 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.910 sec), linear its =  17 ( 0.265 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3588.05  PSIA                 :
@@ -578,7 +578,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.869 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 19.641127 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 20.252667 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -595,7 +595,7 @@ Time step   12 at day 120/210, date = 01-May-2015
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.007 sec), linear its =  15 ( 0.265 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.264 sec), linear its =  15 ( 0.250 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3583.55  PSIA                 :
@@ -622,7 +622,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.007 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 20.939286 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 21.824358 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -639,7 +639,7 @@ Time step   13 at day 130/210, date = 11-May-2015
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.904 sec), linear its =  12 ( 0.272 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.202 sec), linear its =  12 ( 0.248 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3579.62  PSIA                 :
@@ -666,7 +666,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.904 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 22.144621 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 23.326016 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -683,7 +683,7 @@ Time step   14 at day 140/210, date = 21-May-2015
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.994 sec), linear its =  14 ( 0.248 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.851 sec), linear its =  14 ( 0.281 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =        3576.2  PSIA                 :
@@ -710,7 +710,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.994 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 23.413632 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 24.480988 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -727,7 +727,7 @@ Time step   15 at day 150/210, date = 31-May-2015
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.859 sec), linear its =  12 ( 0.228 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.434 sec), linear its =  12 ( 0.373 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3573.19  PSIA                 :
@@ -754,7 +754,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.859 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 24.533249 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 26.317944 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -774,7 +774,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
     Switching control mode for well PRODU21 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  6, linearizations =  7 ( 1.682 sec), linear its =  16 ( 0.435 sec)
+Time step summary: well its =  2, newton its =  6, linearizations =  7 ( 1.569 sec), linear its =  16 ( 0.453 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3561.57  PSIA                 :
@@ -801,7 +801,7 @@ Time step summary: well its =  2, newton its =  6, linearizations =  7 ( 1.682 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 26.689267 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 28.384747 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -822,7 +822,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
     Switching control mode for well PRODU9 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 1.284 sec), linear its =  19 ( 0.328 sec)
+Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 1.245 sec), linear its =  19 ( 0.325 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3549.68  PSIA                 :
@@ -849,7 +849,7 @@ Time step summary: well its =  2, newton its =  5, linearizations =  6 ( 1.284 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 28.332088 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 30.005137 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -871,7 +871,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
     Switching control mode for well PRODU22 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.907 sec), linear its =  15 ( 0.246 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.930 sec), linear its =  15 ( 0.235 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3536.49  PSIA                 :
@@ -898,7 +898,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.907 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 29.512715 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 31.212569 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -921,7 +921,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
     Switching control mode for well PRODU16 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.864 sec), linear its =  14 ( 0.227 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.891 sec), linear its =  14 ( 0.248 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3522.11  PSIA                 :
@@ -948,7 +948,7 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.864 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 30.629037 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 32.380944 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
@@ -971,7 +971,7 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
     Switching control mode for well PRODU26 from SURFACE_RATE to BHP
 well converged iter: 2
-Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.014 sec), linear its =  15 ( 0.261 sec)
+Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 0.911 sec), linear its =  15 ( 0.239 sec)
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3506.83  PSIA                 :
@@ -998,19 +998,19 @@ Time step summary: well its =  2, newton its =  3, linearizations =  4 ( 1.014 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-Fully implicit solver took: 0.000000 seconds. Total solver time taken: 31.932209 seconds.
+Fully implicit solver took: 0.000000 seconds. Total solver time taken: 33.556198 seconds.
 
 Warning: Keyword 'BASIC' is unhandled for output to file.
 
 
 ================    End of simulation     ===============
 
-Total time (seconds):         32.3928
-Solver time (seconds):        31.9322
- Assembly time (seconds):     24.2478
- Linear solve time (seconds): 6.90969
- Update time (seconds):       0.270777
- Output write time (seconds): 0.0817729
+Total time (seconds):         33.9891
+Solver time (seconds):        33.5562
+ Assembly time (seconds):     25.2365
+ Linear solve time (seconds): 7.03181
+ Update time (seconds):       0.713058
+ Output write time (seconds): 0.0520681
 Overall Well Iterations:      44
 Overall Linearizations:       103
 Overall Newton Iterations:    80
