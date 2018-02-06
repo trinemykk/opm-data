@@ -13,7 +13,7 @@ For more information visit: http://opm-project.org
 Flow Version  =  2018.04-pre
 System        =  opm-deb (Number of cores: 12, RAM: 32178.65 MB) 
 Architecture  =  Linux x86_64 (Release: 4.9.0-3-amd64, Version: #1 SMP Debian 4.9.30-2+deb9u2 (2017-06-26) )
-Simulation started on 02-02-2018 at 12:26:15 hrs
+Simulation started on 06-02-2018 at 10:37:03 hrs
 
 
 ===============Saturation Functions Diagnostics===============
@@ -22,10 +22,6 @@ System:  Black-oil system.
 Relative permeability input format: Saturation Family I.
 Number of saturation regions: 1
 
-Keyword BGSAT is unhandled
-Keyword WGPP is unhandled
-Keyword WOPP is unhandled
-Keyword WWPP is unhandled
 
 
 ================ Starting main simulation loop ===============
@@ -61,19 +57,21 @@ Report step  0/30 at day 0/300, date = 01-Jan-2015
 
 Time step 0, stepsize 1 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
-Time step summary: well its =  6, newton its =  3, linearizations =  4 ( 0.498 sec), linear its =  11 ( 0.108 sec)
+Time step summary: well its =  6, newton its =  3, linearizations =  4 ( 0.610 sec), linear its =  11 ( 0.162 sec)
 
 Time step 1, stepsize 3 days.
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.199 sec), linear its =  12 ( 0.065 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.375 sec), linear its =  12 ( 0.123 sec)
 
 Time step 2, stepsize 6 days.
-Time step summary: newton its =  2, linearizations =  3 ( 0.224 sec), linear its =  13 ( 0.070 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.364 sec), linear its =  13 ( 0.145 sec)
 
                               **************************************************************************
   Balance  at        10  Days *                         SPE 9                                          *
   Report    1    11 Jan 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3816.46  PSIA                 :
@@ -101,19 +99,19 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.224 sec), linear its
 :========================:==========================================:================:==========================================:
 
 
-Warning: Keyword 'BASIC' is unhandled for output to file.
-
 Report step  1/30 at day 10/300, date = 11-Jan-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.289 sec), linear its =  15 ( 0.089 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.424 sec), linear its =  15 ( 0.154 sec)
 
                               **************************************************************************
   Balance  at        20  Days *                         SPE 9                                          *
   Report    2    21 Jan 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3811.85  PSIA                 :
@@ -140,21 +138,21 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.289 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  2/30 at day 20/300, date = 21-Jan-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 0.660 sec), linear its =  15 ( 0.132 sec)
+Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 0.771 sec), linear its =  15 ( 0.226 sec)
 
                               **************************************************************************
   Balance  at        30  Days *                         SPE 9                                          *
   Report    3    31 Jan 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3807.87  PSIA                 :
@@ -181,21 +179,21 @@ Time step summary: well its =  2, newton its =  4, linearizations =  5 ( 0.660 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  3/30 at day 30/300, date = 31-Jan-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.200 sec), linear its =  12 ( 0.060 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.437 sec), linear its =  12 ( 0.165 sec)
 
                               **************************************************************************
   Balance  at        40  Days *                         SPE 9                                          *
   Report    4    10 Feb 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3804.46  PSIA                 :
@@ -222,21 +220,21 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.200 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  4/30 at day 40/300, date = 10-Feb-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.190 sec), linear its =  16 ( 0.078 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.319 sec), linear its =  16 ( 0.133 sec)
 
                               **************************************************************************
   Balance  at        50  Days *                         SPE 9                                          *
   Report    5    20 Feb 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3801.25  PSIA                 :
@@ -263,21 +261,21 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.190 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  5/30 at day 50/300, date = 20-Feb-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.300 sec), linear its =  13 ( 0.089 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.371 sec), linear its =  13 ( 0.134 sec)
 
                               **************************************************************************
   Balance  at        60  Days *                         SPE 9                                          *
   Report    6    02 Mar 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3798.19  PSIA                 :
@@ -304,21 +302,21 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.300 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  6/30 at day 60/300, date = 02-Mar-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.299 sec), linear its =  15 ( 0.091 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.453 sec), linear its =  15 ( 0.185 sec)
 
                               **************************************************************************
   Balance  at        70  Days *                         SPE 9                                          *
   Report    7    12 Mar 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3795.17  PSIA                 :
@@ -345,21 +343,21 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.299 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  7/30 at day 70/300, date = 12-Mar-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.307 sec), linear its =  12 ( 0.093 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.529 sec), linear its =  12 ( 0.178 sec)
 
                               **************************************************************************
   Balance  at        80  Days *                         SPE 9                                          *
   Report    8    22 Mar 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3792.21  PSIA                 :
@@ -386,21 +384,21 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.307 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  8/30 at day 80/300, date = 22-Mar-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.336 sec), linear its =  14 ( 0.109 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.521 sec), linear its =  14 ( 0.204 sec)
 
                               **************************************************************************
   Balance  at        90  Days *                         SPE 9                                          *
   Report    9    01 Apr 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3789.33  PSIA                 :
@@ -427,21 +425,21 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.336 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step  9/30 at day 90/300, date = 01-Apr-2015
 
 Time step 0, stepsize 10 days.
     Switching control mode for well INJE1 from SURFACE_RATE to BHP
     Switching control mode for well PRODU23 from SURFACE_RATE to BHP
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.243 sec), linear its =  13 ( 0.091 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.390 sec), linear its =  13 ( 0.162 sec)
 
                               **************************************************************************
   Balance  at       100  Days *                         SPE 9                                          *
   Report   10    11 Apr 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3786.49  PSIA                 :
@@ -468,8 +466,6 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.243 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 10/30 at day 100/300, date = 11-Apr-2015
 
@@ -484,13 +480,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from BHP to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: well its =  5, newton its =  2, linearizations =  3 ( 0.367 sec), linear its =  14 ( 0.109 sec)
+Time step summary: well its =  5, newton its =  2, linearizations =  3 ( 0.402 sec), linear its =  14 ( 0.186 sec)
 
                               **************************************************************************
   Balance  at       110  Days *                         SPE 9                                          *
   Report   11    21 Apr 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3785.66  PSIA                 :
@@ -517,8 +515,6 @@ Time step summary: well its =  5, newton its =  2, linearizations =  3 ( 0.367 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 11/30 at day 110/300, date = 21-Apr-2015
 
@@ -531,13 +527,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: well its =  3, newton its =  2, linearizations =  3 ( 0.387 sec), linear its =  16 ( 0.126 sec)
+Time step summary: well its =  3, newton its =  2, linearizations =  3 ( 0.408 sec), linear its =  16 ( 0.193 sec)
 
                               **************************************************************************
   Balance  at       120  Days *                         SPE 9                                          *
   Report   12    01 May 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3784.71  PSIA                 :
@@ -564,8 +562,6 @@ Time step summary: well its =  3, newton its =  2, linearizations =  3 ( 0.387 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 12/30 at day 120/300, date = 01-May-2015
 
@@ -578,13 +574,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.325 sec), linear its =  17 ( 0.102 sec)
+Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.402 sec), linear its =  17 ( 0.168 sec)
 
                               **************************************************************************
   Balance  at       130  Days *                         SPE 9                                          *
   Report   13    11 May 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =        3783.7  PSIA                 :
@@ -611,8 +609,6 @@ Time step summary: well its =  2, newton its =  2, linearizations =  3 ( 0.325 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 13/30 at day 130/300, date = 11-May-2015
 
@@ -625,13 +621,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: newton its =  2, linearizations =  3 ( 0.326 sec), linear its =  19 ( 0.151 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.479 sec), linear its =  19 ( 0.222 sec)
 
                               **************************************************************************
   Balance  at       140  Days *                         SPE 9                                          *
   Report   14    21 May 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =        3782.7  PSIA                 :
@@ -658,8 +656,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.326 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 14/30 at day 140/300, date = 21-May-2015
 
@@ -672,13 +668,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: newton its =  2, linearizations =  3 ( 0.274 sec), linear its =  17 ( 0.118 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.500 sec), linear its =  17 ( 0.203 sec)
 
                               **************************************************************************
   Balance  at       150  Days *                         SPE 9                                          *
   Report   15    31 May 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3781.74  PSIA                 :
@@ -705,8 +703,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.274 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 15/30 at day 150/300, date = 31-May-2015
 
@@ -719,13 +715,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: newton its =  2, linearizations =  3 ( 0.296 sec), linear its =  17 ( 0.102 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.427 sec), linear its =  17 ( 0.221 sec)
 
                               **************************************************************************
   Balance  at       160  Days *                         SPE 9                                          *
   Report   16    10 Jun 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3780.86  PSIA                 :
@@ -752,8 +750,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.296 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 16/30 at day 160/300, date = 10-Jun-2015
 
@@ -766,13 +762,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: newton its =  2, linearizations =  3 ( 0.275 sec), linear its =  17 ( 0.116 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.376 sec), linear its =  17 ( 0.181 sec)
 
                               **************************************************************************
   Balance  at       170  Days *                         SPE 9                                          *
   Report   17    20 Jun 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3780.06  PSIA                 :
@@ -799,8 +797,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.275 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 17/30 at day 170/300, date = 20-Jun-2015
 
@@ -813,13 +809,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: newton its =  2, linearizations =  3 ( 0.256 sec), linear its =  17 ( 0.097 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.391 sec), linear its =  17 ( 0.173 sec)
 
                               **************************************************************************
   Balance  at       180  Days *                         SPE 9                                          *
   Report   18    30 Jun 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3779.34  PSIA                 :
@@ -846,8 +844,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.256 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 18/30 at day 180/300, date = 30-Jun-2015
 
@@ -860,13 +856,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: newton its =  2, linearizations =  3 ( 0.336 sec), linear its =  17 ( 0.112 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.235 sec), linear its =  17 ( 0.113 sec)
 
                               **************************************************************************
   Balance  at       190  Days *                         SPE 9                                          *
   Report   19    10 Jul 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3778.69  PSIA                 :
@@ -893,8 +891,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.336 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 19/30 at day 190/300, date = 10-Jul-2015
 
@@ -907,13 +903,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
 group F can not meet its target!
 group F can not meet its target!
-Time step summary: newton its =  2, linearizations =  3 ( 0.279 sec), linear its =  18 ( 0.107 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.234 sec), linear its =  18 ( 0.113 sec)
 
                               **************************************************************************
   Balance  at       200  Days *                         SPE 9                                          *
   Report   20    20 Jul 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3778.12  PSIA                 :
@@ -940,8 +938,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.279 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 20/30 at day 200/300, date = 20-Jul-2015
 
@@ -952,13 +948,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.262 sec), linear its =  16 ( 0.103 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.200 sec), linear its =  16 ( 0.089 sec)
 
                               **************************************************************************
   Balance  at       210  Days *                         SPE 9                                          *
   Report   21    30 Jul 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3777.84  PSIA                 :
@@ -985,8 +983,6 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.262 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 21/30 at day 210/300, date = 30-Jul-2015
 
@@ -997,13 +993,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.315 sec), linear its =  11 ( 0.087 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.200 sec), linear its =  11 ( 0.075 sec)
 
                               **************************************************************************
   Balance  at       220  Days *                         SPE 9                                          *
   Report   22    09 Aug 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3778.11  PSIA                 :
@@ -1030,8 +1028,6 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.315 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 22/30 at day 220/300, date = 09-Aug-2015
 
@@ -1042,13 +1038,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.294 sec), linear its =  14 ( 0.100 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.169 sec), linear its =  14 ( 0.076 sec)
 
                               **************************************************************************
   Balance  at       230  Days *                         SPE 9                                          *
   Report   23    19 Aug 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3778.27  PSIA                 :
@@ -1075,8 +1073,6 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.294 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 23/30 at day 230/300, date = 19-Aug-2015
 
@@ -1087,13 +1083,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.302 sec), linear its =  11 ( 0.086 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.168 sec), linear its =  11 ( 0.063 sec)
 
                               **************************************************************************
   Balance  at       240  Days *                         SPE 9                                          *
   Report   24    29 Aug 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3778.57  PSIA                 :
@@ -1120,8 +1118,6 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.302 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 24/30 at day 240/300, date = 29-Aug-2015
 
@@ -1132,13 +1128,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.326 sec), linear its =  11 ( 0.086 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.174 sec), linear its =  11 ( 0.064 sec)
 
                               **************************************************************************
   Balance  at       250  Days *                         SPE 9                                          *
   Report   25    08 Sep 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =        3778.8  PSIA                 :
@@ -1165,8 +1163,6 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.326 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 25/30 at day 250/300, date = 08-Sep-2015
 
@@ -1177,13 +1173,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.328 sec), linear its =   9 ( 0.077 sec)
+Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.197 sec), linear its =   9 ( 0.062 sec)
 
                               **************************************************************************
   Balance  at       260  Days *                         SPE 9                                          *
   Report   26    18 Sep 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3779.08  PSIA                 :
@@ -1210,8 +1208,6 @@ Time step summary: well its =  1, newton its =  2, linearizations =  3 ( 0.328 s
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 26/30 at day 260/300, date = 18-Sep-2015
 
@@ -1222,13 +1218,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: newton its =  2, linearizations =  3 ( 0.334 sec), linear its =   9 ( 0.077 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.187 sec), linear its =   9 ( 0.067 sec)
 
                               **************************************************************************
   Balance  at       270  Days *                         SPE 9                                          *
   Report   27    28 Sep 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3779.31  PSIA                 :
@@ -1255,8 +1253,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.334 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 27/30 at day 270/300, date = 28-Sep-2015
 
@@ -1267,13 +1263,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: newton its =  2, linearizations =  3 ( 0.265 sec), linear its =  12 ( 0.087 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.185 sec), linear its =  12 ( 0.070 sec)
 
                               **************************************************************************
   Balance  at       280  Days *                         SPE 9                                          *
   Report   28    08 Oct 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3779.56  PSIA                 :
@@ -1300,8 +1298,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.265 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 28/30 at day 280/300, date = 08-Oct-2015
 
@@ -1312,13 +1308,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: newton its =  2, linearizations =  3 ( 0.303 sec), linear its =  14 ( 0.081 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.195 sec), linear its =  14 ( 0.079 sec)
 
                               **************************************************************************
   Balance  at       290  Days *                         SPE 9                                          *
   Report   29    18 Oct 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3779.77  PSIA                 :
@@ -1345,8 +1343,6 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.303 sec), linear its
 :Originally  in place    :     217546282             0     217546282:    212389812   :             0     302387412     302387412:
 :========================:==========================================:================:==========================================:
 
-
-Warning: Keyword 'BASIC' is unhandled for output to file.
 
 Report step 29/30 at day 290/300, date = 18-Oct-2015
 
@@ -1357,13 +1353,15 @@ Time step 0, stepsize 10 days.
     Switching control mode for well PRODU9 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU15 from SURFACE_RATE to SURFACE_RATE
     Switching control mode for well PRODU23 from SURFACE_RATE to SURFACE_RATE
-Time step summary: newton its =  2, linearizations =  3 ( 0.296 sec), linear its =  14 ( 0.099 sec)
+Time step summary: newton its =  2, linearizations =  3 ( 0.168 sec), linear its =  14 ( 0.072 sec)
 
                               **************************************************************************
   Balance  at       300  Days *                         SPE 9                                          *
   Report   30    28 Oct 2015  *                                             Flow  version 2018.04-pre  *
                               **************************************************************************
 
+
+Warning: Keyword 'BASIC' is unhandled for output to file.
                                                   ===================================================
                                                   :                   Field Totals                  :
                                                   :      PAV  =       3779.98  PSIA                 :
@@ -1391,17 +1389,15 @@ Time step summary: newton its =  2, linearizations =  3 ( 0.296 sec), linear its
 :========================:==========================================:================:==========================================:
 
 
-Warning: Keyword 'BASIC' is unhandled for output to file.
-
 
 ================    End of simulation     ===============
 
-Total time (seconds):         14.159
-Solver time (seconds):        13.7303
- Assembly time (seconds):     9.89091 (Failed: 0; 0%)
- Linear solve time (seconds): 3.09741 (Failed: 0; 0%)
- Update time (seconds):       0.411405 (Failed: 0; 0%)
- Output write time (seconds): 0.261411
+Total time (seconds):         16.8387
+Solver time (seconds):        16.5604
+ Assembly time (seconds):     11.2633 (Failed: 0; 0%)
+ Linear solve time (seconds): 4.4601 (Failed: 0; 0%)
+ Update time (seconds):       0.471573 (Failed: 0; 0%)
+ Output write time (seconds): 0.294584
 Overall Well Iterations:      41 (Failed: 0; 0%)
 Overall Linearizations:       99 (Failed: 0; 0%)
 Overall Newton Iterations:    67 (Failed: 0; 0%)
@@ -1411,7 +1407,7 @@ Overall Linear Iterations:    451 (Failed: 0; 0%)
 
 Error summary:
 Warnings          30
-Info              264
+Info              260
 Errors            0
 Bugs              0
 Debug             0
